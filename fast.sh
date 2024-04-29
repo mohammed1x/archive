@@ -17,3 +17,4 @@ chmod +x fast && ./fast
 else
 echo -e "\n Invalid choice \n"
 fi
+ 
