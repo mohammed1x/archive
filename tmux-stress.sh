@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo apt install tmux &&
+sudo apt install tmux && tmux
 # Create a new tmux session named "commands"
 tmux new-session -d -s commands
 
