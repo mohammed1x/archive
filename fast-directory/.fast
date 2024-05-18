@@ -1,0 +1,34 @@
+#!/bin/bash
+
+#Get to know if it is android or not:
+machine = "$(uname -a | grep Android)"
+
+#if there is no such command as fast:
+if ! command -v fast &>/dev/null; then
+	echo "There is no such command as fast"
+
+	#if the machine is android;
+	if [[ "$machine" ]]; then
+		#Installing by Go language
+		go mod init fast && go get -u github.com/ddo/fast && ~/go/bin/fast
+
+	else
+		#Installing by other method:
+		cd ~/scripts/fast-directory
+		curl -L https://github.com/ddo/fast/releases/download/v0.0.4/fast_linux_amd64 -o fast-pc &&
+			#IF THE ABOVE IS NOT WORKING, UNCOMMENT BELOW LINE:
+			#wget https://github.com/ddo/fast/releases/download/v0.0.4/fast_linux_amd64 -O fast-pc
+			chmod +x fast-pc && ./fast-pc
+
+	fi
+
+#If the command fast is present
+else
+	if [[ $machine ]]; then
+		~/scripts/fast-directory/fast-android
+
+	else
+		~/scripts/fast-directory/fast-pc
+	fi
+
+fi

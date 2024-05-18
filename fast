@@ -1,0 +1,71 @@
+#!/bin/bash
+
+#Get to know if it is android or not:
+machine="$(uname -a | grep Android)"
+
+fast_once() {
+	if [[ $machine ]]; then
+		for ((a = 1; a < 2; a++)); do
+			#echo -e "\n#$a";
+			~/scripts/fast-directory/fast-android
+		done
+
+	else
+		for ((a = 1; a < 2; a++)); do
+			#echo -e "\n#$a";
+			~/scripts/fast-directory/fast-pc
+		done
+	fi
+}
+
+fast_loop() {
+
+	if [[ $machine ]]; then
+		for ((a = 1; a > 0; a++)); do
+			echo -e "\n$a"
+			~/scripts/fast-directory/fast-android
+		done
+	else
+		for ((a = 1; a > 0; a++)); do
+			~/scripts/fast-directory/fast-pc
+		done
+	fi
+
+}
+
+show_help() {
+
+	sed -n '/<help>/,/<\/help>/p' "$0"
+
+}
+
+<<'COMMENT'
+help(){
+<help>
+COMMANDS:
+
+-l : plays fast client on loop
+-h : shows this help message
+wihtout any argument : plays fast client once
+</help>
+
+
+}
+
+COMMENT
+
+
+case $1 in
+"-l")
+	fast_loop
+	;;
+
+"-h")
+	show_help
+
+	;;
+*)
+	fast_once
+
+	;;
+esac
