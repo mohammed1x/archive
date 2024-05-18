@@ -1,0 +1,211 @@
+#!/bin/bash
+#echo "Provided arguments: $1 $2 $3"
+#echo "Expression is:"
+# Function to calculate the result in decimal format
+
+# Check if bc exists
+if ! command -v bc &>/dev/null; then
+	# Install bc and tr if they don't exist
+	sudo apt install bc -y
+	apt install bc -y
+	sudo apt install tr -y
+	apt install tr -y
+fi
+if ! command -v calc &>/dev/null; then
+	#Install calc if it is not installed
+	sudo apt install calc -y
+	apt install calc -y
+fi
+if ! command -v rlwrap &>/dev/null; then
+	sudo apt install rlwrap -y
+	apt install rlwrap -y
+fi
+if ! command -v pv &>/dev/null; then
+	sudo apt install pv -y
+	apt install pv -y
+fi
+
+
+
+
+
+
+decimal_result() {
+	result=$(calc -d "${clean_query}")
+	echo -e "\n$result" | sed 's/^[[:space:]]*//'
+}
+
+# Function to calculate the result in fractional format
+# Function to calculate the result in fractional format
+fractional_result() {
+	resultf=$(python3 ~/scripts/abdcalc/decimal_to_fraction.py "$(decimal_result)")
+	echo "$resultf"
+}
+
+# Function to display help message
+help() {
+	echo -e "Usage:"
+	echo "-f: output in fraction"
+	echo "-d: output in decimals"
+	echo "-fd / -df: output in both fraction and decimals"
+	echo "nothing: output in both decimal and fraction"
+}
+
+graph() {
+	repetitions=$1
+	echo "$repetitions"
+	spark $(echo "$plots" | tr ' ' '\n' | tac | while read -r num; do
+		for ((i = 0; i < repetitions; i++)); do
+			echo -n "$num "
+		done
+
+	done | rev)
+}
+
+solve_with_scale() {
+	#echo "scale=$scale"
+	#echo "expression=$expression"
+	scale_result="$(echo "scale=${scale}; ${expression}" | bc -w -l | tr -d '\n\\')"
+	resultf=$(python3 ~/scripts/abdcalc/decimal_to_fraction.py "${scale_result}" | tr -d '\n\\')
+
+	echo -e "${scale_result}\n"
+
+}
+
+# Define the function
+multiplication_table() {
+	<<'COMMENT'
+	# Check if the number of arguments is not equal to 1
+	if [ "$#" -ne 1 ]; then
+		echo "Usage: multiplication_table <number>"
+		return 1
+	fi
+
+	local number=$1
+
+	# Print the multiplication table header
+	echo "Multiplication table of $number:"
+
+	# Loop to calculate and print the multiplication table
+	for ((i = 1; i <= 10; i++)); do
+		echo "$number x $i = $((number * i))"
+	done
+COMMENT
+
+	# Check if there are no arguments
+	if [ "$#" -eq 0 ]; then
+		echo "Usage: multiplication_table <number1> <number2> ... <range1> <range2> ..."
+		return 1
+	fi
+
+	# Loop through all the arguments
+	for arg in "$@"; do
+		# Check if the argument is a range
+		if [[ "$arg" == *-* ]]; then
+			start=$(echo "$arg" | cut -d'-' -f1)
+			end=$(echo "$arg" | cut -d'-' -f2)
+			# Loop through the range and print the multiplication table for each number
+			for ((number = start; number <= end; number++)); do
+				echo "$number "
+				for ((i = 1; i <= 10; i++)); do
+					echo "$number x $i = $((number * i))"
+				done
+				echo # Add a blank line between each multiplication table
+			done
+		else
+			# Print the multiplication table for a single number
+			echo "Multiplication table of $arg:"
+			for ((i = 1; i <= 10; i++)); do
+				echo "$arg x $i = $((arg * i))"
+			done
+			echo # Add a blank line between each multiplication table
+		fi
+	done
+}
+
+loop_calc() {
+
+	while true; do
+		read -p "_ " raw_query
+		clean_query=$raw_query
+		if [[ $clean_query ]]; then
+			#echo $raw_query
+			#echo $clean_query
+			decimal_result
+			fractional_result
+		fi
+
+		unset clean_query
+		unset raw_query
+
+	done
+
+}
+
+# Check if arguments are provided
+if [ "$1" ]; then
+	# Check if the first argument is not one of the options
+	if [[ ! "$1" =~ (-f|-d|-fd|-df|-h|-g|-s|-t|-l) ]]; then
+		# Concatenate all arguments into a single string for processing
+		raw_query="${*:1}"
+		# Clean the query (if needed)
+		clean_query=$raw_query
+		# Display results in both decimal and fraction formats
+		decimal_result | pv -qL 25
+		
+	else
+		# Process based on the provided option
+		case $1 in
+		"-d")
+			# Output in decimal format
+			raw_query="${*:2}"
+			clean_query=$raw_query
+			#echo "rq$raw_query"
+			decimal_result
+			;;
+		"-f")
+			# Output in fractional format
+			raw_query="${*:2}"
+			clean_query=$raw_query
+			fractional_result
+			;;
+		"-df" | "-fd")
+			# Output in both decimal and fractional formats
+			raw_query="${*:2}"
+			clean_query=$raw_query
+			decimal_result
+
+			fractional_result
+			;;
+		"-s")
+			scale=$2
+			expression="${*:3}"
+			solve_with_scale
+			;;
+		"-h")
+			# Display help message
+			help
+			;;
+		"-g")
+			# Plot the graph
+			plots="${*:2}"
+			graph 1 | pv -qL 50
+			;;
+		"-t")
+
+			#print_tables
+			# Call the function with arguments separated by spaces
+			multiplication_table "${*:2}"
+
+			;;
+		"-l")
+			~/scripts/abdcalc/abdc_loop
+			#rlwrap -a loop_calc
+			;;
+
+		esac
+	fi
+else
+	# No arguments provided, display help message
+	help
+fi
