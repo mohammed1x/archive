@@ -1,2 +1,16 @@
-am broadcast -a net.dinglisch.android.tasker.ACTION_TASK     -e task_name "split_screen"
- 
+a(){
+if [[  == -l ]]; then
+
+rlwrap sh -c 'while read -p _  expression; do ~/scripts/abdcalc/abdc ; done'
+
+
+
+
+else
+	~/scripts/abdcalc/abdc 
+fi
+
+
+}
+
+
