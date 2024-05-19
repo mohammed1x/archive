@@ -2,7 +2,7 @@
 if ! command -v w3m &>/dev/null; then
     sudo apt install w3m -y;
     apt install w3m -y;
-    apk add w3m -y;
+    apk add w3m;
 
     
     fi
