@@ -1,0 +1,1 @@
+echo -e "java -cp class/src ComputorV1 \"x^3 + 4*x^2 = 0\""
