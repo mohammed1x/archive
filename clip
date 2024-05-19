@@ -1,2 +1,3 @@
 am broadcast -a net.dinglisch.android.tasker.ACTION_TASK     -e task_name "split_screen"
  
+mõhämmëd
