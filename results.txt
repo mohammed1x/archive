@@ -21404,3 +21404,8 @@ test.resume.com
 www.aws.resume.com
 www.employerservices.resume.com
 www.resume.com
+ads.wowjobs.ca
+emplois.wowjobs.ca
+m.wowjobs.ca
+www.ads.wowjobs.ca
+www.wowjobs.ca
