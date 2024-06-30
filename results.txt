@@ -10956,3 +10956,9 @@ www-zabbix.cyberghostvpn.com
 zabbix2.cyberghostvpn.com
 apexconsole.delltechnologies.com
 democonsole.delltechnologies.com
+api.anytask.thesecurityteam.rocks
+*.payments.anytask.thesecurityteam.rocks
+payments.anytask.thesecurityteam.rocks
+socket.anytask.thesecurityteam.rocks
+test.anytask.thesecurityteam.rocks
+www.anytask.thesecurityteam.rocks
