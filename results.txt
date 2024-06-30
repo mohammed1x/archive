@@ -33968,3 +33968,4 @@ stg-devedge.t-mobile.com
 stg.devedge.t-mobile.com
 stg-partner.devedge.t-mobile.com
 stg.partner.devedge.t-mobile.com
+webdigits.t-mobile.com
