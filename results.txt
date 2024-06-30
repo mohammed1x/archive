@@ -30891,3 +30891,7 @@ img.email.cashback.opera.com
 img.news.cashback.opera.com
 r.email.cashback.opera.com
 r.news.cashback.opera.com
+eu2-download.opera.com
+eu-download.opera.com
+ext-download.opera.com
+us-download.opera.com
