@@ -44943,3 +44943,4 @@ contentapi.usaa.com
 mapi.usaa.com
 mcontentapi.usaa.com
 eip.b2bapi-a.usaa.com
+eip.b2bapi.usaa.com
