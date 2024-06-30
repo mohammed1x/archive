@@ -32071,3 +32071,7 @@ videos.pexels.com
 www.pexels.com
 www.videos.pexels.com
 zoomapp.pexels.com
+api.addons.microsoftedge.microsoft.com
+extensionsecurity.microsoftedge.microsoft.com
+impl.api.addons.microsoftedge.microsoft.com
+reportabuse.int.microsoftedge.microsoft.com
