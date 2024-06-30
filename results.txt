@@ -44981,3 +44981,8 @@ rwc.partners.usaa.com
 rwd.partners.usaa.com
 rwww.partners.usaa.com
 www.partners.usaa.com
+contactus.usaa.com
+partners.usaa.com
+rs.usaa.com
+ws.usaa.com
+www.partners.usaa.com
