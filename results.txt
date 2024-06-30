@@ -32015,3 +32015,14 @@ yurika.api.fe-stg.originenergy.com.au
 yurika.fe-dev.originenergy.com.au
 yurika.fe.originenergy.com.au
 yurika.fe-stg.originenergy.com.au
+clientportal.winconnect.com.au
+customerportal.winconnect.com.au
+devclientportal.winconnect.com.au
+devcustapp.winconnect.com.au
+img.email.winconnect.com.au
+r.email.winconnect.com.au
+stgclientportal.winconnect.com.au
+stgcustapp.winconnect.com.au
+tstcustapp.winconnect.com.au
+winconnect.com.au
+www.winconnect.com.au
