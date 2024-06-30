@@ -11904,3 +11904,7 @@ sandbox1.sandbox.directly.com
 sandbox2.sandbox.directly.com
 sandbox-worker01.sandbox.directly.com
 www.api.dropboxapi.com
+api.dash.ai
+app.dash.ai
+dash.ai
+www.dash.ai
