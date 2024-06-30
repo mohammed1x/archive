@@ -294,14 +294,6 @@ let g:bullets_nested_checkboxes = 1 " default = 1
 "   - [✗] unchecked
 "   - [✗] unchecked
 
-Plugin 'morhetz/gruvbox'
-Plugin 'dracula/vim'
-Plugin 'rakr/vim-one'
-Plugin 'folke/tokyonight.nvim'
-Plugin 'arcticicestudio/nord-vim'
-Plugin 'altercation/vim-colors-solarized'
-Plugin 'ayu-theme/ayu-vim'
-Plugin 'catppuccin/nvim'
 
 
 
