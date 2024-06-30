@@ -15811,3 +15811,5 @@ v2.odesli.co
 v2.staging.odesli.co
 v3.odesli.co
 v3.staging.odesli.co
+*.staging.odesli.com
+staging.odesli.com
