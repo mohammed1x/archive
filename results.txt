@@ -24057,3 +24057,6 @@ stage.status.developer.mastercard.com
 static.developer.mastercard.com
 static.stage.developer.mastercard.com
 www.developer.mastercard.com
+raxstage.europe.priceless.com
+stage.perf.europe.priceless.com
+www.europe.priceless.com
