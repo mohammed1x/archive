@@ -11694,3 +11694,4 @@ www.home.classdojo.com
 www.marketplace.classdojo.com
 www.teach.classdojo.com
 www.tutoring.classdojo.com
+www.home.classdojo.com
