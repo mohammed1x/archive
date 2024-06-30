@@ -40296,3 +40296,9 @@ secure.mapmyride.com
 staging.panama.mapmyride.com
 www.landing.mapmyride.com
 www.mapmyride.com
+beta.mapmyrun.com
+blog.mapmyrun.com
+error.mapmyrun.com
+*.mvp.mapmyrun.com
+secure.mapmyrun.com
+www.mapmyrun.com
