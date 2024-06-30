@@ -58295,3 +58295,6 @@ westernunion.gr
 www2.westernunion.gr
 www.westernunion.gr
 www.www2.westernunion.gr
+www2.westernunion.ie
+www.westernunion.ie
+www.www2.westernunion.ie
