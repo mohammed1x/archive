@@ -14638,3 +14638,16 @@ upload.tempfiles201706.flourish.studio
 webhooks.flourish.studio
 webhooks-staging.flourish.studio
 www.flourish.studio
+au.staging.gearset.com
+ca.staging.gearset.com
+eu.staging.gearset.com
+hipaa.staging.gearset.com
+hipaa-us.staging.gearset.com
+pollingtestdummy.staging.gearset.com
+polltestfive.staging.gearset.com
+polltestfour.staging.gearset.com
+polltestone.staging.gearset.com
+polltestsix.staging.gearset.com
+polltestthree.staging.gearset.com
+polltesttwo.staging.gearset.com
+us.staging.gearset.com
