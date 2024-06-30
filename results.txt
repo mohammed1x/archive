@@ -13364,3 +13364,12 @@ www.vision.li.me
 *.production.linktree.com
 qa.linktree.com
 www.qa.linktree.com
+beta.qa.tr.ee
+beta.tr.ee
+capi.tr.ee
+qa.tr.ee
+redirect.production.tr.ee
+redirect.qa.qa.tr.ee
+redirect.qa.tr.ee
+redirect.tr.ee
+www.tr.ee
