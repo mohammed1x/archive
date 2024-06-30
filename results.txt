@@ -11830,3 +11830,8 @@ www.support.cloudinary.com
 www.vpn.cloudinary.com
 www.api.cloudinary.com
 demo-res.cloudinary.com
+console.mediaflows.cloudinary.com
+docs.mediaflows.cloudinary.com
+home.mediaflows.cloudinary.com
+hooks.mediaflows.cloudinary.com
+www.home.mediaflows.cloudinary.com
