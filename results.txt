@@ -58471,3 +58471,5 @@ www.home.xfinity.com
 ipv4.siorc.xfinity.com
 ipv6.siorc.xfinity.com
 www.siorc.xfinity.com
+rdkb-ipie.speedtest.xfinity.com
+www.speedtest.xfinity.com
