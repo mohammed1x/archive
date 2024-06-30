@@ -44949,3 +44949,5 @@ eip.b2blsapi.usaa.com
 rcontent.usaa.com
 mguest.usaa.com
 rguest.usaa.com
+preprod.mobile.usaa.com
+rmobile.usaa.com
