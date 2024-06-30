@@ -32273,3 +32273,4 @@ www.analytics.prosus.com
 www.cfc.naspers.com
 www.dealflow.prosus.com
 www.dealflowapi.prosus.com
+www.nav.naspers.com
