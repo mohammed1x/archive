@@ -41039,3 +41039,4 @@ metrics.dashboard.unity3d.com
 metrics.staging.dashboard.unity3d.com
 *.staging.dashboard.unity3d.com
 staging.dashboard.unity3d.com
+www.store.unity.com
