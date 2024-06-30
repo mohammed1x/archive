@@ -24011,3 +24011,9 @@ lululemon.me
 pre-prod.lululemon.me
 tracking.lululemon.me
 www.lululemon.me
+api.pre-prod.shiseido.me
+api.shiseido.me
+pre-prod.shiseido.me
+ss.shiseido.me
+tracking.shiseido.me
+www.shiseido.me
