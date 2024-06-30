@@ -58473,3 +58473,5 @@ ipv6.siorc.xfinity.com
 www.siorc.xfinity.com
 rdkb-ipie.speedtest.xfinity.com
 www.speedtest.xfinity.com
+*.eks.bc.yieldstreet.net
+eks.bc.yieldstreet.net
