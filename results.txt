@@ -30812,3 +30812,4 @@ wob2-trial-demo-collection-service.ingress.owl.sci.openai.org
 wob-demo-collection-service.ingress.owl.sci.openai.org
 wob-trial-demo-collection-service.ingress.owl.sci.openai.org
 www.glow.alpha.openai.org
+privy.wallets.opensea.io
