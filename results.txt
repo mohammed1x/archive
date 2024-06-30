@@ -23927,3 +23927,7 @@ qa.lululemon.de
 smetrics.lululemon.de
 test.qa.lululemon.de
 www.lululemon.de
+lululemon.es
+qa.lululemon.es
+smetrics.lululemon.es
+www.lululemon.es
