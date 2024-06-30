@@ -32618,3 +32618,7 @@ www.rec.net
 www-staging.rec.net
 www-test.rec.net
 www-test-staging.rec.net
+blog.recroom.com
+vpn.recroom.com
+www.recroom.com
+www.vpn.recroom.com
