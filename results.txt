@@ -12696,3 +12696,7 @@ www.hermes.corp.creditkarma.com
 www.support.creditkarma.com
 www.tax.creditkarma.com
 www.us-prod-nexpose.int.creditkarma.com
+*.dns-leak.cyberghost.app
+dns-leak.cyberghost.app
+*.dns-test.cyberghost.app
+dns-test.cyberghost.app
