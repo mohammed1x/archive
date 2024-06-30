@@ -37487,3 +37487,4 @@ yahoo.tripadvisor.com
 zmb-admin.tripadvisor.com
 zuji.tripadvisor.com
 zuora-dev.tripadvisor.com
+helpcenter.myshop.20min.ch
