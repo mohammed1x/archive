@@ -45899,3 +45899,9 @@ x.m.ist.mall.usaa.com
 x.m.mall.usaa.com
 x.m.stage.mall.usaa.com
 x.stage.mall.usaa.com
+api.usaainsurance.com
+login.usaainsurance.com
+testapi.usaainsurance.com
+testlogin.usaainsurance.com
+testwww.usaainsurance.com
+www.usaainsurance.com
