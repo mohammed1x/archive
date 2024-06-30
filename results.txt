@@ -4699,3 +4699,6 @@ status.binance.com
 support.binance.com
 themis.binance.com
 vstream.binance.com
+email.directmaila.binance.us
+email.mailera.binance.us
+support.binance.us
