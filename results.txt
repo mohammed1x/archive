@@ -15780,3 +15780,6 @@ www.linktr.ee
 www.metabase.linktr.ee
 www.qa.blog.linktr.ee
 www.qa.linktr.ee
+*.production.linktree.com
+qa.linktree.com
+www.qa.linktree.com
