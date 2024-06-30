@@ -16037,3 +16037,12 @@ us-east-1.platform.tempus-ex.com
 us-west-2.platform.tempus-ex.com
 www.docs.tempus-ex.com
 www.tempus-ex.com
+aimr.platform.infiniteathlete.ai
+any-region.platform.infiniteathlete.ai
+demo.infiniteathlete.ai
+*.platform.infiniteathlete.ai
+platform.infiniteathlete.ai
+store.infiniteathlete.ai
+us-east-1.platform.infiniteathlete.ai
+us-west-2.platform.infiniteathlete.ai
+www.infiniteathlete.ai
