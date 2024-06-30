@@ -21071,3 +21071,4 @@ www.snap.ibotta.com
 www.solstice.ibotta.com
 migrate.api.ibops.net
 migrate.api.int.ibops.net
+im-static-images.ifood.com.br
