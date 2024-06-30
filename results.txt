@@ -5483,3 +5483,13 @@ zero.dev.security-svcs.auth0.net
 zero-users.dev.security-svcs.auth0.net
 *.zirkome.exp.ops.platform.auth0.net
 www.jwt.io
+document-review.pornhub.com
+feedback.pornhub.com
+form.pornhub.com
+help.pornhub.com
+lifestyle.pornhub.com
+*.marathon-stage.pornhub.com
+marathon-stage.pornhub.com
+secure.pornhub.com
+www.pornhub.com
+www.pornhub.com--com.com
