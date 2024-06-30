@@ -44939,3 +44939,6 @@ wf-upworkshop.upwork.com
 worktogether.upwork.com
 www.2016.upwork.com
 www.upwork.com
+contentapi.usaa.com
+mapi.usaa.com
+mcontentapi.usaa.com
