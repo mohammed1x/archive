@@ -10500,3 +10500,16 @@ xtv-pil-st.xfinity.com
 xtv-pil.xfinity.com
 www.blog.creditkarma.com
 taxhelp.creditkarma.com
+accounts.creditkarma.ca
+cms.creditkarma.ca
+creditkarma.ca
+email.creditkarma.ca
+envs.corp.creditkarma.ca
+helpcenter.creditkarma.ca
+help.creditkarma.ca
+portal.creditkarma.ca
+support.creditkarma.ca
+track.creditkarma.ca
+www.creditkarma.ca
+www.helpcenter.creditkarma.ca
+www.support.creditkarma.ca
