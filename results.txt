@@ -57148,3 +57148,6 @@ www.www2.westernunion.be
 www2.westernunion.ca
 www.westernunion.ca
 www.www2.westernunion.ca
+www2.westernunion.ch
+www.westernunion.ch
+www.www2.westernunion.ch
