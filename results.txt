@@ -2049,3 +2049,10 @@ www.video.aiven.io
 ts-admin.api.aiven.io
 www.api.aiven.io
 www.console.aiven.io
+api.ampolenergy.com.au
+api-stg.nonprod.ampolenergy.com.au
+dev.nonprod.ampolenergy.com.au
+*.nonprod.ampolenergy.com.au
+stg.nonprod.ampolenergy.com.au
+www.ampolenergy.com.au
+www.stg.nonprod.ampolenergy.com.au
