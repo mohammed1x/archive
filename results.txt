@@ -21355,3 +21355,11 @@ www3.sitemercado.com.br
 www3-smr.sitemercado.com.br
 www.sitemercado.com.br
 www.smr.sitemercado.com.br
+beta.cloudvector.com
+clone.cloudvector.com
+cloudvector.com
+community.cloudvector.com
+labs.cloudvector.com
+mta-sts.cloudvector.com
+stage.cloudvector.com
+www.cloudvector.com
