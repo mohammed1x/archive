@@ -21556,3 +21556,13 @@ uk-ops.just-eat.io
 uk-partnerapi.just-eat.io
 uk-restauranthelp.just-eat.io
 uk-restauranthelp-staging-uk.just-eat.io
+acc-shop.just-eat.it
+img.info.just-eat.it
+img.news.just-eat.it
+img.newsletter.just-eat.it
+red.info.just-eat.it
+red.news.just-eat.it
+red.newsletter.just-eat.it
+shop.just-eat.it
+test-shop.just-eat.it
+www.just-eat.it
