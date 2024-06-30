@@ -13549,3 +13549,4 @@ us-east-1.platform.infiniteathlete.ai
 us-west-2.platform.infiniteathlete.ai
 www.docs.tempus-ex.com
 auth.opendata.test-socrata.com
+www.casino.bwin.com
