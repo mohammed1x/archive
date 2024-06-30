@@ -19044,3 +19044,4 @@ xm-staging.lab.epam.com
 zabbix.pol-dev.projects.epam.com
 dev.etsypayments.com
 prod.etsypayments.com
+www.blog.etsy.com
