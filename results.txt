@@ -33166,3 +33166,16 @@ prod.seekcdn.com
 *.staging.seekcdn.com
 staging.seekcdn.com
 www.seekcdn.com
+1Shoppingcart.com
+affiliates.1shoppingcart.com
+api.1shoppingcart.com
+beta.1shoppingcart.com
+blog.1shoppingcart.com
+internal.1shoppingcart.com
+mail.1shoppingcart.com
+pop.1shoppingcart.com
+staging.1shoppingcart.com
+update.1shoppingcart.com
+web.1shoppingcart.com
+wiki.1shoppingcart.com
+www.1shoppingcart.com
