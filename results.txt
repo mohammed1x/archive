@@ -24986,3 +24986,14 @@ www.sys.chatmc.monashcollege.edu.au
 www.test.monashcollege.edu.au
 www.my.monash
 www.myapp.monash.edu
+forms.online.monash.edu
+studenthub.online.monash.edu
+studenthub.online.monash.edu.au
+studyplanner.online.monash.edu
+studyplanner.online.monash.edu.au
+www.forms.online.monash.edu
+www.online.monash.edu
+www.online.monash.edu.au
+www.studenthub.online.monash.edu
+www.studyplanner.online.monash.edu
+www.studyplanner.online.monash.edu.au
