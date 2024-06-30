@@ -47415,3 +47415,10 @@ prelive.toursgds.com
 toursgds.com
 www.dev.toursgds.com
 www.toursgds.com
+api.magicplanetmena.com
+cms.magicplanetmena.com
+payment.magicplanetmena.com
+preproduction.magicplanetmena.com
+qowwvl.magicplanetmena.com
+www5.magicplanetmena.com
+www.magicplanetmena.com
