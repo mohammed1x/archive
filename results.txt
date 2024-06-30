@@ -31326,3 +31326,7 @@ www.support-vpn-pro.opera.com
 www.sync.opera.com
 www.test.opera-website.route53.opera.com
 xml.opera.com
+*.atlassian-app.opsgenie.com
+atlassian-app.opsgenie.com
+*.mobileapp.opsgenie.com
+mobileapp.opsgenie.com
