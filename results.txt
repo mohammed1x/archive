@@ -13737,3 +13737,6 @@ www.contrastsecurity.com
 www.eclipse.contrastsecurity.com
 www.mail.contrastsecurity.com
 www.support.contrastsecurity.com
+go.contrastsecurity.dev
+platform.contrastsecurity.dev
+www.contrastsecurity.dev
