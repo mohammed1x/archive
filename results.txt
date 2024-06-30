@@ -3011,3 +3011,5 @@ www.bitbucket.org
 www.id.bitbucket.org
 www.id.staging.bitbucket.org
 xid.bitbucket.org
+ja.confluence.atlassian.com
+www.ja.confluence.atlassian.com
