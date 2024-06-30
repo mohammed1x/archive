@@ -30881,3 +30881,8 @@ origin-content.production.loomi.tv
 www.backend.loomi.tv
 www.loomi.tv
 bo.api.gx.games
+ams.auth.opera.com
+lati.auth.opera.com
+singa.auth.opera.com
+spb.auth.opera.com
+sso.auth.opera.com
