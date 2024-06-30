@@ -15853,3 +15853,8 @@ preview.album.link
 staging.album.link
 v3.album.link
 v3.staging.album.link
+preview.artist.link
+*.staging.artist.link
+staging.artist.link
+v3.artist.link
+v3.staging.artist.link
