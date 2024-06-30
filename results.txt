@@ -40287,3 +40287,12 @@ ws.mapmyfitness.com
 www.business.mapmyfitness.com
 www.landing.mapmyfitness.com
 www.mapmyfitness.com
+beta.mapmyride.com
+landing.mapmyride.com
+mapmyride.com
+*.mvp.mapmyride.com
+mvp.mapmyride.com
+secure.mapmyride.com
+staging.panama.mapmyride.com
+www.landing.mapmyride.com
+www.mapmyride.com
