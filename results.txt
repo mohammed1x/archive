@@ -30880,3 +30880,4 @@ cast.loomi.tv
 origin-content.production.loomi.tv
 www.backend.loomi.tv
 www.loomi.tv
+bo.api.gx.games
