@@ -12973,3 +12973,10 @@ whitepaper.guildofguardians.com
 www.guildofguardians.com
 auth.hub.immutable.com
 staging.docs.immutable.com
+*.dev.imx.community
+dev.imx.community
+*.ropsten.imx.community
+ropsten.imx.community
+*.sandbox.imx.community
+sandbox.imx.community
+token.imx.community
