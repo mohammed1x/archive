@@ -24985,3 +24985,4 @@ www.qa.confluence.monashcollege.edu.au
 www.sys.chatmc.monashcollege.edu.au
 www.test.monashcollege.edu.au
 www.my.monash
+www.myapp.monash.edu
