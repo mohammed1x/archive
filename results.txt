@@ -29733,3 +29733,4 @@ www.b.dev.octopus.com
 www.c.dev.octopus.com
 www.octopus.com
 www.preprod.octopus.com
+www.app.scaleft.com
