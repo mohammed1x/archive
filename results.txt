@@ -4620,3 +4620,6 @@ skimdb.npmjs.com
 tls-test.npmjs.com
 wf.npmjs.com
 www.npmjs.com
+blog.sourcetreeapp.com
+www.blog.sourcetreeapp.com
+xid.sourcetreeapp.com
