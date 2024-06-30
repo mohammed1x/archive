@@ -36845,3 +36845,5 @@ staging.api.butlerfortrello.com
 www.butlerfortrello.com
 backup-api.tripadvisor.com
 gwapi.tripadvisor.com
+info.rentals.tripadvisor.com
+www.rentals.tripadvisor.com
