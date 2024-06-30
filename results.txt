@@ -58468,3 +58468,6 @@ sprint.home.xfinity.com
 staging.home.xfinity.com
 tps.home.xfinity.com
 www.home.xfinity.com
+ipv4.siorc.xfinity.com
+ipv6.siorc.xfinity.com
+www.siorc.xfinity.com
