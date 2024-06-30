@@ -2048,3 +2048,4 @@ www.console.aiven.io
 www.video.aiven.io
 ts-admin.api.aiven.io
 www.api.aiven.io
+www.console.aiven.io
