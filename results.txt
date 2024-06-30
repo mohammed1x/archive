@@ -47402,3 +47402,5 @@ www.verisignforms.verisign.com
 xml-reg.verisign.com
 xmpp-dr.verisign.com
 xmpp.verisign.com
+usertesting.youcouldbe.com
+www.youcouldbe.com
