@@ -15979,3 +15979,4 @@ segment-cdn.rarible.com
 store.rarible.com
 *.x.rarible.com
 x.rarible.com
+forum.rari.foundation
