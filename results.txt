@@ -15980,3 +15980,12 @@ store.rarible.com
 *.x.rarible.com
 x.rarible.com
 forum.rari.foundation
+beast.biocorellc.com
+cpanel.biocorellc.com
+old.biocorellc.com
+remote.biocorellc.com
+secureremote.biocorellc.com
+webdisk.biocorellc.com
+www.biocorellc.com
+www.remote.biocorellc.com
+www.secureremote.biocorellc.com
