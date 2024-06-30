@@ -25004,3 +25004,6 @@ mcstaging.shop.monash.edu.my
 www.shop.monash.edu
 www.shop.monash.edu.au
 www.shop.monash.edu.my
+admin.staff.monash
+www.admin.staff.monash
+www.staff.monash
