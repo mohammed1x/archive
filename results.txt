@@ -13673,3 +13673,4 @@ www.sl-wash-0.cloudinary.com
 www.support.cloudinary.com
 www.vpn.cloudinary.com
 www.api.cloudinary.com
+demo-res.cloudinary.com
