@@ -22442,3 +22442,6 @@ tv.lieferando.de
 view.update.lieferando.de
 wow-nachten.lieferando.de
 www.lieferando.de
+api.status-takeaway.com
+status-takeaway.com
+www.status-takeaway.com
