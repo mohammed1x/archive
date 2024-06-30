@@ -82,12 +82,12 @@ function! Check()
     " Check for ❌ and toggle to ✅
     elseif l:line =~ '\s*-\s*\[❌\].*'
         s/\[❌\]/[✅]/
-    " Check for ✅ and toggle to 🥷
+    " Check for ✅ and toggle to ⏳
     elseif l:line =~ '\s*-\s*\[✅\].*'
-        s/\[✅\]/[🥷]/
-    " Check for 🥷 and toggle back to empty
-    elseif l:line =~ '\s*-\s*\[🥷\].*'
-        s/\[🥷\]/[ ]/
+        s/\[✅\]/[⏳]/
+    " Check for ⏳ and toggle back to empty
+    elseif l:line =~ '\s*-\s*\[⏳\].*'
+        s/\[⏳\]/[ ]/
     endif
 
     call winrestview(l:curs)
@@ -110,7 +110,8 @@ set foldenable " Enable foldingset
 noremap <3-LeftMouse> za "Enable toggle folds with mouse clicks
 
 
-" Restoring folds when vim is restarted:
+"<f> Restoring folds when vim is restarted:
+
 
 if exists("g:loaded_restore_view")
     finish
@@ -147,10 +148,10 @@ augroup AutoView
     autocmd BufWinEnter ?* if MakeViewCheck() | silent! loadview | endif
 augroup END
 
-
+" </f> restoring folds
 
 "</f> folding
-"</f>
+"</f> 1. Settings, functions
 
 
 "2. Plugins
