@@ -57113,3 +57113,5 @@ youre.roslin-seobu1.internet.web.com
 yourplasgateway2.roslin-seobu1.internet.web.com
 yourplasgateway2.toronto-good.auto.web.com
 www.agentportal.westernunion.com
+www.cuba.westernunion.com
+www.ebanking.westernunionbank.com
