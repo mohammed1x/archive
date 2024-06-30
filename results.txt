@@ -58314,3 +58314,6 @@ www.www2.westernunion.no
 www2.westernunion.pl
 www.westernunion.pl
 www.www2.westernunion.pl
+www2.westernunion.pt
+www.westernunion.pt
+www.www2.westernunion.pt
