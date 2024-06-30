@@ -44971,3 +44971,7 @@ gw-int-itc2-mydesktop.usaa.com
 gw-itc.mydesktop.usaa.com
 int-mydesktop.usaa.com
 m.mydesktop.usaa.com
+bsvc.nvoice.usaa.com
+itc.nvoice.usaa.com
+rnvoice.usaa.com
+sjt.nvoice.usaa.com
