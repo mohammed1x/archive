@@ -31336,3 +31336,14 @@ fullstack.api.optimizely.com
 gdprdata.api.optimizely.com
 inte.api.optimizely.com
 testing.fullstack.api.optimizely.com
+api.app.optimizely.com
+api-k8s.app.optimizely.com
+beta.app.optimizely.com
+current.app.optimizely.com
+develrc.app.optimizely.com
+latest.app.optimizely.com
+optibot.app.optimizely.com
+qa.app.optimizely.com
+rc.app.optimizely.com
+stable.app.optimizely.com
+www.app.optimizely.com
