@@ -22710,3 +22710,11 @@ view.update.thuisbezorgd.nl
 www.foodwiki.thuisbezorgd.nl
 www.survey.thuisbezorgd.nl
 www.thuisbezorgd.nl
+api.beta.designify.com
+api.designify.com
+designify.com
+*.e.news.designify.com
+*.news.designify.com
+staging.api.designify.com
+staging.designify.com
+test.designify.com
