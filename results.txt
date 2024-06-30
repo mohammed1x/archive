@@ -16598,3 +16598,7 @@ labs.cloudvector.com
 mta-sts.cloudvector.com
 stage.cloudvector.com
 www.cloudvector.com
+aws-test.apis.indeed.com
+*.cf-test.apis.indeed.com
+cf-test.apis.indeed.com
+cloudflare-test.apis.indeed.com
