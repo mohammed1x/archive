@@ -4684,3 +4684,5 @@ webflow.coinmarketcap.com
 widgets.coinmarketcap.com
 www.blog.coinmarketcap.com
 zh.coinmarketcap.com
+portal.trbinance.com
+www.trbinance.com
