@@ -12798,3 +12798,5 @@ www.oc-app.cyberghostvpn.com
 www.store.cyberghostvpn.com
 www-zabbix.cyberghostvpn.com
 zabbix2.cyberghostvpn.com
+apexconsole.delltechnologies.com
+democonsole.delltechnologies.com
