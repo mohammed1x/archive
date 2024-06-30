@@ -13159,3 +13159,5 @@ www.lastpass.com
 www.rodan.lastpass.com
 www.store.lastpass.com
 www.t.lastpass.com
+mfa-support.lastpass.com
+pilotsupport.lastpass.com
