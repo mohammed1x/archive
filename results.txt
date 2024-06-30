@@ -4272,3 +4272,11 @@ www.doimporter.asana.com
 www.eng.asana.com
 www.investors.asana.com
 www.shop.asana.com
+blog.bitbucket.org
+id.bitbucket.org
+id.staging.bitbucket.org
+status.bitbucket.org
+www.bitbucket.org
+www.id.bitbucket.org
+www.id.staging.bitbucket.org
+xid.bitbucket.org
