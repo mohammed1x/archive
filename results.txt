@@ -47410,3 +47410,8 @@ www.supplier.viator.com
 prelive.viatorapi.viator.com
 www.prelive.viatorapi.viator.com
 www.viatorapi.viator.com
+dev.toursgds.com
+prelive.toursgds.com
+toursgds.com
+www.dev.toursgds.com
+www.toursgds.com
