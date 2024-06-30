@@ -5801,3 +5801,16 @@ www.blog.coinmarketcap.com
 zh.coinmarketcap.com
 portal.trbinance.com
 www.trbinance.com
+apix.binance.com
+binance.com
+help.binance.com
+nft.binance.com
+opsstream.binance.com
+oracle.binance.com
+pool.binance.com
+*.prebinance.com
+prebinance.com
+status.binance.com
+support.binance.com
+themis.binance.com
+vstream.binance.com
