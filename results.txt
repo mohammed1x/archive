@@ -58289,3 +58289,9 @@ m.westernunion.fr
 www2.westernunion.fr
 www.westernunion.fr
 www.www2.westernunion.fr
+api.westernunion.gr
+scg1033ker.westernunion.gr
+westernunion.gr
+www2.westernunion.gr
+www.westernunion.gr
+www.www2.westernunion.gr
