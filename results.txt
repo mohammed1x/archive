@@ -13679,3 +13679,7 @@ docs.mediaflows.cloudinary.com
 home.mediaflows.cloudinary.com
 hooks.mediaflows.cloudinary.com
 www.home.mediaflows.cloudinary.com
+api.dimensions.cloudinary.com
+auth.dimensions.cloudinary.com
+welcome.dimensions.cloudinary.com
+www.welcome.dimensions.cloudinary.com
