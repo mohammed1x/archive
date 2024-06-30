@@ -23931,3 +23931,6 @@ lululemon.es
 qa.lululemon.es
 smetrics.lululemon.es
 www.lululemon.es
+lululemon.fr
+smetrics.lululemon.fr
+www.lululemon.fr
