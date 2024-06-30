@@ -40302,3 +40302,7 @@ error.mapmyrun.com
 *.mvp.mapmyrun.com
 secure.mapmyrun.com
 www.mapmyrun.com
+beta.mapmywalk.com
+*.mvp.mapmywalk.com
+secure.mapmywalk.com
+www.mapmywalk.com
