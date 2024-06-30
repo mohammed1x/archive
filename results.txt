@@ -44975,3 +44975,9 @@ bsvc.nvoice.usaa.com
 itc.nvoice.usaa.com
 rnvoice.usaa.com
 sjt.nvoice.usaa.com
+rwa.partners.usaa.com
+rwb.partners.usaa.com
+rwc.partners.usaa.com
+rwd.partners.usaa.com
+rwww.partners.usaa.com
+www.partners.usaa.com
