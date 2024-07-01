@@ -60572,3 +60572,12 @@ vmagent.console.chainstack.com
 vminsert.console.chainstack.com
 vmselect.console.chainstack.com
 www.console.chainstack.com
+announcement.coinex.com
+coinex.com
+*.saas-proxy.coinex.com
+sol.wallet.coinex.com
+support.coinex.com
+support.wallet.coinex.com
+*.vault.coinex.com
+*.wallet.coinex.com
+www.coinex.com
