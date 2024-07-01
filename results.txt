@@ -64545,3 +64545,7 @@ zeta-indexer-a3.cl04.zetachain.com
 zeta-labs-production.cl04.zetachain.com
 zeta-labs-staging.cl04.zetachain.com
 athens2.labs.zetachain.com
+athens2.explorer.zetachain.com
+athens3.explorer.zetachain.com
+athens.explorer.zetachain.com
+staging.explorer.zetachain.com
