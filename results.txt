@@ -79519,3 +79519,4 @@ www.bowkerinfo.com
 preprod.bowkerlink.com
 www.bowkerlink.com
 www.bowkermanuscriptsubmission.com
+www.bowkermanuscriptsubmissions.com
