@@ -65614,3 +65614,4 @@ ext.apps.sofa.csg.aboitizpower.org
 int.apps.sofa.csg.aboitizpower.org
 .sofa.aboitizpower.org
 .sofadev.aboitizpower.org
+www.adventenergy.com.ph
