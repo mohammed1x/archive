@@ -78046,3 +78046,8 @@ mail.resmed.vn
 www.resmed.vn
 ecom.resmedshop.de
 www.resmedshop.de
+api.shop.resmed.com
+checkout.shop.resmed.com
+new-shop.resmed.com
+support-shop.resmed.com
+www.shop.resmed.com
