@@ -35164,4 +35164,4 @@ crashlab-staging.piaservers.com
 cs-gitlab.piaservers.com
 offers-lp.piaservers.com
 offers-lp-staging.piaservers.com
-.offers.privateinternetaccess.com
+www.analytics-admin.prosus.com
