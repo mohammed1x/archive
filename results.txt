@@ -64010,3 +64010,14 @@ ws-web.poloniex.com
 www.poloniex.com
 x-api.poloniex.com
 *.x-internal.poloniex.com
+academy.probit.com
+accounts.probit.com
+api.probit.com
+cs.probit.com
+docs-en.probit.com
+docs-ko.probit.com
+probit.com
+support.probit.com
+*.walletproxy.probit.com
+walletproxy.probit.com
+www.probit.com
