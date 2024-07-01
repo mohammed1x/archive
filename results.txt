@@ -44517,3 +44517,8 @@ testapi.usaainsurance.com
 testlogin.usaainsurance.com
 testwww.usaainsurance.com
 www.usaainsurance.com
+go.advisorusaa.com
+pages.advisorusaa.com
+www.advisorusaa.com
+www.eventsusaa.com
+www.managertoolsforunionfreeusaa.com
