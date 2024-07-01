@@ -78019,3 +78019,4 @@ www.uat-www.resmed.jp
 mail.resmed.la
 www.resmed.la
 www.resmed.lat
+www.resmed.mx
