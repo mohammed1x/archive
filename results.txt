@@ -12002,3 +12002,5 @@ preview.mylink.page
 staging.mylink.page
 v3.mylink.page
 v3.staging.mylink.page
+www.my.planethoster.com
+www.api.planethoster.net
