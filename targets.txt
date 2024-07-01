@@ -1,4 +1,9 @@
 github.com
+ibm.com
+google.com
+microsoft.com
+githubusercontent.com
+quran.com
 tiffany.com
 api.clearpay.com
 clearpay.co.uk
