@@ -72343,3 +72343,5 @@ devmo.developer.mozilla.org
 insights.developer.mozilla.org
 updates.developer.mozilla.org
 wiki.developer.mozilla.org
+api.lando.services.mozilla.com
+api-private.lando.services.mozilla.com
