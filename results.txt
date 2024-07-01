@@ -54811,3 +54811,4 @@ www.india.westernunion.com
 origin.partners.westernunion.com
 www.remoteaccess.westernunion.com
 www.secure.westernunion.com
+www.secureauth.westernunion.com
