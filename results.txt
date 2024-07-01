@@ -72331,3 +72331,6 @@ discovery.addons.allizom.org
 reviewers.addons.allizom.org
 services.addons.allizom.org
 www.api.profiler.firefox.com
+api-dev.bugzilla.mozilla.org
+*.bmoattachments.bugzilla.mozilla.org
+bmoattachments.bugzilla.mozilla.org
