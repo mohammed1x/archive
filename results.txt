@@ -28231,3 +28231,4 @@ www.pay.monashcollege.edu.au
 www.qa.confluence.monashcollege.edu.au
 www.sys.chatmc.monashcollege.edu.au
 www.test.monashcollege.edu.au
+www.my.monash
