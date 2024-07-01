@@ -20399,3 +20399,4 @@ us-east-1.platform.infiniteathlete.ai
 us-west-2.platform.infiniteathlete.ai
 www.infiniteathlete.ai
 auth.opendata.test-socrata.com
+www.casino.bwin.com
