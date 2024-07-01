@@ -78539,3 +78539,10 @@ university.abstractcentral.com
 www.academicvideoonline.com
 www.academicvideostore.com
 www.aclasta.ca
+appdemo.activatenetworks.net
+navigator.activatenetworks.net
+ona.activatenetworks.net
+staging.activatenetworks.net
+www.activatenetworks.net
+www.appdemo.activatenetworks.net
+www.ona.activatenetworks.net
