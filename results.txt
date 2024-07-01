@@ -33872,3 +33872,8 @@ testnets-api.opensea.io
 testnets.opensea.io
 www.atlantis.k8s.opensea.io
 www.opensea.io
+backend.loomi.tv
+cast.loomi.tv
+origin-content.production.loomi.tv
+www.backend.loomi.tv
+www.loomi.tv
