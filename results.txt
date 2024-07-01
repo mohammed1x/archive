@@ -34325,3 +34325,7 @@ qa.app.optimizely.com
 rc.app.optimizely.com
 stable.app.optimizely.com
 www.app.optimizely.com
+.dev.cdn-pci.optimizely.com
+dev.cdn-pci.optimizely.com
+.test.cdn-pci.optimizely.com
+test.cdn-pci.optimizely.com
