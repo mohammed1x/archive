@@ -79514,3 +79514,4 @@ www.mpe-web.bowker.com
 www.bowker.org
 preprod.bowkerbarcode.com
 www.bowkerbarcode.com
+www.bowkerbarcodes.com
