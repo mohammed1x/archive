@@ -27198,3 +27198,10 @@ ws.staging.luno.com
 www.merchant.staging.luno.com
 www.staging.luno.com
 stg.lapi.yellowblocks.me
+identity-maf-dev-lego.yellowblocks.me
+img-lego.yellowblocks.me
+pre-prod-lego.yellowblocks.me
+pre-prod.lego.yellowblocks.me
+production-maf-auth0-lego.yellowblocks.me
+sit-maf-dev-lego.yellowblocks.me
+tracking.lego.yellowblocks.me
