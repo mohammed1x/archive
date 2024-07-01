@@ -77413,3 +77413,9 @@ www.meinresmed.resmed-healthcare.de
 www.resmed-healthcare.de
 www.staging.resmed-healthcare.de
 www.uat.meinresmed.resmed-healthcare.de
+airmini.resmed.ch
+autodiscover.resmed.ch
+eudev-www.resmed.ch
+mail.resmed.ch
+www.eudev-www.resmed.ch
+www.resmed.ch
