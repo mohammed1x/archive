@@ -58240,3 +58240,12 @@ zas.dev.chainstack.com
 atlantis.console.chainstack.com
 balancer-migration.console.chainstack.com
 influxdb3.console.chainstack.com
+announcement.coinex.com
+coinex.com
+.saas-proxy.coinex.com
+sol.wallet.coinex.com
+support.coinex.com
+support.wallet.coinex.com
+.vault.coinex.com
+.wallet.coinex.com
+www.coinex.com
