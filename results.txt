@@ -78024,3 +78024,11 @@ eudev-www.resmed.nl
 mail.resmed.nl
 www.eudev-www.resmed.nl
 www.resmed.nl
+airmini.resmed.no
+autodiscover.resmed.no
+eudev-www.resmed.no
+mail.resmed.no
+narval.resmed.no
+origin.resmed.no
+www.eudev-www.resmed.no
+www.resmed.no
