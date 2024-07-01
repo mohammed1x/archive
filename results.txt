@@ -34653,3 +34653,8 @@ ws-private-evm.orderly.network
 ws-private.orderly.network
 www.orderly.network
 yearning.orderly.network
+.api.dataportal.originenergy.com.au
+api.dataportal.originenergy.com.au
+.auth.dataportal.originenergy.com.au
+auth.dataportal.originenergy.com.au
+www.dataportal.originenergy.com.au
