@@ -63171,3 +63171,7 @@ qaperf.developer.visa.com
 qasust.developer.visa.com
 staging.developer.visa.com
 rvcom-qa.ht.visa.com
+cte.myvisainfinite.com
+preprod.myvisainfinite.com
+staging.myvisainfinite.com
+www.myvisainfinite.com
