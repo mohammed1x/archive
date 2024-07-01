@@ -63180,3 +63180,13 @@ preprod.myvisacardportal.com
 staging.myvisacardportal.com
 www.myvisacardportal.com
 anet-sso-app.sandbox.authorize.net
+apps.usa.visa.com
+app.usa.visa.com
+chatqa.usa.visa.com
+chat.usa.visa.com
+review.apps.usa.visa.com
+review.usa.visa.com
+stage.usa.visa.com
+www.apps.usa.visa.com
+www.stage.usa.visa.com
+www.usa.visa.com
