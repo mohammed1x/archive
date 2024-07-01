@@ -88098,3 +88098,5 @@ www.featurestore.uk.afterpay.com
 www.fraudchecker.uk.afterpay.com
 www.rsx.afterpay.com
 www.sso-qa.corp.afterpay.com
+ts-admin.api.aiven.io
+www.api.aiven.io
