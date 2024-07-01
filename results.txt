@@ -73963,3 +73963,7 @@ mtls.api.svb.com
 p2c.client.api.svb.com
 sandbox.api.svb.com
 uat.api.svb.com
+ach.connect.svb.com
+perf3.connect.svb.com
+sso.connect.svb.com
+www.sso.connect.svb.com
