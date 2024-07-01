@@ -72345,3 +72345,5 @@ updates.developer.mozilla.org
 wiki.developer.mozilla.org
 api.lando.services.mozilla.com
 api-private.lando.services.mozilla.com
+api.profiler.firefox.com
+www.api.profiler.firefox.com
