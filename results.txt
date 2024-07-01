@@ -73502,3 +73502,8 @@ zn2gjajh2e5h21jiwwnu.c.us1.defend.egress.com
 zt6ho4cfyt8y4tt1x6h2.c.au1.defend.egress.com
 ztkffnm58klf7467o52m.c.us1.defend.egress.com
 zz5a20lxsv0in7ore8ze.c.us1.defend.egress.com
+mail1.skanska-secure-partner.co.uk
+mail2.skanska-secure-partner.co.uk
+mail.skanska-secure-partner.co.uk
+mta-sts.skanska-secure-partner.co.uk
+www.mail.skanska-secure-partner.co.uk
