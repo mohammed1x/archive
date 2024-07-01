@@ -64368,3 +64368,11 @@ lpstage.virtuswap.io
 stage.virtuswap.io
 status.virtuswap.io
 testnet.virtuswap.io
+cdn.whitebit.com
+co.whitebit.com
+docs.whitebit.com
+help.whitebit.com
+passkeys.whitebit.com
+payment.whitebit.com
+smtp2.whitebit.com
+smtp-router-1.whitebit.com
