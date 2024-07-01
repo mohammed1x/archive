@@ -18309,3 +18309,7 @@ test.thinkglobalhealth.org
 waf.thinkglobalhealth.org
 www.thinkglobalhealth.org
 www.education.cfr.org
+meraki.meraki.cisco.com
+test-meraki.cisco.com
+test.meraki.cisco.com
+www.meraki.cisco.com
