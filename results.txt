@@ -69310,3 +69310,5 @@ www.visa.com.mx
 staging.visa.com.my
 www.visa.com.my
 www.visa.com.ng
+staging.visa.com.ph
+www.visa.com.ph
