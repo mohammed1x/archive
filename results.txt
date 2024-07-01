@@ -67935,3 +67935,11 @@ xuemeiliu-noi-reasons.aven.uat.cluster.aven.com
 xuemeiliu-noi-reasons.logs.uat.cluster.aven.com
 xuemeiliu-noi-reasons.my.uat.cluster.aven.com
 xuemeiliu-noi-reasons.notary.uat.cluster.aven.com
+prod.my.aven.com
+*.staging.my.aven.com
+staging.my.aven.com
+*.test.my.aven.com
+test.my.aven.com
+*.uat.my.aven.com
+uat.my.aven.com
+www.my.aven.com
