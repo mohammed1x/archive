@@ -79552,3 +79552,8 @@ d1.ceeqapp.com
 www.d1.ceeqapp.com
 www.certs-test-ssl-basic.com
 www.cfn.cx
+api.cfninsight.com
+auth.cfninsight.com
+www.api.cfninsight.com
+www.auth.cfninsight.com
+www.cfninsight.com
