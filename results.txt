@@ -77148,3 +77148,5 @@ www.hollisterco.com.hk
 www.hollisterco.com.tw
 www.smetrics.hollisterco.com
 zh-hk.hollisterco.com
+apiaccount.resmed.com
+myaccount.resmed.com
