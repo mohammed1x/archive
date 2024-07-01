@@ -70780,3 +70780,7 @@ dev-developer.truist.com
 dev.developer.truist.com
 Developer.truist.com
 ite-developer.truist.com
+dr-dias.bank.truist.com
+h1-dias.bank.truist.com
+h2-dias.bank.truist.com
+www.dias.bank.truist.com
