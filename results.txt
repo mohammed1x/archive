@@ -67991,3 +67991,7 @@ cte.myvisainfinite.com
 preprod.myvisainfinite.com
 staging.myvisainfinite.com
 www.myvisainfinite.com
+cte.myvisacardportal.com
+preprod.myvisacardportal.com
+staging.myvisacardportal.com
+www.myvisacardportal.com
