@@ -78032,3 +78032,5 @@ narval.resmed.no
 origin.resmed.no
 www.eudev-www.resmed.no
 www.resmed.no
+mail.resmed.ph
+www.resmed.ph
