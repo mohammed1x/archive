@@ -64284,3 +64284,7 @@ my.kissandfly.com
 staging.fare.kissandfly.com
 static.kissandfly.com
 www.kissandfly.com
+fare.travelfrom.fr
+m.travelfrom.fr
+static.travelfrom.fr
+www.travelfrom.fr
