@@ -35159,3 +35159,9 @@ www.ledger-proxy.privateinternetaccess.com
 www.mercury-proxy.privateinternetaccess.com
 www.privateinternetaccess.com
 www.support.privateinternetaccess.com
+crashlab.piaservers.com
+crashlab-staging.piaservers.com
+cs-gitlab.piaservers.com
+offers-lp.piaservers.com
+offers-lp-staging.piaservers.com
+.offers.privateinternetaccess.com
