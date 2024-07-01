@@ -64488,3 +64488,6 @@ www.visa.com.my
 www.visa.com.ng
 staging.visa.com.ph
 www.visa.com.ph
+api.visa.com.sg
+staging.visa.com.sg
+www.visa.com.sg
