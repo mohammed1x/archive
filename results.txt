@@ -57369,3 +57369,6 @@ web-proxy.eu.staging.api.upfort.com
 web-proxy.us.prod.api.upfort.com
 web-proxy.us.staging.api.upfort.com
 www.upfort.com
+auth.vectorcrypto.com
+help.vectorcrypto.com
+lp.vectorcrypto.com
