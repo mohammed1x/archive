@@ -27061,3 +27061,5 @@ www.lululemon.co.jp
 lululemon.co.kr
 smetrics.lululemon.co.kr
 www.lululemon.co.kr
+fr.shop.lululemon.com
+www.shop.lululemon.com
