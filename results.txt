@@ -35887,3 +35887,8 @@ indie-shakira.graphql.seek.com
 indie-shakira-public-test.graphql.seek.com
 talentsearch-profileexport-api.graphql.seek.com
 talentsearch-profileexport-api-public-test.graphql.seek.com
+dev.seekcdn.com
+prod.seekcdn.com
+.staging.seekcdn.com
+staging.seekcdn.com
+www.seekcdn.com
