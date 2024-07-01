@@ -35165,3 +35165,7 @@ cs-gitlab.piaservers.com
 offers-lp.piaservers.com
 offers-lp-staging.piaservers.com
 www.analytics-admin.prosus.com
+www.analytics.prosus.com
+www.cfc.naspers.com
+www.dealflow.prosus.com
+www.dealflowapi.prosus.com
