@@ -27278,3 +27278,14 @@ travel-dev.sharerewards.com
 travel.sharerewards.com
 www.sharerewards.com
 www.vtcprodapi.maf.ae
+mtf.donate.mastercard.com
+origin-donate.mastercard.com
+origin-mtf.donate.mastercard.com
+origin-stage.donate.mastercard.com
+origin-stage.fix.donate.mastercard.com
+origin-stage.perf.donate.mastercard.com
+origin-stage.uat.donate.mastercard.com
+stage.donate.mastercard.com
+stage.fix.donate.mastercard.com
+stage.perf.donate.mastercard.com
+stage.uat.donate.mastercard.com
