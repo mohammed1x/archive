@@ -63032,3 +63032,10 @@ mainnet.iotexscout.io
 preview.iotexscout.io
 test.iotexscout.io
 testnet.iotexscout.io
+blog.machinefi.com
+demo.machinefi.com
+portal.machinefi.com
+portal-testnet.machinefi.com
+simulator.machinefi.com
+test.machinefi.com
+www.machinefi.com
