@@ -65589,3 +65589,4 @@ smx.gobrightspeed.net
 test.ao.dev.gobrightspeed.net
 vpn.btac.gobrightspeed.net
 www.smx-dev.gobrightspeed.net
+www.1882energyventures.net
