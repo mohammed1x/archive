@@ -59929,3 +59929,5 @@ v1.blofin.com
 ws2-private.blofin.com
 ws2-public.blofin.com
 www.blofin.com
+app.citex.info
+citex.info
