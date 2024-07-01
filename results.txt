@@ -80947,3 +80947,4 @@ dev.clarivate.ru
 discover.clarivate.ru
 test.clarivate.ru
 www.clarivate.ru
+www.clarivate.ua
