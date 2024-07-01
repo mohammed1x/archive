@@ -1955,3 +1955,12 @@ za.ibm.com
 zcogwast.boulder.ibm.com
 zewebnew.ais.mainz.de.ibm.com
 zion-dev.res.ibm.com
+.cache1.c.docs.google.com
+.cache2.c.docs.google.com
+.cache3.c.docs.google.com
+.cache4.c.docs.google.com
+.cache5.c.docs.google.com
+.cache6.c.docs.google.com
+.cache7.c.docs.google.com
+.cache8.c.docs.google.com
+.c.docs.google.com
