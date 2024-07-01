@@ -72351,3 +72351,6 @@ updates.push.services.mozilla.com
 status.relay.firefox.com
 www.support.mozilla.org
 sync-1-us-west1-g.sync.services.mozilla.com
+benchmark.vpn.mozilla.org
+status.vpn.mozilla.org
+www.vpn.mozilla.org
