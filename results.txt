@@ -78038,3 +78038,7 @@ eudev-www.resmed.pt
 mail.resmed.pt
 www.eudev-www.resmed.pt
 www.resmed.pt
+mail.resmed.sg
+shop.resmed.sg
+sleepquiz.resmed.sg
+www.resmed.sg
