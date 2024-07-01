@@ -63044,3 +63044,14 @@ g.iotube.org
 testnet.iotube.org
 v4.iotube.org
 www.iotube.org
+api.iopay.me
+avatar.iopay.me
+blog.iopay.me
+coingecko-proxy.iopay.me
+docs.iopay.me
+feedback.iopay.me
+iopayproject.iopay.me
+nft.iopay.me
+static.iopay.me
+web.iopay.me
+www.iopay.me
