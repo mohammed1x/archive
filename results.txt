@@ -78570,3 +78570,5 @@ www.us.afinitor.com
 wwwwaf.global.afinitor.com
 wwwwaf.us1.afinitor.com
 wwwwaf.us.afinitor.com
+mail.aidermoncoeur.ca
+www.aidermoncoeur.ca
