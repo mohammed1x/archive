@@ -32375,3 +32375,5 @@ xplor.med.monash.edu.au
 yoshi-bbb.eassessment-npd.aws.monash.edu
 za-rd.monash.edu
 zug.evig-npd.monash.edu
+monashprofessional.edu.au
+www.monashprofessional.edu.au
