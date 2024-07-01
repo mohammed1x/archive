@@ -93497,3 +93497,17 @@ yfuentesmsp-ntsa.bitdefender.com
 zabbix-aws.bitdefender.com
 www.blog.bitpanda.com
 www.web.bitpanda.com
+2wgkxtkfyfwemf5m3sem.bitpanda.com
+*.academy.bitpanda.com
+academy.bitpanda.com
+account.bitpanda.com
+account.bts.bitpanda.com
+advanced.bitpanda.com
+affiliates.bitpanda.com
+*.alpha.bitpanda.com
+alpha.bitpanda.com
+analytics.bitpanda.com
+api.alpha.bitpanda.com
+api.bitpanda.com
+api.cms.bitpanda.com
+api.exchange.bitpan
