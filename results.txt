@@ -80188,3 +80188,9 @@ wos.dev.clarivate.io
 wos-new.clarivate.io
 *.xray.clarivate.io
 xray.clarivate.io
+dev.clarivate.jp
+interest.clarivate.jp
+motool.incites.clarivate.jp
+resources.clarivate.jp
+test.clarivate.jp
+www.clarivate.jp
