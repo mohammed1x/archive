@@ -64417,3 +64417,5 @@ www.cm1.kyb.tink.com
 www.mtls.jpm.production.oxford.tink.com
 www.tink.com
 www.visa.co.ao
+staging.visa.co.id
+www.visa.co.id
