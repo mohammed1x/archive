@@ -71792,3 +71792,14 @@ socialmedia.r-u-i.com
 vp.r-u-i.com
 www.r-u-i.com
 www.socialmedia.r-u-i.com
+htng.sanluisresort.com
+reservations.sanluisresort.com
+rgpreservations.sanluisresort.com
+slht-dms2.sanluisresort.com
+slht-lmswebui.sanluisresort.com
+spa.sanluisresort.com
+specials.sanluisresort.com
+www.htng.sanluisresort.com
+www.reservations.sanluisresort.com
+www.rgpreservations.sanluisresort.com
+www.sanluisresort.com
