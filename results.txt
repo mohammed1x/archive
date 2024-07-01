@@ -11992,3 +11992,8 @@ preview.album.link
 staging.album.link
 v3.album.link
 v3.staging.album.link
+preview.playlist.link
+.staging.playlist.link
+staging.playlist.link
+v3.playlist.link
+v3.staging.playlist.link
