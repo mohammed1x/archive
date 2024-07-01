@@ -79557,3 +79557,5 @@ auth.cfninsight.com
 www.api.cfninsight.com
 www.auth.cfninsight.com
 www.cfninsight.com
+shibboleth.chadwyck.co.uk
+sushi.chadwyck.co.uk
