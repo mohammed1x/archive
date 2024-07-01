@@ -56133,3 +56133,5 @@ www.wise.com-----app.35-228-36-125.plesk.page
 wwww--wise.com
 www.www2.wise.com
 beta.my.wyze.com
+.eks.bc.yieldstreet.net
+eks.bc.yieldstreet.net
