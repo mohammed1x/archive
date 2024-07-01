@@ -64436,3 +64436,6 @@ review.visa.co.jp
 staging.visa.co.jp
 www.visa.co.jp
 www.visa.co.ke
+review.visa.co.nz
+staging.visa.co.nz
+www.visa.co.nz
