@@ -54808,3 +54808,4 @@ www.agentportal.westernunion.com
 www.cuba.westernunion.com
 www.ebanking.westernunionbank.com
 www.india.westernunion.com
+origin.partners.westernunion.com
