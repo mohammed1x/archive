@@ -78034,3 +78034,7 @@ www.eudev-www.resmed.no
 www.resmed.no
 mail.resmed.ph
 www.resmed.ph
+eudev-www.resmed.pt
+mail.resmed.pt
+www.eudev-www.resmed.pt
+www.resmed.pt
