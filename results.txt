@@ -62770,3 +62770,17 @@ workmail.gate.io
 ws.gate.io
 www2.gate.io
 www.gate.io
+api2.goby.app
+api3.goby.app
+api.goby.app
+docs.goby.app
+donate.goby.app
+example.goby.app
+goby.app
+history.goby.app
+play.goby.app
+relay.goby.app
+static.goby.app
+status.goby.app
+test-relay.goby.app
+www.goby.app
