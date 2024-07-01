@@ -79474,3 +79474,6 @@ staging.beigene.fr
 www.beigene.fr
 www.beovu-enrollpref.com
 www.bienplusquemapeau.ca
+*.elibrary.bigchalk.com
+elibrary.bigchalk.com
+m.elibrary.bigchalk.com
