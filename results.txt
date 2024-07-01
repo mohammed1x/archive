@@ -79536,3 +79536,5 @@ www.campaignmonitor.fr
 pages.campusm.com
 git.campusm.net
 npm.campusm.net
+staging.canaryhaz.com
+www.canaryhaz.com
