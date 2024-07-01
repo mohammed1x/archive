@@ -78533,3 +78533,6 @@ managementtools.abacusint.com
 remote.abacusint.com
 www.abacusint.com
 www.managementtools.abacusint.com
+*.beta.abstractcentral.com
+*.impl.abstractcentral.com
+university.abstractcentral.com
