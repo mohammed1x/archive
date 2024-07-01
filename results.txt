@@ -24251,4 +24251,3 @@ www.wpdev1.hostgator.com.br
 www.zabbix.hostgator.com.br
 zabbix.hostgator.com.br
 hostgator.com.br
-.win.hostgator.com.br
