@@ -74938,3 +74938,6 @@ www.vapteamssbc01.kkr.com
 www.view.communications.kkr.com
 www.kkrpec.com
 www.ksam.com
+api.lpportal.kkr.com
+lpportal.kkr.com
+www.portal.kkr.com
