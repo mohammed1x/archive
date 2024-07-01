@@ -70784,3 +70784,6 @@ dr-dias.bank.truist.com
 h1-dias.bank.truist.com
 h2-dias.bank.truist.com
 www.dias.bank.truist.com
+dr-dias.oneview.truist.com
+h1-dias.oneview.truist.com
+h2-dias.oneview.truist.com
