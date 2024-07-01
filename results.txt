@@ -64420,3 +64420,15 @@ www.visa.co.ao
 staging.visa.co.id
 www.visa.co.id
 www.visa.co.il
+api.visa.co.in
+enterprise.spendclarity.visa.co.in
+identity.enterprise.spendclarity.visa.co.in
+identity.intellilink.spendmanagement.visa.co.in
+intellilink.spendmanagement.visa.co.in
+staging.visa.co.in
+supplier.enterprise.spendclarity.visa.co.in
+www.enterprise.spendclarity.visa.co.in
+www.identity.enterprise.spendclarity.visa.co.in
+www.intellilink.spendmanagement.visa.co.in
+www.supplier.enterprise.spendclarity.visa.co.in
+www.visa.co.in
