@@ -72349,3 +72349,4 @@ api.profiler.firefox.com
 www.api.profiler.firefox.com
 updates.push.services.mozilla.com
 status.relay.firefox.com
+www.support.mozilla.org
