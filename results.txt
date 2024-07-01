@@ -79551,3 +79551,4 @@ usd0.ceeqapi.com
 d1.ceeqapp.com
 www.d1.ceeqapp.com
 www.certs-test-ssl-basic.com
+www.cfn.cx
