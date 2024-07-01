@@ -27268,3 +27268,12 @@ pre-prod.shiseido.me
 ss.shiseido.me
 tracking.shiseido.me
 www.shiseido.me
+api.sharerewards.com
+cms.sharerewards.com
+headless.sharerewards.com
+headless-stg.sharerewards.com
+rewards.sharerewards.com
+sharerewards.com
+travel-dev.sharerewards.com
+travel.sharerewards.com
+www.sharerewards.com
