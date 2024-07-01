@@ -77971,3 +77971,8 @@ www.newsletter.resmed.de
 www.resmed.de
 www.spot.resmed.de
 www.uat.spot.resmed.de
+autodiscover.resmed.dk
+eudev-www.resmed.dk
+mail.resmed.dk
+www.eudev-www.resmed.dk
+www.resmed.dk
