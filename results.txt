@@ -54812,3 +54812,4 @@ origin.partners.westernunion.com
 www.remoteaccess.westernunion.com
 www.secure.westernunion.com
 www.secureauth.westernunion.com
+www.senegal.westernunion.com
