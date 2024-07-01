@@ -33895,3 +33895,4 @@ us-download.opera.com
 web.flow.opera.com
 eu.get.geo.opera.com
 us.get.geo.opera.com
+www.create.gx.games
