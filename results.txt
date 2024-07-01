@@ -25420,3 +25420,5 @@ win.skipthedishes.com
 www.alpha.skipthedishes.com
 www.prod.dr.skipthedishes.com
 www.skipthedishes.com
+api.status-takeaway.com
+www.status-takeaway.com
