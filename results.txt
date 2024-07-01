@@ -79418,3 +79418,11 @@ www.pre-production.m3u8.asp.to
 www.staging.m3u8.asp.to
 test01.aspreports.com
 usage.aspreports.com
+pre-production.aspresolver.com
+*.staging.aspresolver.com
+staging.aspresolver.com
+upgrade.aspresolver.com
+www.aspresolver.com
+www.pre-production.aspresolver.com
+www.staging.aspresolver.com
+www.upgrade.aspresolver.com
