@@ -78546,3 +78546,10 @@ staging.activatenetworks.net
 www.activatenetworks.net
 www.appdemo.activatenetworks.net
 www.ona.activatenetworks.net
+4d.adaptiverx.com
+4dtest.adaptiverx.com
+humanademo.adaptiverx.com
+rxflex4mspan.adaptiverx.com
+wellpoint.adaptiverx.com
+www.4d.adaptiverx.com
+www.wellpoint.adaptiverx.com
