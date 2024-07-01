@@ -72350,3 +72350,4 @@ www.api.profiler.firefox.com
 updates.push.services.mozilla.com
 status.relay.firefox.com
 www.support.mozilla.org
+sync-1-us-west1-g.sync.services.mozilla.com
