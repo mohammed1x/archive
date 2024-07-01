@@ -35343,3 +35343,5 @@ www.vpnwar.naspers.com
 www.api.rapyd.net
 shahar.checkout.rapyd.net
 m.dashboard.rapyd.net
+catch.jointhemoment.net
+registration.jointhemoment.net
