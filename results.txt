@@ -18674,3 +18674,4 @@ sandbox0.sandbox.directly.com
 sandbox1.sandbox.directly.com
 sandbox2.sandbox.directly.com
 sandbox-worker01.sandbox.directly.com
+www.api.dropboxapi.com
