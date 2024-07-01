@@ -62479,3 +62479,9 @@ www.mxmail.temu.com
 www.product.payssl.temu.com
 www.productsign.payssl.temu.com
 www.temu.com
+leather.io
+sites.framer.app.leather.io
+specs.leather.io
+storybook.leather.io
+wallet.hiro.so.leather.io
+www.leather.io
