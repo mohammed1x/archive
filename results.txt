@@ -68010,3 +68010,6 @@ review.visa.co.cr
 www.visa.co.cr
 review.visa.co.ni
 www.visa.co.ni
+promotions.visa.co.za
+www.paywithvisa.visa.co.za
+www.visa.co.za
