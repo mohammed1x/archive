@@ -71771,3 +71771,5 @@ www.lasvegas-reservations.goldennugget.com
 www.laughlin-reservations.goldennugget.com
 www.remote.goldennugget.com
 www.reservations.goldennugget.com
+specials.hunttinginn.com
+www.hunttinginn.com
