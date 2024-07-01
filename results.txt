@@ -64227,3 +64227,13 @@ www.shapeshift.com
 yeet.shapeshift.com
 *.zcash.shapeshift.com
 zh.shapeshift.com
+about.slex.io
+api.slex.io
+blog.slex.io
+kb.slex.io
+private.slex.io
+support.slex.io
+www.about.slex.io
+www.blog.slex.io
+www.private.slex.io
+www.slex.io
