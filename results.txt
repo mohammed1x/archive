@@ -64503,3 +64503,5 @@ test.tektiklaode.visa.com.tr
 www.visa.com.tr
 staging.visa.com.tw
 www.visa.com.tw
+staging.visa.com.vn
+www.visa.com.vn
