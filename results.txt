@@ -67959,3 +67959,5 @@ staging.bd.visa.com
 www.bd.visa.com
 rvcom-qa.bm.visa.com
 www.bm.visa.com
+rvcom-qa.bq.visa.com
+www.bq.visa.com
