@@ -70439,3 +70439,5 @@ int.apps.sofa.csg.aboitizpower.org
 *.sofa.aboitizpower.org
 *.sofadev.aboitizpower.org
 www.adventenergy.com.ph
+www1.aesi.com.ph
+www.aesi.com.ph
