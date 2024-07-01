@@ -77202,3 +77202,9 @@ demo-myair.resmed.eu
 monitor-myair.resmed.eu
 ps-myair.resmed.eu
 www.narval-easy.resmed.eu
+cdn-uat-onlinestore.resmed.com
+dev2-onlinestore.resmed.com
+dev3-onlinestore.resmed.com
+dev-onlinestore.resmed.com
+uat2-onlinestore.resmed.com
+uat-onlinestore.resmed.com
