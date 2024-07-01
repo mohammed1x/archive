@@ -70709,3 +70709,10 @@ zh-cn.worldcoin.org
 uae.boots.com
 www.ae.boots.com
 www.uae.boots.com
+commerce.ae.charlottetilbury.com
+data.ae.charlottetilbury.com
+dev.ae.charlottetilbury.com
+media.ae.charlottetilbury.com
+stage.ae.charlottetilbury.com
+staging.ae.charlottetilbury.com
+www.ae.charlottetilbury.com
