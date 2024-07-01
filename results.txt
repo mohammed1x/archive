@@ -79416,3 +79416,5 @@ www.asp.to
 www.m3u8.asp.to
 www.pre-production.m3u8.asp.to
 www.staging.m3u8.asp.to
+test01.aspreports.com
+usage.aspreports.com
