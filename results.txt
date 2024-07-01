@@ -80952,3 +80952,4 @@ cla.clavirate.com
 elsevier-scopus.clavirate.com
 www.clavirate.com
 www.elsevier-scopus.clavirate.com
+www.clinical.study
