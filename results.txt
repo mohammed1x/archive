@@ -72325,3 +72325,8 @@ oauth.accounts.firefox.com
 profile.accounts.firefox.com
 scrypt.accounts.firefox.com
 verifier.accounts.firefox.com
+amo.addons.allizom.org
+code.addons.allizom.org
+discovery.addons.allizom.org
+reviewers.addons.allizom.org
+services.addons.allizom.org
