@@ -70787,3 +70787,7 @@ www.dias.bank.truist.com
 dr-dias.oneview.truist.com
 h1-dias.oneview.truist.com
 h2-dias.oneview.truist.com
+prod-ue1-nlb.lending.digitalcommerce.truist.com
+prod-ue2-nlb.lending.digitalcommerce.truist.com
+ue1-nlb.lending.digitalcommerce.truist.com
+ue2-nlb.lending.digitalcommerce.truist.com
