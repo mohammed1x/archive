@@ -34668,7 +34668,6 @@ analysisdev-web.jindabyne.em.originenergy.com.au
 anmet.originenergy.com.au
 api-braze-dev.jindabyne.originenergy.com.au
 api-braze-prod.jindabyne.originenergy.com.au
-.api.dataportal.originenergy.com.au
 api.ev.originenergy.com.au
 api.fe-dev.originenergy.com.au
 api.fe.originenergy.com.au
@@ -34694,7 +34693,6 @@ assets.zero.originenergy.com.au
 assets.zero-stg.originenergy.com.au
 assist.originenergy.com.au
 AUSZOGESPWMP003.originenergy.com.au
-.auth.dataportal.originenergy.com.au
 auth.mydata.cdr.originenergy.com.au
 autodiscover.originenergy.com.au
 autodiscover.upstream.originenergy.com.au
@@ -34990,3 +34988,17 @@ yurika.api.fe-stg.originenergy.com.au
 yurika.fe-dev.originenergy.com.au
 yurika.fe.originenergy.com.au
 yurika.fe-stg.originenergy.com.au
+clientportal.winconnect.com.au
+customerportal.winconnect.com.au
+devclientportal.winconnect.com.au
+devcustapp.winconnect.com.au
+img.email.winconnect.com.au
+r.email.winconnect.com.au
+stgclientportal.winconnect.com.au
+stgcustapp.winconnect.com.au
+tstcustapp.winconnect.com.au
+winconnect.com.au
+www.winconnect.com.au
+www.zaproxy.org
+zaproxy.org
+admin.dashboard.pantheon.io
