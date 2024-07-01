@@ -70776,3 +70776,7 @@ prod-ue1-nlb.deposits.digitalcommerce.truist.com
 prod-ue2-nlb.deposits.digitalcommerce.truist.com
 ue1-nlb.deposits.digitalcommerce.truist.com
 ue2-nlb.deposits.digitalcommerce.truist.com
+dev-developer.truist.com
+dev.developer.truist.com
+Developer.truist.com
+ite-developer.truist.com
