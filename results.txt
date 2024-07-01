@@ -63446,3 +63446,11 @@ wiki.near.org
 www.alpha.near.org
 www.nearcon2021whiteboard.near.org
 www.near.org
+api.test.nicehash.com
+blog-test.nicehash.com
+docs-test.nicehash.com
+external-test.nicehash.com
+ln-test.nicehash.com
+miner-plugins-test.nicehash.com
+nhos-test.nicehash.com
+widget-test.nicehash.com
