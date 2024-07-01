@@ -33884,3 +33884,7 @@ singa.auth.opera.com
 spb.auth.opera.com
 sso.auth.opera.com
 mini.bugs.opera.com
+img.email.cashback.opera.com
+img.news.cashback.opera.com
+r.email.cashback.opera.com
+r.news.cashback.opera.com
