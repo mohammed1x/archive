@@ -80071,3 +80071,7 @@ zabbix.ops.converis.clarivate.com
 zimmerbiomet-clarita.clarivate.com
 zimmer-clarita.clarivate.com
 zimmer-clarita.stg.clarivate.com
+dev.clarivate.com.cn
+solutions.clarivate.com.cn
+test.clarivate.com.cn
+www.clarivate.com.cn
