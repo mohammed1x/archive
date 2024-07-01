@@ -108310,3 +108310,4 @@ whitepaper.guildofguardians.com
 *.www.guildofguardians.com
 www.guildofguardians.com
 auth.hub.immutable.com
+staging.docs.immutable.com
