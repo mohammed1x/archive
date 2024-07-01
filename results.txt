@@ -99223,3 +99223,4 @@ zero.dev.security-svcs.auth0.net
 zero-users.dev.security-svcs.auth0.net
 *.zirkome.exp.ops.platform.auth0.net
 www.jwt.io
+directory.api.hub.com
