@@ -79405,3 +79405,5 @@ qa.ask-alia.com
 stg.ask-alia.com
 uat.ask-alia.com
 www.ask-alia.com
+www.askyourderm.com
+wwwwaf.askyourderm.com
