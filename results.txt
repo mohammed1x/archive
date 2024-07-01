@@ -63147,3 +63147,5 @@ rvcom-qa.bq.visa.com
 www.bq.visa.com
 rvcom-qa.cw.visa.com
 www.cw.visa.com
+community.developer.authorize.net
+www.community.developer.authorize.net
