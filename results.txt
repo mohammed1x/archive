@@ -71439,3 +71439,6 @@ www.api.shi.com
 www.developer.api.shi.com
 www.edistg.api.shi.com
 www.cxmlorderservice.shi.com
+api.servicepro.shi.com
+www.api.servicepro.shi.com
+www.synch.servicepro.shi.com
