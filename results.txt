@@ -71779,3 +71779,7 @@ private-dining.muer.com
 specials.muer.com
 www.muer.com
 www.private-dining.muer.com
+passport.pleasurepier.com
+specials.pleasurepier.com
+tickets.pleasurepier.com
+www.pleasurepier.com
