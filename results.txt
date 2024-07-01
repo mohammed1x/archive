@@ -79512,3 +79512,5 @@ www.mobile.bowker.com
 www.mpe.bowker.com
 www.mpe-web.bowker.com
 www.bowker.org
+preprod.bowkerbarcode.com
+www.bowkerbarcode.com
