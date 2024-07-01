@@ -19308,3 +19308,4 @@ web.uat.guildofguardians.com
 whitepaper.guildofguardians.com
 .www.guildofguardians.com
 www.guildofguardians.com
+auth.hub.immutable.com
