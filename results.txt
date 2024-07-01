@@ -77152,3 +77152,10 @@ apiaccount.resmed.com
 myaccount.resmed.com
 login.airview.resmed.com
 www.login.airview.resmed.com
+community.brightree.net
+communitystage.brightree.net
+ftp.brightree.net
+*.myforms.brightree.net
+sfsso.brightree.net
+www.ftp.brightree.net
+www.sfsso.brightree.net
