@@ -35345,3 +35345,7 @@ shahar.checkout.rapyd.net
 m.dashboard.rapyd.net
 catch.jointhemoment.net
 registration.jointhemoment.net
+blog.recroom.com
+vpn.recroom.com
+www.recroom.com
+www.vpn.recroom.com
