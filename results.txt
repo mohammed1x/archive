@@ -70450,3 +70450,12 @@ www.sustainablephilippines.com
 portal.veco.com.ph
 www.veco.com.ph
 www.bioid-management.app
+*.api.getworldcoin.com
+api.getworldcoin.com
+auth.getworldcoin.com
+auth.staging.getworldcoin.com
+backend-api.getworldcoin.com
+production.auth.getworldcoin.com
+staging.api.getworldcoin.com
+staging.getworldcoin.com
+vpn.getworldcoin.com
