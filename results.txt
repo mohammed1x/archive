@@ -72317,3 +72317,11 @@ autodiscover.wildwoodcasino.net
 mail.wildwoodcasino.net
 www.mail.wildwoodcasino.net
 www.wildwoodcasino.net
+api.accounts.firefox.com
+cdn.accounts.firefox.com
+confirm.accounts.firefox.com
+graphql.accounts.firefox.com
+oauth.accounts.firefox.com
+profile.accounts.firefox.com
+scrypt.accounts.firefox.com
+verifier.accounts.firefox.com
