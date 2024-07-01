@@ -70459,3 +70459,16 @@ production.auth.getworldcoin.com
 staging.api.getworldcoin.com
 staging.getworldcoin.com
 vpn.getworldcoin.com
+app-backend.toolsforhumanity.com
+app-support.toolsforhumanity.com
+launch-gift.toolsforhumanity.com
+orbs.toolsforhumanity.com
+*.private.app-backend.toolsforhumanity.com
+private.app-backend.toolsforhumanity.com
+sg.toolsforhumanity.com
+staging-orbs.toolsforhumanity.com
+static.app-backend.toolsforhumanity.com
+stats.toolsforhumanity.com
+support.toolsforhumanity.com
+topups.studios.toolsforhumanity.com
+www.toolsforhumanity.com
