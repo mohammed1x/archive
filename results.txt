@@ -80943,3 +80943,7 @@ vc-tool.uspto-tmv.dev.tmv.aws.clarivate.net
 *.watch-prod-eks.watch-prod.prod.tmv.aws.clarivate.net
 *.wine.dplat-129.prod.tmv.aws.clarivate.net
 wine.dplat-129.prod.tmv.aws.clarivate.net
+dev.clarivate.ru
+discover.clarivate.ru
+test.clarivate.ru
+www.clarivate.ru
