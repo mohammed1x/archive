@@ -79570,3 +79570,5 @@ www.citationeagle.com
 *.fra.cityvox.fr
 www.civilwarliterature.com
 tw.clarivate-blog.com
+*.webofscience.clarivate.cn
+webofscience.clarivate.cn
