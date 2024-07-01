@@ -73970,3 +73970,8 @@ www.sso.connect.svb.com
 beta.developer.svb.com
 beta.uat.developer.svb.com
 uat.developer.svb.com
+private.openbanking.svb.com
+private.sandbox.openbanking.svb.com
+sandbox.private.openbanking.svb.com
+www.private.sandbox.openbanking.svb.com
+www.sandbox.private.openbanking.svb.com
