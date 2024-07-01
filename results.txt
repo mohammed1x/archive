@@ -63761,3 +63761,6 @@ wazuh.stage.monitoring.pointpay.io
 ws-backend.pointpay.io
 wvl5w42v.pointpay.io
 www.pointpay.io
+api.exchange.pointpay.io
+*.api.stage.exchange.pointpay.io
+*.stage.exchange.pointpay.io
