@@ -67961,3 +67961,5 @@ rvcom-qa.bm.visa.com
 www.bm.visa.com
 rvcom-qa.bq.visa.com
 www.bq.visa.com
+rvcom-qa.cw.visa.com
+www.cw.visa.com
