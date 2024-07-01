@@ -73774,3 +73774,14 @@ webmail.kolesa.kz
 www.kolesa.kz
 www.nms.kolesa.kz
 www.sales.kolesa.kz
+api.krisha.kz
+guide.krisha.kz
+khvcux.krisha.kz
+links.e.krisha.kz
+m.krisha.kz
+sales.krisha.kz
+special.krisha.kz
+srv.krisha.kz
+support.krisha.kz
+www.sales.krisha.kz
+www.special.krisha.kz
