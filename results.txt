@@ -69287,3 +69287,6 @@ visa.com.br
 www.email.visa.com.br
 www.promocoesvisa.com.br
 www.visa.com.br
+staging.visa.com.cn
+visa.com.cn
+www.visa.com.cn
