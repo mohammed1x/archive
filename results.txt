@@ -64240,3 +64240,15 @@ www.slex.io
 curate.status.app
 governance.status.app
 www.status.app
+answers.ton.org
+archival-dump.ton.org
+blog.ton.org
+dump.ton.org
+files.ton.org
+jobs.ton.org
+*.minter.ton.org
+minter.ton.org
+*.society.ton.org
+society.ton.org
+unfreezer.ton.org
+www.ton.org
