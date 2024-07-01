@@ -101184,3 +101184,4 @@ xmail.bitdefender.com
 yfuentesmsp-ntsa.bitdefender.com
 zabbix-aws.bitdefender.com
 www.blog.bitpanda.com
+www.web.bitpanda.com
