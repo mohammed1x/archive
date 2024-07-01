@@ -77421,3 +77421,14 @@ www.eudev-www.resmed.ch
 www.resmed.ch
 mail.resmed.co.id
 www.resmed.co.id
+autodiscover.resmed.co.in
+blog.resmed.co.in
+click.email.resmed.co.in
+cloud.email.resmed.co.in
+image.email.resmed.co.in
+info.resmed.co.in
+mail.resmed.co.in
+onlinestore.resmed.co.in
+shop.resmed.co.in
+view.email.resmed.co.in
+www.resmed.co.in
