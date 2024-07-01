@@ -67240,3 +67240,9 @@ email.news.shops.aeromexicorewards.com
 execution-ci360.aeromexicorewards.com
 shops.aeromexicorewards.com
 ticketmaster.aeromexicorewards.com
+disney.aeromexicovacations.com
+qa.aeromexicovacations.com
+sslstats.aeromexicovacations.com
+www.aeromexicovacations.com
+www.qa.aeromexicovacations.com
+www.sslstats.aeromexicovacations.com
