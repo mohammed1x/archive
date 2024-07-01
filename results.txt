@@ -64439,3 +64439,6 @@ www.visa.co.ke
 review.visa.co.nz
 staging.visa.co.nz
 www.visa.co.nz
+businesscenter.visa.co.th
+staging.visa.co.th
+www.visa.co.th
