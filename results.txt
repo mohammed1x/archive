@@ -18610,3 +18610,5 @@ api.dimensions.cloudinary.com
 auth.dimensions.cloudinary.com
 welcome.dimensions.cloudinary.com
 www.welcome.dimensions.cloudinary.com
+origin-adhoc-bugcrowd.cdn-code.org
+www.adhoc-bugcrowd.cdn-code.org
