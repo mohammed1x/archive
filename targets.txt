@@ -1,6 +1,15 @@
 github.com
 ibm.com
-google.com
+docs.google.com
+drive.google.com
+maps.google.com
+uber.com
+whatsapp.com
+instagram.com
+telegram.org
+web.telegram.org
+web.whatsapp.com
+myactivity.google.com
 microsoft.com
 githubusercontent.com
 quran.com
