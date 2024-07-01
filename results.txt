@@ -64467,3 +64467,4 @@ staging.visa.com.cn
 visa.com.cn
 www.visa.com.cn
 www.visa.com.cy
+www.visa.com.ge
