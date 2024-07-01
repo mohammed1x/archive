@@ -64442,3 +64442,9 @@ www.visa.co.nz
 businesscenter.visa.co.th
 staging.visa.co.th
 www.visa.co.th
+api.visa.co.uk
+londoneye.visa.co.uk
+madametussauds.visa.co.uk
+vpp.visa.co.uk
+www.visa.co.uk
+www.vpp.visa.co.uk
