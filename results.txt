@@ -79572,3 +79572,6 @@ www.civilwarliterature.com
 tw.clarivate-blog.com
 *.webofscience.clarivate.cn
 webofscience.clarivate.cn
+dev.clarivate.co.kr
+test.clarivate.co.kr
+www.clarivate.co.kr
