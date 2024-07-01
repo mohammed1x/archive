@@ -73507,3 +73507,14 @@ mail2.skanska-secure-partner.co.uk
 mail.skanska-secure-partner.co.uk
 mta-sts.skanska-secure-partner.co.uk
 www.mail.skanska-secure-partner.co.uk
+alphalinx.prolinx.co.uk
+autodiscover.prolinx.co.uk
+hybrid.prolinx.co.uk
+mail1.prolinx.co.uk
+mail2.prolinx.co.uk
+mail.prolinx.co.uk
+mta-sts.prolinx.co.uk
+*.ukti.prolinx.co.uk
+ukti.prolinx.co.uk
+vpn.prolinx.co.uk
+www.mail.prolinx.co.uk
