@@ -27058,3 +27058,6 @@ www.vendhq.com
 lululemon.co.jp
 smetrics.lululemon.co.jp
 www.lululemon.co.jp
+lululemon.co.kr
+smetrics.lululemon.co.kr
+www.lululemon.co.kr
