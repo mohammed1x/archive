@@ -77976,3 +77976,8 @@ eudev-www.resmed.dk
 mail.resmed.dk
 www.eudev-www.resmed.dk
 www.resmed.dk
+autodiscover.resmed.es
+eudev-www.resmed.es
+mail.resmed.es
+www.eudev-www.resmed.es
+www.resmed.es
