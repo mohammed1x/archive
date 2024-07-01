@@ -106993,3 +106993,15 @@ www.rap.cfr.org
 www.secure.stage.cfr.org
 www.secure.www.cfr.org
 www.splunk.cfr.org
+dev.thinkglobalhealth.org
+live.thinkglobalhealth.org
+test.thinkglobalhealth.org
+waf.thinkglobalhealth.org
+www.thinkglobalhealth.org
+dev.education.cfr.org
+test.education.cfr.org
+www.education.cfr.org
+meraki.meraki.cisco.com
+test-meraki.cisco.com
+test.meraki.cisco.com
+www.meraki.cisco.com
