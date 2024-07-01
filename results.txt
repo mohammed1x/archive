@@ -8602,3 +8602,5 @@ www.energy.ampol.com.au
 www.energy-stg.nonprod.ampol.com.au
 www.my.ampol.com.au
 www.downloads.arlo.com
+arloupdates.netgear.com
+pkgupdates.netgear.com
