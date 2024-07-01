@@ -27533,3 +27533,6 @@ stl.sandbox.src.mastercard.com
 stl.src.mastercard.com
 uat.src.mastercard.com
 www.src.mastercard.com
+mtf.mastercard.ch
+stage.mastercard.ch
+www.mastercard.ch
