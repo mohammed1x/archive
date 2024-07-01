@@ -26227,3 +26227,7 @@ www.qa.keepersecurity.eu
 www.qats.keepersecurity.eu
 www.services.dev.keepersecurity.eu
 www.services.keepersecurity.eu
+keepersecurity.com
+.ohio.keepersecurity.com
+.recovery.keepersecurity.com
+.test.keepersecurity.com
