@@ -33883,3 +33883,4 @@ lati.auth.opera.com
 singa.auth.opera.com
 spb.auth.opera.com
 sso.auth.opera.com
+mini.bugs.opera.com
