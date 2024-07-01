@@ -56581,3 +56581,5 @@ www.loja.nelogica.com.br
 www.lp.nelogica.com.br
 www.nelogica.com.br
 zabbix.nelogica.com.br
+www.dev.app.kitesrm.com
+www.stage.app.kitesrm.com
