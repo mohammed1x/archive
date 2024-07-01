@@ -78527,3 +78527,9 @@ view.enews.canadagoose.com
 www.canadagoose.com
 www.generations.canadagoose.com
 www.support.canadagoose.com
+awc.abacusint.com
+mail.abacusint.com
+managementtools.abacusint.com
+remote.abacusint.com
+www.abacusint.com
+www.managementtools.abacusint.com
