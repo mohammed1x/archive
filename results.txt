@@ -81324,3 +81324,6 @@ www.smtp.github.com
 www.support.enterprise.github.com
 www.visualstudio.github.com
 www.ws.support.github.com
+fnr.converis.lu
+login.converis.lu
+www.converis.lu
