@@ -71438,3 +71438,4 @@ edistg.api.shi.com
 www.api.shi.com
 www.developer.api.shi.com
 www.edistg.api.shi.com
+www.cxmlorderservice.shi.com
