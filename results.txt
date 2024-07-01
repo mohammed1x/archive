@@ -108500,3 +108500,8 @@ www.t.lastpass.com
 mfa-support.lastpass.com
 pilotsupport.lastpass.com
 kona-blog.lastpass.com
+beta-accounts.lastpass.com
+beta-kona-accounts.lastpass.com
+beta-kona-staging-accounts.lastpass.com
+kona-accounts.lastpass.com
+kona-staging-accounts.lastpass.com
