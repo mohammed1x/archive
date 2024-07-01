@@ -72334,3 +72334,12 @@ www.api.profiler.firefox.com
 api-dev.bugzilla.mozilla.org
 *.bmoattachments.bugzilla.mozilla.org
 bmoattachments.bugzilla.mozilla.org
+*.api.developer.mozilla.org
+api.developer.mozilla.org
+bcd.developer.mozilla.org
+beta.developer.mozilla.org
+contribute.developer.mozilla.org
+devmo.developer.mozilla.org
+insights.developer.mozilla.org
+updates.developer.mozilla.org
+wiki.developer.mozilla.org
