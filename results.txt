@@ -38852,3 +38852,4 @@ youthlab.20min.ch
 zurichpride.20min.ch
 zweipunktnull.20min.ch
 www.api.sendgrid.com
+eu1.app.segment.com
