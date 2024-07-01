@@ -28245,3 +28245,9 @@ www.studenthub.online.monash.edu
 www.studyplanner.online.monash.edu
 www.studyplanner.online.monash.edu.au
 www.partner.apps.monash.edu
+mcprod.shop.monash.edu
+mcstaging.shop.monash.edu
+mcstaging.shop.monash.edu.my
+www.shop.monash.edu
+www.shop.monash.edu.au
+www.shop.monash.edu.my
