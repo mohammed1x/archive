@@ -69254,3 +69254,6 @@ www.identity.enterprise.spendclarity.visa.co.in
 www.intellilink.spendmanagement.visa.co.in
 www.supplier.enterprise.spendclarity.visa.co.in
 www.visa.co.in
+review.visa.co.jp
+staging.visa.co.jp
+www.visa.co.jp
