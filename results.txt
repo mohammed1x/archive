@@ -58728,3 +58728,4 @@ test-pay-prod.kuna.io
 watch.kuna.io
 ws-pro.kuna.io
 www.business.kuna.io
+test.ladex.exchange
