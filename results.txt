@@ -27232,3 +27232,11 @@ pre-prod.allsaints.me
 production-maf-auth0-alls.allsaints.me
 www.allsaints.me
 www.pre-prod.allsaints.me
+analytics.cb2.ae
+api.cb2.ae
+api.pre-prod.cb2.ae
+api-stg.cb2.ae
+pre-prod.cb2.ae
+production-maf-auth0-cb2.cb2.ae
+stg.cb2.ae
+www.cb2.ae
