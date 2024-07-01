@@ -64270,3 +64270,17 @@ staticctn.tickets.kz
 static.tickets.kz
 tracking.mailing.tickets.kz
 www.tickets.kz
+api.kissandfly.com
+*.avia.kissandfly.com
+avia.kissandfly.com
+cn-api.kissandfly.com
+fare.kissandfly.com
+gd.kissandfly.com
+hotel.kissandfly.com
+hotels.kissandfly.com
+m.avia.kissandfly.com
+m.kissandfly.com
+my.kissandfly.com
+staging.fare.kissandfly.com
+static.kissandfly.com
+www.kissandfly.com
