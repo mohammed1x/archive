@@ -70744,3 +70744,4 @@ www.qt.boots.com
 www.sa.boots.com
 data.sa.charlottetilbury.com
 www.sa.charlottetilbury.com
+www.sa.cosstores.com
