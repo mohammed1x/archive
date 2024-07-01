@@ -71433,3 +71433,8 @@ xml-sit.six-group.com
 xml.six-group.com
 xml-tst.six-group.com
 zh-teams-sbc01.six-group.com
+developer.api.shi.com
+edistg.api.shi.com
+www.api.shi.com
+www.developer.api.shi.com
+www.edistg.api.shi.com
