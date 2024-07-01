@@ -73953,3 +73953,13 @@ www.tto.sheer.com
 www.water.sheer.com
 www.wate.sheer.com
 zp.sheer.com
+b2b.api.svb.com
+b2b.uat.api.svb.com
+internal1.uat.api.svb.com
+internal2.uat.api.svb.com
+internal.api.svb.com
+internal.uat.api.svb.com
+mtls.api.svb.com
+p2c.client.api.svb.com
+sandbox.api.svb.com
+uat.api.svb.com
