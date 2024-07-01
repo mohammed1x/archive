@@ -76587,3 +76587,7 @@ zme-caps-dub.amazon.com
 zme-caps-iad.amazon.com
 zme-caps-pdx.amazon.com
 origin-api.amazonalexa.com
+forums.developer.amazon.com
+si-cn.developer.amazon.com
+si-us.developer.amazon.com
+www.developer.amazon.com
