@@ -70706,3 +70706,6 @@ www.wellshi.worldcoin.org
 www.worldcoin.org
 zendesk.api.staging.consumer.worldcoin.org
 zh-cn.worldcoin.org
+uae.boots.com
+www.ae.boots.com
+www.uae.boots.com
