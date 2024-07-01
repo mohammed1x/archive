@@ -35877,3 +35877,13 @@ xsosys-mdm.spro.xbox.com
 xsts.origin-prod.xbox.com
 xtelogin.xbox.com
 xte.xbox.com
+auth.graphql.seek.com
+indie-demi.graphql.seek.com
+indie-fka-twigs.graphql.seek.com
+indie-graphql-server.graphql.seek.com
+indie-jessiej.graphql.seek.com
+indie-jessiej-jwks.graphql.seek.com
+indie-shakira.graphql.seek.com
+indie-shakira-public-test.graphql.seek.com
+talentsearch-profileexport-api.graphql.seek.com
+talentsearch-profileexport-api-public-test.graphql.seek.com
