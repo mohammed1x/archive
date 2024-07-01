@@ -78016,3 +78016,5 @@ www.eudev-webinars.resmed.jp
 www.eudev-www.resmed.jp
 www.resmed.jp
 www.uat-www.resmed.jp
+mail.resmed.la
+www.resmed.la
