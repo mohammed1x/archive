@@ -78537,3 +78537,4 @@ www.managementtools.abacusint.com
 *.impl.abstractcentral.com
 university.abstractcentral.com
 www.academicvideoonline.com
+www.academicvideostore.com
