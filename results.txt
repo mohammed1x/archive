@@ -70742,3 +70742,5 @@ nqcw2l.qa.hm.com
 www.qa.hm.com
 www.qt.boots.com
 www.sa.boots.com
+data.sa.charlottetilbury.com
+www.sa.charlottetilbury.com
