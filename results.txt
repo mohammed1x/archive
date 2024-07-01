@@ -72330,3 +72330,4 @@ code.addons.allizom.org
 discovery.addons.allizom.org
 reviewers.addons.allizom.org
 services.addons.allizom.org
+www.api.profiler.firefox.com
