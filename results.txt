@@ -33811,3 +33811,13 @@ wob-demo-collection-service.ingress.owl.sci.openai.org
 wob-trial-demo-collection-service.ingress.owl.sci.openai.org
 www.glow.alpha.openai.org
 privy.wallets.opensea.io
+api.etherscan.io
+docs.etherscan.io
+docs.optimism.etherscan.io
+info.etherscan.io
+metadata.etherscan.io
+socket.etherscan.io
+ww3btest.etherscan.io
+www.api.etherscan.io
+www.etherscan.io
+www.socket.etherscan.io
