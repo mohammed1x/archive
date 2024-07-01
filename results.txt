@@ -27173,3 +27173,8 @@ static.lululemon.com.hk
 test-shop.lululemon.com.hk
 whatwelove.lululemon.com.hk
 www.lululemon.com.hk
+lululemon.de
+qa.lululemon.de
+smetrics.lululemon.de
+test.qa.lululemon.de
+www.lululemon.de
