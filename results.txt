@@ -79543,3 +79543,6 @@ staging.canaryhaz.org
 stagingtests.canaryhaz.org
 www.carterus.fr
 www.cdkglobal.fr
+test.docs.ceeq.info
+tmv.docs.ceeq.info
+wiki.ceeq.info
