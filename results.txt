@@ -71783,3 +71783,12 @@ passport.pleasurepier.com
 specials.pleasurepier.com
 tickets.pleasurepier.com
 www.pleasurepier.com
+autodiscover.r-u-i.com
+directaccess.r-u-i.com
+extranet.r-u-i.com
+gc.r-u-i.com
+mail.r-u-i.com
+socialmedia.r-u-i.com
+vp.r-u-i.com
+www.r-u-i.com
+www.socialmedia.r-u-i.com
