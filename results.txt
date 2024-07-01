@@ -74093,3 +74093,6 @@ transaction-enrichment-service.hub-dev-01.hub.com
 transaction-ingestion-gateway.hub-dev-01.hub.com
 transaction-master.hub-dev-01.hub.com
 api.exchange.bitpan
+.businessemail.tiffany.com
+.ereceipt.tiffany.com
+.tco.tiffany.com
