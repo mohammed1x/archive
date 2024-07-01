@@ -73975,3 +73975,4 @@ private.sandbox.openbanking.svb.com
 sandbox.private.openbanking.svb.com
 www.private.sandbox.openbanking.svb.com
 www.sandbox.private.openbanking.svb.com
+www.svbbpm.svbconnect.com
