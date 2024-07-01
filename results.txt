@@ -1965,3 +1965,8 @@ zion-dev.res.ibm.com
 .cache8.c.docs.google.com
 .c.docs.google.com
 .c.drive.google.com
+.c.offline.maps.google.com
+.contentpartners.maps.google.com
+contentpartners.maps.google.com
+.streetviewstudio.maps.google.com
+streetviewstudio.maps.google.com
