@@ -69300,3 +69300,5 @@ www.visa.com.kh
 www.visa.com.kz
 review.visa.com.lc
 www.visa.com.lc
+staging.visa.com.lk
+www.visa.com.lk
