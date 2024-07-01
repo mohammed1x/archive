@@ -58249,3 +58249,15 @@ support.wallet.coinex.com
 .vault.coinex.com
 .wallet.coinex.com
 www.coinex.com
+api.cointr.pro
+blog.cointr.pro
+cointr.pro
+gray.cointr.pro
+shence-datasink.cointr.pro
+static.cointr.pro
+stream.cointr.pro
+support.cointr.pro
+ws.cointr.pro
+ws-futures.cointr.pro
+ws-newfutures.cointr.pro
+www.cointr.pro
