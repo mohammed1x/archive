@@ -79542,3 +79542,4 @@ fargatetests.canaryhaz.org
 staging.canaryhaz.org
 stagingtests.canaryhaz.org
 www.carterus.fr
+www.cdkglobal.fr
