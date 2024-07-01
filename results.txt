@@ -57394,3 +57394,17 @@ testnet.aax.com
 trends.aax.com
 trends-svc.aax.com
 www.aax.com
+aex.com
+api.aex.com
+www.aex.com
+www.api.aex.com
+airpuff.io
+api.airpuff.io
+app.airpuff.io
+dev.airpuff.io
+dev-api.airpuff.io
+docs.airpuff.io
+karak-api.airpuff.io
+oracle.airpuff.io
+treasury.airpuff.io
+www.airpuff.io
