@@ -77042,3 +77042,6 @@ www.connect-ts.anfcorp.com
 www.keeper.anfcorp.com
 www.su-omsappprd-vip.homeoffice.anfcorp.com
 www.su-omsappqa-vip.homeoffice.anfcorp.com
+admin-staging.corporate.abercrombie.com
+origin-staging.corporate.abercrombie.com
+staging.corporate.abercrombie.com
