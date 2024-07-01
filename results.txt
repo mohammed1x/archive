@@ -67954,3 +67954,6 @@ webprod.support.ionity.eu
 www.support.ionity.eu
 rvcom-qa.aw.visa.com
 rvcom-qa.bb.visa.com
+rvcom-qa.bd.visa.com
+staging.bd.visa.com
+www.bd.visa.com
