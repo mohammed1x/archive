@@ -59753,3 +59753,7 @@ testnet.aax.com
 trends.aax.com
 trends-svc.aax.com
 www.aax.com
+aex.com
+api.aex.com
+www.aex.com
+www.api.aex.com
