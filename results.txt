@@ -56307,3 +56307,17 @@ trust.cyber.info
 url2211.cyber.info
 wiki.corp.cyber.info
 www.cyber.info
+app.federacy.com
+blog.federacy.com
+doc.federacy.com
+help.federacy.com
+honeypot.federacy.com
+one.federacy.com
+staging-2.federacy.com
+staging.api.federacy.com
+testapi.federacy.com
+two.federacy.com
+www.app.federacy.com
+www.federacy.com
+www.honeypot.federacy.com
+www.staging.api.federacy.com
