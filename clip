@@ -1,1 +1,1 @@
-docker build -t amass https://github.com/owasp-amass/amass.git
+go install -v github.com/owasp-amass/amass/v4/...@master
