@@ -1,1 +1,24 @@
-go install -v github.com/owasp-amass/amass/v4/...@master
+#!/bin/bash
+
+# Update and upgrade packages
+pkg update && pkg upgrade
+
+# Install dependencies
+pkg install git golang -y
+
+# Set up Go environment
+mkdir -p $HOME/go/bin
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
+
+# Make the Go environment variables permanent
+echo 'export GOPATH=$HOME/go' >> ~/.profile
+echo 'export PATH=$PATH:$GOPATH/bin' >> ~/.profile
+source ~/.profile
+
+# Install Amass
+go install -v github.com/OWASP/Amass/v3/...@latest
+
+# Verify the installation
+amass -version
+
