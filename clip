@@ -1,1 +1,4 @@
-export PS1='\[\033[0;32m\][\A \am/pm]\[\033[0m\]\n\[\033[0;30m\]\w\[\033[0m\]\n\[\033[0;32m\]\u\[\033[0m\]⚙️ '
+#<f> history with time stamps
+# Enable timestamp logging in the Bash history
+HISTTIMEFORMAT='%F %T '
+#</f> history with time stamps
