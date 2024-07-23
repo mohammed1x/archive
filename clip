@@ -1,0 +1,4 @@
+#<f> history with time stamps
+# Enable timestamp logging in the Bash history
+HISTTIMEFORMAT='%F %T '
+#</f> history with time stamps
