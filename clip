@@ -1,1 +1,1 @@
-https://www.youtube.com/watch?v=5Lsbdzxeftk&list=PLWm9lQvJ8kywCB6G095Z7xwHrbhswUH1H&index=25
+export PS1='\[\033[0;32m\][\A \am/pm]\[\033[0m\]\n\[\033[0;30m\]\w\[\033[0m\]\n\[\033[0;32m\]\u\[\033[0m\]⚙️ '
