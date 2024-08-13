@@ -1,0 +1,3204 @@
+The Web Application 
+Hacker's Handbook 
+
+Second Edition 
+
+Finding and Exploiting Security Flaws 
+
+Dafydd Stuttard 
+Marcus Pinto 
+
+
+
+
+WILEY 
+
+Wiley Publishing, Inc. 
+
+
+
+The Web Application Hacker's Handbook: Finding and Exploiting Security Flaws, Second Edition 
+
+Published by 
+John Wiley & Sons, Inc. 
+10475 Crosspoint Boulevard 
+Indianapolis, IN 46256 
+www. wi ley . com 
+
+Copyright © 2011 by Daf ydd Stuttard and Marcus Pinto 
+Published by John Wiley & Sons, Inc., Indianapolis, Indiana 
+
+Published simultaneously in Canada 
+
+ISBN: 978-1-118-02647-2 
+ISBN: 978-1-118-17522-4 (ebk) 
+ISBN: 978-1-118-17524-8 (ebk) 
+ISBN: 978-1-118-17523-1 (ebk) 
+
+Manufactured in the United States of America 
+
+10 987654321 
+
+No part of this publication may be reproduced, stored in a retrieval system or transmitted in any form or 
+by any means, electronic, mechanical, photocopying, recording, scanning or otherwise, except as permitted 
+under Sections 107 or 108 of the 1976 United States Copyright Act, without either the prior written permis- 
+sion of the Publisher, or authorization through payment of the appropriate per-copy fee to the Copyright 
+Clearance Center, 222 Rosewood Drive, Danvers, MA 01923, (978) 750-8400, fax (978) 646-8600. Requests to the 
+Publisher for permission should be addressed to the Permissions Department, John Wiley & Sons, Inc., Ill 
+River Street, Hoboken, NJ 07030, (201) 748-6011, fax (201) 748-6008, or online at http : / / www . wiley . 
+com/go /permissions. 
+
+Limit of Liability/Disclaimer of Warranty: The publisher and the author make no representations or war- 
+ranties with respect to the accuracy or completeness of the contents of this work and specifically disclaim all 
+warranties, including without limitation warranties of fitness for a particular purpose. No warranty may be 
+created or extended by sales or promotional materials. The advice and strategies contained herein may not 
+be suitable for every situation. This work is sold with the understanding that the publisher is not engaged in 
+rendering legal, accounting, or other professional services. If professional assistance is required, the services 
+of a competent professional person should be sought. Neither the publisher nor the author shall be liable for 
+damages arising herefrom. The fact that an organization or Web site is referred to in this work as a citation 
+and/or a potential source of further information does not mean that the author or the publisher endorses 
+the information the organization or website may provide or recommendations it may make. Further, readers 
+should be aware that Internet websites listed in this work may have changed or disappeared between when 
+this work was written and when it is read. 
+
+For general information on our other products and services please contact our Customer Care Department 
+within the United States at (877) 762-2974, outside the United States at (317) 572-3993 or fax (317) 572-4002. 
+
+Wiley also publishes its books in a variety of electronic formats and by print-on-demand. Not all content 
+that is available in standard print versions of this book may appear or be packaged in all book formats. If 
+you have purchased a version of this book that did not include media that is referenced by or accompanies 
+a standard print version, you may request this media by visiting http : / /booksupport . wiley . 
+com. For more information about Wiley products, visit us at www . wiley . com. 
+
+Library of Congress Control Number: 2011934639 
+
+Trademarks: Wiley and the Wiley logo are trademarks or registered trademarks of John Wiley & Sons, Inc. 
+and/or its affiliates, in the United States and other countries, and may not be used without written permission. 
+All other trademarks are the property of their respective owners. John Wiley & Sons, Inc. is not associated 
+with any product or vendor mentioned in this book. 
+
+
+
+About the Authors 
+
+
+
+Dafydd Stuttard is an independent security consultant, author, and software 
+developer. With more than 10 years of experience in security consulting, he 
+specializes in the penetration testing of web applications and compiled soft- 
+ware. Dafydd has worked with numerous banks, retailers, and other enterprises 
+to help secure their web applications. He also has provided security consulting to 
+several software manufacturers and governments to help secure their compiled 
+software. Dafydd is an accomplished programmer in several languages. His 
+interests include developing tools to facilitate all kinds of software security 
+testing. Under the alias "PortSwigger," Dafydd created the popular Burp Suite 
+of web application hacking tools; he continues to work actively on Burp's devel- 
+opment. Dafydd is also cofounder of MDSec, a company providing training and 
+consultancy on Internet security attack and defense. Dafydd has developed and 
+presented training courses at various security conferences around the world, 
+and he regularly delivers training to companies and governments. He holds 
+master's and doctorate degrees in philosophy from the University of Oxford. 
+
+Marcus Pinto is cofounder of MDSec, developing and delivering training 
+courses in web application security. He also performs ongoing security con- 
+sultancy for financial, government, telecom, and retail verticals. His 11 years 
+of experience in the industry have been dominated by the technical aspects of 
+application security, from the dual perspectives of a consulting and end-user 
+implementation role. Marcus has a background in attack-based security assess- 
+ment and penetration testing. He has worked extensively with large-scale web 
+application deployments in the financial services industry. Marcus has been 
+developing and presenting database and web application training courses since 
+2005 at Black Hat and other worldwide security conferences, and for private- 
+sector and government clients. He holds a master's degree in physics from the 
+University of Cambridge. 
+
+
+
+About the Technical Editor 
+
+
+
+Dr. Josh Pauli received his Ph.D. in Software Engineering from North Dakota 
+State University (NDSU) with an emphasis in secure requirements engineering 
+and now serves as an Associate Professor of Information Security at Dakota 
+State University (DSU). Dr. Pauli has published nearly 20 international jour- 
+nal and conference papers related to software security and his work includes 
+invited presentations from the Department of Homeland Security and Black 
+Hat Briefings. He teaches both undergraduate and graduate courses in system 
+software security and web software security at DSU. Dr. Pauli also conducts web 
+application penetration tests as a Senior Penetration Tester for an Information 
+Security consulting firm where his duties include developing hands-on techni- 
+cal workshops in the area of web software security for IT professionals in the 
+financial sector. 
+
+
+
+iv 
+
+
+
+MDSec: The Authors' Company 
+
+
+
+Dafydd and Marcus are cofounders of MDSec, a company that provides training 
+in attack and defense-based security, along with other consultancy services. If 
+while reading this book you would like to put the concepts into practice, and 
+gain hands-on experience in the areas covered, you are encouraged to visit our 
+website, http : / /mdsec . net. This will give you access to hundreds of interactive 
+vulnerability labs and other resources that are referenced throughout the book. 
+
+
+
+Credits 
+
+
+
+Executive Editor 
+
+Carol Long 
+
+Senior Project Editor 
+
+Adaobi Obi Tulton 
+
+Technical Editor 
+
+Josh Pauli 
+
+Production Editor 
+
+Kathleen Wisor 
+
+Copy Editor 
+
+Gayle Johnson 
+
+Editorial Manager 
+
+Mary Beth Wakefield 
+
+Freelancer Editorial Manager 
+
+Rosemarie Graham 
+
+Associate Director of 
+Marketing 
+
+David Mayhew 
+
+Marketing Manager 
+
+Ashley Zurcher 
+
+Business Manager 
+
+Amy Knies 
+
+Production Manager 
+
+Tim Tate 
+
+Vice President and Executive 
+Group Publisher 
+
+Richard Swadley 
+
+
+
+Vice President and Executive 
+Publisher 
+
+Neil Edde 
+
+Associate Publisher 
+
+Jim Minatel 
+
+Project Coordinator, Cover 
+
+Katie Crocker 
+
+Proofreaders 
+
+Sarah Kaikini, Word One 
+Sheilah Ledwidge, Word One 
+
+Indexer 
+
+Robert Swanson 
+
+Cover Designer 
+
+Ryan Sneed 
+
+Cover Image 
+
+Wiley InHouse Design 
+
+Vertical Websites Project Manager 
+
+Laura Moss-Hollister 
+
+Vertical Websites Assistant Project 
+Manager 
+
+Jenny Swisher 
+
+Vertical Websites Associate 
+Producers 
+
+Josh Frank 
+Shawn Patrick 
+Doug Kuhn 
+Marilyn Hummel 
+
+
+
+Acknowledgments 
+
+
+
+We are indebted to the directors and others at Next Generation Security Software, 
+who provided the right environment for us to realize the first edition of this 
+book. Since then, our input has come from an increasingly wider community 
+of researchers and professionals who have shared their ideas and contributed 
+to the collective understanding of web application security issues that exists 
+today. Because this is a practical handbook rather than a work of scholarship, 
+we have deliberately avoided filling it with a thousand citations of influential 
+articles, books, and blog postings that spawned the ideas involved. We hope 
+that people whose work we discuss anonymously are content with the general 
+credit given here. 
+
+We are grateful to the people at Wiley — in particular, to Carol Long for 
+enthusiastically supporting our project from the outset, to Adaobi Obi Tulton 
+for helping polish our manuscript and coaching us in the quirks of "American 
+English," to Gayle Johnson for her very helpful and attentive copy editing, and 
+to Katie Wisor's team for delivering a first-rate production. 
+
+A large measure of thanks is due to our respective partners, Becky and Amanda, 
+for tolerating the significant distraction and time involved in producing a book 
+of this size. 
+
+Both authors are indebted to the people who led us into our unusual line 
+of work. Dafydd would like to thank Martin Law. Martin is a great guy who 
+first taught me how to hack and encouraged me to spend my time developing 
+techniques and tools for attacking applications. Marcus would like to thank his 
+parents for everything they have done and continue to do, including getting me 
+into computers. I've been getting into computers ever since. 
+
+
+
+Contents at a Glance 
+
+
+
+Introduction xxiii 
+
+Chapter 1 Web Application (In)security 1 
+
+Chapter 2 Core Defense Mechanisms 17 
+
+Chapter 3 Web Application Technologies 39 
+
+Chapter 4 Mapping the Application 73 
+
+Chapter 5 Bypassing Client-Side Controls 117 
+
+Chapter 6 Attacking Authentication 159 
+
+Chapter 7 Attacking Session Management 205 
+
+Chapter 8 Attacking Access Controls 257 
+
+Chapter 9 Attacking Data Stores 287 
+
+Chapter 10 Attacking Back-End Components 357 
+
+Chapter 11 Attacking Application Logic 405 
+
+Chapter 12 Attacking Users: Cross-Site Scripting 431 
+
+Chapter 13 Attacking Users: Other Techniques 501 
+
+Chapter 14 Automating Customized Attacks 571 
+
+Chapter 15 Exploiting Information Disclosure 615 
+
+Chapter 16 Attacking Native Compiled Applications 633 
+
+Chapter 17 Attacking Application Architecture 647 
+
+Chapter 18 Attacking the Application Server 669 
+
+Chapter 19 Finding Vulnerabilities in Source Code 701 
+
+Chapter 20 A Web Application Hacker's Toolkit 747 
+
+Chapter 21 A Web Application Hacker's Methodology 791 
+
+Index 853 
+
+
+
+viii 
+
+
+
+Contents 
+
+
+
+Introduction 
+
+
+xxiii 
+
+
+Chapter 1 
+
+
+Web Application (In)security 
+
+
+1 
+
+
+
+
+The Evolution of Web Applications 
+
+
+2 
+
+
+
+
+Common Web Application Functions 
+
+
+4 
+
+
+
+
+Benefits of Web Applications 
+
+
+5 
+
+
+
+
+Web Application Security 
+
+
+6 
+
+
+
+
+"This Site Is Secure" 
+
+
+7 
+
+
+
+
+The Core Security Problem: Users Can Submit 
+
+
+
+
+
+
+Arbitrary Input 
+
+
+9 
+
+
+
+
+Key Problem Factors 
+
+
+10 
+
+
+
+
+The New Security Perimeter 
+
+
+12 
+
+
+
+
+The Future of Web Application Security 
+
+
+14 
+
+
+
+
+Summary 
+
+
+15 
+
+
+Chapter 2 
+
+
+Core Defense Mechanisms 
+
+
+17 
+
+
+
+
+Handling User Access 
+
+
+18 
+
+
+
+
+Authentication 
+
+
+18 
+
+
+
+
+Session Management 
+
+
+19 
+
+
+
+
+Access Control 
+
+
+20 
+
+
+
+
+Handling User Input 
+
+
+21 
+
+
+
+
+Varieties of Input 
+
+
+21 
+
+
+
+
+Approaches to Input Handling 
+
+
+23 
+
+
+
+
+Boundary Validation 
+
+
+25 
+
+
+
+
+Multistep Validation and Canonicalization 
+
+
+28 
+
+
+
+
+Handling Attackers 
+
+
+30 
+
+
+
+
+Handling Errors 
+
+
+30 
+
+
+
+
+Maintaining Audit Logs 
+
+
+31 
+
+
+
+
+Alerting Administrators 
+
+
+33 
+
+
+
+
+Reacting to Attacks 
+
+
+34 
+
+
+
+x Contents 
+
+
+
+Managing the Application 35 
+
+Summary 36 
+
+Questions 36 
+
+Chapter 3 Web Application Technologies 39 
+
+The HTTP Protocol 39 
+
+HTTP Requests 40 
+
+HTTP Responses 41 
+
+HTTP Methods 42 
+
+URLs 44 
+
+REST 44 
+
+HTTP Headers 45 
+
+Cookies 47 
+
+Status Codes 48 
+
+HTTPS 49 
+
+HTTP Proxies 49 
+
+HTTP Authentication 50 
+
+Web Functionality 51 
+
+Server-Side Functionality 51 
+
+Client-Side Functionality 57 
+
+State and Sessions 66 
+
+Encoding Schemes 66 
+
+URL Encoding 67 
+
+Unicode Encoding 67 
+
+HTML Encoding 68 
+
+Base64 Encoding 69 
+
+Hex Encoding 69 
+Remoting and Serialization 
+
+Frameworks 70 
+
+Next Steps 70 
+
+Questions 71 
+
+Chapter 4 Mapping the Application 73 
+
+Enumerating Content and Functionality 74 
+
+Web Spidering 74 
+
+User-Directed Spidering 77 
+
+Discovering Hidden Content 80 
+Application Pages Versus 
+
+Functional Paths 93 
+
+Discovering Hidden Parameters 96 
+
+Analyzing the Application 97 
+
+Identifying Entry Points for User Input 98 
+
+Identifying Server-Side Technologies 101 
+
+Identifying Server-Side Functionality 107 
+
+Mapping the Attack Surface 111 
+
+Summary 114 
+
+Questions 114 
+
+
+
+Contents xi 
+
+
+
+Chapter 5 Bypassing Client-Side Controls 117 
+
+Transmitting Data Via the Client 118 
+
+Hidden Form Fields 118 
+
+HTTP Cookies 121 
+
+URL Parameters 121 
+
+The Referer Header 122 
+
+Opaque Data 123 
+
+The ASP.NET ViewState 124 
+
+Capturing User Data: HTML Forms 127 
+
+Length Limits 128 
+
+Script-Based Validation 129 
+
+Disabled Elements 131 
+
+Capturing User Data: Browser Extensions 133 
+
+Common Browser Extension Technologies 134 
+
+Approaches to Browser Extensions 135 
+
+Intercepting Traffic from Browser Extensions 135 
+
+Decompiling Browser Extensions 139 
+
+Attaching a Debugger 151 
+
+Native Client Components 153 
+
+Handling Client-Side Data Securely 154 
+
+Transmitting Data Via the Client 154 
+
+Validating Client-Generated Data 155 
+
+Logging and Alerting 156 
+
+Summary 156 
+
+Questions 157 
+
+Chapter 6 Attacking Authentication 159 
+
+Authentication Technologies 160 
+
+Design Flaws in Authentication 
+
+Mechanisms 161 
+
+Bad Passwords 161 
+
+Brute-Forcible Login 162 
+
+Verbose Failure Messages 166 
+
+Vulnerable Transmission of Credentials 169 
+
+Password Change Functionality 171 
+
+Forgotten Password Functionality 173 
+
+"Remember Me" Functionality 176 
+
+User Impersonation Functionality 178 
+
+Incomplete Validation of Credentials 180 
+
+Nonunique Usernames 181 
+
+Predictable Usernames 182 
+
+Predictable Initial Passwords 183 
+
+Insecure Distribution of Credentials 184 
+
+Implementation Flaws in Authentication 185 
+
+Fail-Open Login Mechanisms 185 
+
+Defects in Multistage Login Mechanisms 186 
+
+Insecure Storage of Credentials 190 
+
+
+
+xii Contents 
+
+
+
+Securing Authentication 191 
+
+Use Strong Credentials 192 
+
+Handle Credentials Secretively 192 
+
+Validate Credentials Properly 193 
+
+Prevent Information Leakage 195 
+
+Prevent Brute-Force Attacks 196 
+
+Prevent Misuse of the Password Change Function 199 
+
+Prevent Misuse of the Account Recovery Function 199 
+
+Log, Monitor, and Notify 201 
+
+Summary 201 
+
+Questions 202 
+
+Chapter 7 Attacking Session Management 205 
+
+The Need for State 206 
+
+Alternatives to Sessions 208 
+
+Weaknesses in Token Generation 210 
+
+Meaningful Tokens 210 
+
+Predictable Tokens 213 
+
+Encrypted Tokens 223 
+
+Weaknesses in Session Token Handling 233 
+
+Disclosure of Tokens on the Network 234 
+
+Disclosure of Tokens in Logs 237 
+
+Vulnerable Mapping of Tokens to Sessions 240 
+
+Vulnerable Session Termination 241 
+
+Client Exposure to Token Hijacking 243 
+
+Liberal Cookie Scope 244 
+
+Securing Session Management 248 
+
+Generate Strong Tokens 248 
+
+Protect Tokens Throughout Their Life Cycle 250 
+
+Log, Monitor, and Alert 253 
+
+Summary 254 
+
+Questions 255 
+
+Chapter 8 Attacking Access Controls 257 
+
+Common Vulnerabilities 258 
+
+Completely Unprotected Functionality 259 
+
+Identifier-Based Functions 261 
+
+Multistage Functions 262 
+
+Static Files 263 
+
+Platform Misconfiguration 264 
+
+Insecure Access Control Methods 265 
+
+Attacking Access Controls 266 
+
+Testing with Different User Accounts 267 
+
+Testing Multistage Processes 271 
+
+Testing with Limited Access 273 
+
+Testing Direct Access to Methods 276 
+
+Testing Controls Over Static Resources 277 
+
+
+
+Contents xiii 
+
+
+
+Testing Restrictions on HTTP Methods 278 
+
+Securing Access Controls 278 
+
+A Multilayered Privilege Model 280 
+
+Summary 284 
+
+Questions 284 
+
+Chapter 9 Attacking Data Stores 287 
+
+Injecting into Interpreted Contexts 288 
+
+Bypassing a Login 288 
+
+Injecting into SQL 291 
+
+Exploiting a Basic Vulnerability 292 
+
+Injecting into Different Statement Types 294 
+
+Finding SQL Injection Bugs 298 
+
+Fingerprinting the Database 303 
+
+The UNION Operator 304 
+
+Extracting Useful Data 308 
+
+Extracting Data with UNION 308 
+
+Bypassing Filters 311 
+
+Second-Order SQL Injection 313 
+
+Advanced Exploitation 314 
+Beyond SQL Injection: Escalating the 
+
+Database Attack 325 
+
+Using SQL Exploitation Tools 328 
+
+SQL Syntax and Error Reference 332 
+
+Preventing SQL Injection 338 
+
+Injecting into NoSQL 342 
+
+Injecting into MongoDB 343 
+
+Injecting into XPath 344 
+
+Subverting Application Logic 345 
+
+Informed XPath Injection 346 
+
+Blind XPath Injection 347 
+
+Finding XPath Injection Flaws 348 
+
+Preventing XPath Injection 349 
+
+Injecting into LDAP 349 
+
+Exploiting LDAP Injection 351 
+
+Finding LDAP Injection Flaws 353 
+
+Preventing LDAP Injection 354 
+
+Summary 354 
+
+Questions 354 
+
+Chapter 10 Attacking Back-End Components 357 
+
+Injecting OS Commands 358 
+
+Example 1: Injecting Via Perl 358 
+
+Example 2: Injecting Via ASP 360 
+
+Injecting Through Dynamic Execution 362 
+
+Finding OS Command Injection Flaws 363 
+
+Finding Dynamic Execution Vulnerabilities 366 
+
+
+
+xiv Contents 
+
+
+
+Preventing OS Command Injection 367 
+
+Preventing Script Injection Vulnerabilities 368 
+
+Manipulating File Paths 368 
+
+Path Traversal Vulnerabilities 368 
+
+File Inclusion Vulnerabilities 381 
+
+Injecting into XML Interpreters 383 
+
+Injecting XML External Entities 384 
+
+Injecting into SOAP Services 386 
+
+Finding and Exploiting SOAP Injection 389 
+
+Preventing SOAP Injection 390 
+
+Injecting into Back-end HTTP Requests 390 
+
+Server-side HTTP Redirection 390 
+
+HTTP Parameter Injection 393 
+
+Injecting into Mail Services 397 
+
+E-mail Header Manipulation 398 
+
+SMTP Command Injection 399 
+
+Finding SMTP Injection Flaws 400 
+
+Preventing SMTP Injection 402 
+
+Summary 402 
+
+Questions 403 
+
+Chapter 11 Attacking Application Logic 405 
+
+The Nature of Logic Flaws 406 
+
+Real-World Logic Flaws 406 
+
+Example 1: Asking the Oracle 407 
+
+Example 2: Fooling a Password Change Function 409 
+
+Example 3: Proceeding to Checkout 410 
+
+Example 4: Rolling Your Own Insurance 412 
+
+Example 5: Breaking the Bank 414 
+
+Example 6: Beating a Business Limit 416 
+
+Example 7: Cheating on Bulk Discounts 418 
+
+Example 8: Escaping from Escaping 419 
+
+Example 9: Invalidating Input Validation 420 
+
+Example 10: Abusing a Search Function 422 
+
+Example 11: Snarfing Debug Messages 424 
+
+Example 12: Racing Against the Login 426 
+
+Avoiding Logic Flaws 428 
+
+Summary 429 
+
+Questions 430 
+
+Chapter 12 Attacking Users: Cross-Site Scripting 431 
+
+Varieties of XSS 433 
+
+Reflected XSS Vulnerabilities 434 
+
+Stored XSS Vulnerabilities 438 
+
+DOM-Based XSS Vulnerabilities 440 
+
+XSS Attacks in Action 442 
+
+Real-World XSS Attacks 442 
+
+
+
+Contents xv 
+
+
+
+Payloads for XSS Attacks 443 
+
+Delivery Mechanisms for XSS Attacks 447 
+
+Finding and Exploiting XSS Vulnerabilities 451 
+
+Finding and Exploiting Reflected XSS Vulnerabilities 452 
+
+Finding and Exploiting Stored XSS Vulnerabilities 481 
+
+Finding and Exploiting DOM-Based XSS Vulnerabilities 487 
+
+Preventing XSS Attacks 492 
+
+Preventing Reflected and Stored XSS 492 
+
+Preventing DOM-Based XSS 496 
+
+Summary 498 
+
+Questions 498 
+
+Chapter 13 Attacking Users: Other Techniques 501 
+
+Inducing User Actions 501 
+
+Request Forgery 502 
+
+UI Redress 511 
+
+Capturing Data Cross-Domain 515 
+
+Capturing Data by Injecting HTML 516 
+
+Capturing Data by Injecting CSS 517 
+
+JavaScript Hijacking 519 
+
+The Same-Origin Policy Revisited 524 
+
+The Same-Origin Policy and Browser Extensions 525 
+
+The Same-Origin Policy and HTML5 528 
+
+Crossing Domains with Proxy Service Applications 529 
+
+Other Client-Side Injection Attacks 531 
+
+HTTP Header Injection 531 
+
+Cookie Injection 536 
+
+Open Redirection Vulnerabilities 540 
+
+Client-Side SQL Injection 547 
+
+Client-Side HTTP Parameter Pollution 548 
+
+Local Privacy Attacks 550 
+
+Persistent Cookies 550 
+
+Cached Web Content 551 
+
+Browsing History 552 
+
+Autocomplete 552 
+
+Flash Local Shared Objects 553 
+
+Silverlight Isolated Storage 553 
+
+Internet Explorer userData 554 
+
+HTML5 Local Storage Mechanisms 554 
+
+Preventing Local Privacy Attacks 554 
+
+Attacking ActiveX Controls 555 
+
+Finding ActiveX Vulnerabilities 556 
+
+Preventing ActiveX Vulnerabilities 558 
+
+Attacking the Browser 559 
+
+Logging Keystrokes 560 
+
+Stealing Browser History and Search Queries 560 
+
+
+
+xvi Contents 
+
+
+
+Enumerating Currently Used Applications 560 
+
+Port Scanning 561 
+
+Attacking Other Network Hosts 561 
+
+Exploiting Non-HTTP Services 562 
+
+Exploiting Browser Bugs 563 
+
+DNS Rebinding 563 
+
+Browser Exploitation Frameworks 564 
+
+Man-in-the-Middle Attacks 566 
+
+Summary 568 
+
+Questions 568 
+
+Chapter 14 Automating Customized Attacks 571 
+
+Uses for Customized Automation 572 
+
+Enumerating Valid Identifiers 573 
+
+The Basic Approach 574 
+
+Detecting Hits 574 
+
+Scripting the Attack 576 
+
+JAttack 577 
+
+Harvesting Useful Data 583 
+
+Fuzzing for Common Vulnerabilities 586 
+
+Putting It All Together: Burp Intruder 590 
+
+Barriers to Automation 602 
+
+Session-Handling Mechanisms 602 
+
+CAPTCHA Controls 610 
+
+Summary 613 
+
+Questions 613 
+
+Chapter 15 Exploiting Information Disclosure 615 
+
+Exploiting Error Messages 615 
+
+Script Error Messages 616 
+
+Stack Traces 617 
+
+Informative Debug Messages 618 
+
+Server and Database Messages 619 
+
+Using Public Information 623 
+
+Engineering Informative Error Messages 624 
+
+Gathering Published Information 625 
+
+Using Inference 626 
+
+Preventing Information Leakage 627 
+
+Use Generic Error Messages 628 
+
+Protect Sensitive Information 628 
+
+Minimize Client-Side Information Leakage 629 
+
+Summary 629 
+
+Questions 630 
+
+Chapter 16 Attacking Native Compiled Applications 633 
+
+Buffer Overflow Vulnerabilities 634 
+
+Stack Overflows 634 
+
+Heap Overflows 635 
+
+
+
+Contents xvii 
+
+
+
+"Off-by-One" Vulnerabilities 636 
+
+Detecting Buffer Overflow Vulnerabilities 639 
+
+Integer Vulnerabilities 640 
+
+Integer Overflows 640 
+
+Signedness Errors 641 
+
+Detecting Integer Vulnerabilities 642 
+
+Format String Vulnerabilities 643 
+
+Detecting Format String Vulnerabilities 644 
+
+Summary 645 
+
+Questions 645 
+
+Chapter 17 Attacking Application Architecture 647 
+
+Tiered Architectures 647 
+
+Attacking Tiered Architectures 648 
+
+Securing Tiered Architectures 654 
+
+Shared Hosting and Application Service Providers 656 
+
+Virtual Hosting 657 
+
+Shared Application Services 657 
+
+Attacking Shared Environments 658 
+
+Securing Shared Environments 665 
+
+Summary 667 
+
+Questions 667 
+
+Chapter 18 Attacking the Application Server 669 
+
+Vulnerable Server Configuration 670 
+
+Default Credentials 670 
+
+Default Content 671 
+
+Directory Listings 677 
+
+WebDAV Methods 679 
+
+The Application Server as a Proxy 682 
+
+Misconfigured Virtual Hosting 683 
+
+Securing Web Server Configuration 684 
+
+Vulnerable Server Software 684 
+
+Application Framework Flaws 685 
+
+Memory Management Vulnerabilities 687 
+
+Encoding and Canonicalization 689 
+
+Finding Web Server Flaws 694 
+
+Securing Web Server Software 695 
+
+Web Application Firewalls 697 
+
+Summary 699 
+
+Questions 699 
+
+Chapter 19 Finding Vulnerabilities in Source Code 701 
+
+Approaches to Code Review 702 
+
+Black-Box Versus White-Box Testing 702 
+
+Code Review Methodology 703 
+
+Signatures of Common Vulnerabilities 704 
+
+Cross-Site Scripting 704 
+
+
+
+xviii Contents 
+
+
+
+SQL Injection 705 
+
+Path Traversal 706 
+
+Arbitrary Redirection 707 
+
+OS Command Injection 708 
+
+Backdoor Passwords 708 
+
+Native Software Bugs 709 
+
+Source Code Comments 710 
+
+The Java Platform 711 
+
+Identifying User-Supplied Data 711 
+
+Session Interaction 712 
+
+Potentially Dangerous APIs 713 
+
+Configuring the Java Environment 716 
+
+ASP.NET 718 
+
+Identifying User-Supplied Data 718 
+
+Session Interaction 719 
+
+Potentially Dangerous APIs 720 
+
+Configuring the ASP.NET Environment 723 
+
+PHP 724 
+
+Identifying User-Supplied Data 724 
+
+Session Interaction 727 
+
+Potentially Dangerous APIs 727 
+
+Configuring the PHP Environment 732 
+
+Perl 735 
+
+Identifying User-Supplied Data 735 
+
+Session Interaction 736 
+
+Potentially Dangerous APIs 736 
+
+Configuring the Perl Environment 739 
+
+JavaScript 740 
+
+Database Code Components 741 
+
+SQL Injection 741 
+
+Calls to Dangerous Functions 742 
+
+Tools for Code Browsing 743 
+
+Summary 744 
+
+Questions 744 
+
+Chapter 20 A Web Application Hacker's Toolkit 747 
+
+Web Browsers 748 
+
+Internet Explorer 748 
+
+Firefox 749 
+
+Chrome 750 
+
+Integrated Testing Suites 751 
+
+How the Tools Work 751 
+
+Testing Work Flow 769 
+
+Alternatives to the Intercepting Proxy 771 
+
+Standalone Vulnerability Scanners 773 
+
+Vulnerabilities Detected by Scanners 774 
+
+Inherent Limitations of Scanners 776 
+
+
+
+Contents xix 
+
+
+
+Technical Challenges Faced by Scanners 778 
+
+Current Products 781 
+
+Using a Vulnerability Scanner 783 
+
+Other Tools 785 
+
+Wikto/Nikto 785 
+
+Firebug 785 
+
+Hydra 785 
+
+Custom Scripts 786 
+
+Summary 789 
+
+Chapter 21 A Web Application Hacker's Methodology 791 
+
+General Guidelines 793 
+
+1 Map the Application's Content 795 
+
+1.1 Explore Visible Content 795 
+
+1.2 Consult Public Resources 796 
+
+1.3 Discover Hidden Content 796 
+
+1.4 Discover Default Content 797 
+
+1.5 Enumerate Identifier-Specified Functions 797 
+
+1.6 Test for Debug Parameters 798 
+
+2 Analyze the Application 798 
+
+2.1 Identify Functionality 798 
+
+2.2 Identify Data Entry Points 799 
+
+2.3 Identify the Technologies Used 799 
+
+2.4 Map the Attack Surface 800 
+
+3 Test Client-Side Controls 800 
+
+3.1 Test Transmission of Data Via the Client 801 
+
+3.2 Test Client- Side Controls Over User Input 801 
+
+3.3 Test Browser Extension Components 802 
+
+4 Test the Authentication Mechanism 805 
+
+4.1 Understand the Mechanism 805 
+
+4.2 Test Password Quality 806 
+
+4.3 Test for Username Enumeration 806 
+
+4.4 Test Resilience to Password Guessing 807 
+
+4.5 Test Any Account Recovery Function 807 
+
+4.6 Test Any Remember Me Function 808 
+
+4.7 Test Any Impersonation Function 808 
+
+4.8 Test Username Uniqueness 809 
+
+4.9 Test Predictability of Autogenerated Credentials 809 
+
+4.10 Check for Unsafe Transmission of Credentials 810 
+
+4.11 Check for Unsafe Distribution of Credentials 810 
+
+4.12 Test for Insecure Storage 811 
+
+4.13 Test for Logic Flaws 811 
+
+4.14 Exploit Any Vulnerabilities to Gain Unauthorized Access 813 
+
+5 Test the Session Management Mechanism 814 
+
+5.1 Understand the Mechanism 814 
+
+5.2 Test Tokens for Meaning 815 
+
+5.3 Test Tokens for Predictability 816 
+
+
+
+xx Contents 
+
+
+
+5.4 Check for Insecure Transmission of Tokens 817 
+
+5.5 Check for Disclosure of Tokens in Logs 817 
+
+5.6 Check Mapping of Tokens to Sessions 818 
+
+5.7 Test Session Termination 818 
+
+5.8 Check for Session Fixation 819 
+
+5.9 Check for CSRF 820 
+
+5.10 Check Cookie Scope 820 
+
+6 Test Access Controls 821 
+
+6.1 Understand the Access Control Requirements 821 
+
+6.2 Test with Multiple Accounts 822 
+
+6.3 Test with Limited Access 822 
+
+6.4 Test for Insecure Access Control Methods 823 
+
+7 Test for Input-Based Vulnerabilities 824 
+
+7.1 Fuzz All Request Parameters 824 
+
+7.2 Test for SQL Injection 827 
+
+7.3 Test for XSS and Other Response Injection 829 
+
+7.4 Test for OS Command Injection 832 
+
+7.5 Test for Path Traversal 833 
+
+7.6 Test for Script Injection 835 
+
+7.7 Test for File Inclusion 835 
+
+8 Test for Function-Specific Input Vulnerabilities 836 
+
+8.1 Test for SMTP Injection 836 
+
+8.2 Test for Native Software Vulnerabilities 837 
+
+8.3 Test for SOAP Injection 839 
+
+8.4 Test for LDAP Injection 839 
+
+8.5 Test for XPath Injection 840 
+
+8.6 Test for Back-End Request Injection 841 
+
+8.7 Test for XXE Injection 841 
+
+9 Test for Logic Flaws 842 
+
+9.1 Identify the Key Attack Surface 842 
+
+9.2 Test Multistage Processes 842 
+
+9.3 Test Handling of Incomplete Input 843 
+
+9.4 Test Trust Boundaries 844 
+
+9.5 Test Transaction Logic 844 
+
+10 Test for Shared Hosting Vulnerabilities 845 
+
+10.1 Test Segregation in Shared Infrastructures 845 
+
+10.2 Test Segregation Between ASP-Hosted Applications 845 
+
+11 Test for Application Server Vulnerabilities 846 
+
+11.1 Test for Default Credentials 846 
+
+11.2 Test for Default Content 847 
+
+11.3 Test for Dangerous HTTP Methods 847 
+
+11.4 Test for Proxy Functionality 847 
+
+11.5 Test for Virtual Hosting Misconfiguration 847 
+
+11.6 Test for Web Server Software Bugs 848 
+
+11.7 Test for Web Application Firewalling 848 
+
+
+
+Contents xxi 
+
+
+
+12 Miscellaneous Checks 849 
+
+12.1 Check for DOM-Based Attacks 849 
+
+12.2 Check for Local Privacy Vulnerabilities 850 
+
+12.3 Check for Weak SSL Ciphers 851 
+
+12.4 Check Same-Origin Policy Configuration 851 
+
+13 Follow Up Any Information Leakage 852 
+
+Index 853 
+
+
+
+Introduction 
+
+
+
+This book is a practical guide to discovering and exploiting security flaws in 
+web applications. By "web applications" we mean those that are accessed using 
+a web browser to communicate with a web server. We examine a wide variety 
+of different technologies, such as databases, file systems, and web services, but 
+only in the context in which these are employed by web applications. 
+
+If you want to learn how to run port scans, attack firewalls, or break into serv- 
+ers in other ways, we suggest you look elsewhere. But if you want to know how 
+to hack into a web application, steal sensitive data, and perform unauthorized 
+actions, this is the book for you. There is enough that is interesting and fun to 
+say on that subject without straying into any other territory. 
+
+Overview of This Book 
+
+
+
+The focus of this book is highly practical. Although we include sufficient back- 
+ground and theory for you to understand the vulnerabilities that web applications 
+contain, our primary concern is the tasks and techniques that you need to master 
+to break into them. Throughout the book, we spell out the specific steps you need 
+to follow to detect each type of vulnerability, and how to exploit it to perform 
+unauthorized actions. We also include a wealth of real-world examples, derived 
+from the authors' many years of experience, illustrating how different kinds of 
+security flaws manifest themselves in today's web applications. 
+
+Security awareness is usually a double-edged sword. Just as application 
+developers can benefit from understanding the methods attackers use, hackers 
+can gain from knowing how applications can effectively defend themselves. 
+In addition to describing security vulnerabilities and attack techniques, we 
+describe in detail the countermeasures that applications can take to thwart an 
+
+
+
+xxiv Introduction 
+
+
+
+attacker. If you perform penetration tests of web applications, this will enable 
+you to provide high-quality remediation advice to the owners of the applica- 
+tions you compromise. 
+
+Who Should Read This Book 
+
+
+
+This book's primary audience is anyone who has a personal or professional 
+interest in attacking web applications. It is also aimed at anyone responsible for 
+developing and administering web applications. Knowing how your enemies 
+operate will help you defend against them. 
+
+We assume that you are familiar with core security concepts such as logins 
+and access controls and that you have a basic grasp of core web technologies 
+such as browsers, web servers, and HTTP. However, any gaps in your current 
+knowledge of these areas will be easy to remedy, through either the explana- 
+tions contained in this book or references elsewhere. 
+
+In the course of illustrating many categories of security flaws, we provide 
+code extracts showing how applications can be vulnerable. These examples are 
+simple enough that you can understand them without any prior knowledge 
+of the language in question. But they are most useful if you have some basic 
+experience with reading or writing code. 
+
+How This Book Is Organized 
+
+
+
+This book is organized roughly in line with the dependencies between the dif- 
+ferent topics covered. If you are new to web application hacking, you should read 
+the book from start to finish, acquiring the knowledge and understanding you 
+need to tackle later chapters. If you already have some experience in this area, 
+you can jump straight into any chapter or subsection that particularly interests you. 
+Where necessary, we have included cross-references to other chapters, which 
+you can use to fill in any gaps in your understanding. 
+
+We begin with three context-setting chapters describing the current state of 
+web application security and the trends that indicate how it is likely to evolve 
+in the near future. We examine the core security problem affecting web appli- 
+cations and the defense mechanisms that applications implement to address 
+this problem. We also provide a primer on the key technologies used in today's 
+web applications. 
+
+The bulk of the book is concerned with our core topic — the techniques 
+you can use to break into web applications. This material is organized around 
+the key tasks you need to perform to carry out a comprehensive attack. These 
+include mapping the application's functionality, scrutinizing and attacking its 
+core defense mechanisms, and probing for specific categories of security flaws. 
+
+
+
+Introduction xxv 
+
+
+
+The book concludes with three chapters that pull together the various strands 
+introduced in the book. We describe the process of finding vulnerabilities in 
+an application's source code, review the tools that can help when you hack web 
+applications, and present a detailed methodology for performing a comprehen- 
+sive and deep attack against a specific target. 
+
+Chapter 1, "Web Application (In)security," describes the current state of secu- 
+rity in web applications on the Internet today. Despite common assurances, the 
+majority of applications are insecure and can be compromised in some way with 
+a modest degree of skill. Vulnerabilities in web applications arise because of a 
+single core problem: users can submit arbitrary input. This chapter examines the 
+key factors that contribute to the weak security posture of today's applications. 
+It also describes how defects in web applications can leave an organization's 
+wider technical infrastructure highly vulnerable to attack. 
+
+Chapter 2, "Core Defense Mechanisms," describes the key security mechanisms 
+that web applications employ to address the fundamental problem that all user 
+input is untrusted. These mechanisms are the means by which an application 
+manages user access, handles user input, and responds to attackers. These 
+mechanisms also include the functions provided for administrators to manage 
+and monitor the application itself. The application's core security mechanisms 
+also represent its primary attack surface, so you need to understand how these 
+mechanisms are intended to function before you can effectively attack them. 
+
+Chapter 3, "Web Application Technologies," is a short primer on the key 
+technologies you are likely to encounter when attacking web applications. It 
+covers all relevant aspects of the HTTP protocol, the technologies commonly 
+used on the client and server sides, and various schemes used to encode data. If 
+you are already familiar with the main web technologies, you can skim through 
+this chapter. 
+
+Chapter 4, "Mapping the Application," describes the first exercise you need 
+to perform when targeting a new application — gathering as much information 
+as possible to map its attack surface and formulate your plan of attack. This 
+process includes exploring and probing the application to catalog all its content 
+and functionality, identifying all the entry points for user input, and discover- 
+ing the technologies in use. 
+
+Chapter 5, "Bypassing Client-Side Controls," covers the first area of actual 
+vulnerability, which arises when an application relies on controls implemented 
+on the client side for its security. This approach normally is flawed, because 
+any client-side controls can, of course, be circumvented. The two main ways 
+in which applications make themselves vulnerable are by transmitting data 
+via the client on the assumption that it will not be modified, and by relying on 
+client-side checks on user input. This chapter describes a range of interesting 
+technologies, including lightweight controls implemented within HTML, HTTP, 
+and JavaScript, and more heavyweight controls using Java applets, ActiveX 
+controls, Silverlight, and Flash objects. 
+
+
+
+xxvi Introduction 
+
+
+
+Chapters 6, 7, and 8 cover some of the most important defense mechanisms 
+implemented within web applications: those responsible for controlling user 
+access. Chapter 6, "Attacking Authentication," examines the various functions by 
+which applications gain assurance of their users' identity. This includes the main 
+login function and also the more peripheral authentication-related functions such 
+as user registration, password changing, and account recovery. Authentication 
+mechanisms contain a wealth of different vulnerabilities, in both design and 
+implementation, which an attacker can leverage to gain unauthorized access. 
+These range from obvious defects, such as bad passwords and susceptibility to 
+brute-force attacks, to more obscure problems within the authentication logic. 
+We also examine in detail the types of multistage login mechanisms used in 
+many security-critical applications and describe the new kinds of vulnerabilities 
+these frequently contain. 
+
+Chapter 7, "Attacking Session Management," examines the mechanism by which 
+most applications supplement the stateless HTTP protocol with the concept of 
+a stateful session, enabling them to uniquely identify each user across several 
+different requests. This mechanism is a key target when you are attacking a 
+web application, because if you can break it, you can effectively bypass the login 
+and masquerade as other users without knowing their credentials. We look at 
+various common defects in the generation and transmission of session tokens 
+and describe the steps you can take to discover and exploit these. 
+
+Chapter 8, "Attacking Access Controls," looks at the ways in which applica- 
+tions actually enforce access controls, relying on authentication and session 
+management mechanisms to do so. We describe various ways in which access 
+controls can be broken and how you can detect and exploit these weaknesses. 
+
+Chapters 9 and 10 cover a large category of related vulnerabilities, which 
+arise when applications embed user input into interpreted code in an unsafe 
+way. Chapter 9, "Attacking Data Stores," begins with a detailed examination of 
+SQL injection vulnerabilities. It covers the full range of attacks, from the most 
+obvious and trivial to advanced exploitation techniques involving out-of-band 
+channels, inference, and time delays. For each kind of vulnerability and attack 
+technique, we describe the relevant differences between three common types 
+of databases: MS-SQL, Oracle, and MySQL. We then look at a range of similar 
+attacks that arise against other data stores, including NoSQL, XPath, and LDAP. 
+
+Chapter 10, "Attacking Back-End Components," describes several other cate- 
+gories of injection vulnerabilities, including the injection of operating system 
+commands, injection into web scripting languages, file path traversal attacks, 
+file inclusion vulnerabilities, injection into XML, SOAP, back-end HTTP requests, 
+and e-mail services. 
+
+Chapter 11, "Attacking Application Logic," examines a significant, and fre- 
+quently overlooked, area of every application's attack surface: the internal logic 
+it employs to implement its functionality. Defects in an application's logic are 
+extremely varied and are harder to characterize than common vulnerabilities 
+
+
+
+Introduction xxvii 
+
+
+
+such as SQL injection and cross-site scripting. For this reason, we present a 
+series of real-world examples in which defective logic has left an application 
+vulnerable. These illustrate the variety of faulty assumptions that application 
+designers and developers make. From these different individual flaws, we derive 
+a series of specific tests that you can perform to locate many types of logic flaws 
+that often go undetected. 
+
+Chapters 12 and 13 cover a large and very topical area of related vulnerabili- 
+ties that arise when defects within a web application can enable a malicious 
+user of the application to attack other users and compromise them in vari- 
+ous ways. Chapter 12, "Attacking Users: Cross-Site Scripting,", examines the 
+most prominent vulnerability of this kind — a hugely prevalent flaw affecting 
+the vast majority of web applications on the Internet. We examine in detail all the 
+different flavors of XSS vulnerabilities and describe an effective methodology 
+for detecting and exploiting even the most obscure manifestations of these. 
+
+Chapter 13, "Attacking Users: Other Techniques," looks at several other types 
+of attacks against other users, including inducing user actions through request 
+forgery and UI redress, capturing data cross-domain using various client-side 
+technologies, various attacks against the same-origin policy, HTTP header 
+injection, cookie injection and session fixation, open redirection, client-side SQL 
+injection, local privacy attacks, and exploiting bugs in ActiveX controls. The 
+chapter concludes with a discussion of a range of attacks against users that do 
+not depend on vulnerabilities in any particular web application, but that can be 
+delivered via any malicious web site or suitably positioned attacker. 
+
+Chapter 14, "Automating Customized Attacks," does not introduce any new 
+categories of vulnerabilities. Instead, it describes a crucial technique you need 
+to master to attack web applications effectively. Because every web application 
+is different, most attacks are customized in some way, tailored to the applica- 
+tion's specific behavior and the ways you have discovered to manipulate it to 
+your advantage. They also frequently require issuing a large number of similar 
+requests and monitoring the application's responses. Performing these requests 
+manually is extremely laborious and prone to mistakes. To become a truly 
+accomplished web application hacker, you need to automate as much of this 
+work as possible to make your customized attacks easier, faster, and more effec- 
+tive. This chapter describes in detail a proven methodology for achieving this. 
+We also examine various common barriers to the use of automation, including 
+defensive session-handling mechanisms and CAPTCHA controls. Furthermore, 
+we describe tools and techniques you can use to overcome these barriers. 
+
+Chapter 15, "Exploiting Information Disclosure," examines various ways in 
+which applications leak information when under active attack. When you are 
+performing all the other types of attacks described in this book, you should 
+always monitor the application to identify further sources of information dis- 
+closure that you can exploit. We describe how you can investigate anomalous 
+behavior and error messages to gain a deeper understanding of the application's 
+
+
+
+xxviii Introduction 
+
+
+
+internal workings and fine-tune your attack. We also cover ways to manipulate 
+defective error handling to systematically retrieve sensitive information from 
+the application. 
+
+Chapter 16, "Attacking Native Compiled Applications," looks at a set of impor- 
+tant vulnerabilities that arise in applications written in native code languages 
+such as C and C++. These vulnerabilities include buffer overflows, integer vul- 
+nerabilities, and format string flaws. Because this is a potentially huge topic, 
+we focus on ways to detect these vulnerabilities in web applications and look 
+at some real-world examples of how these have arisen and been exploited. 
+
+Chapter 17, "Attacking Application Architecture," examines an important area 
+of web application security that is frequently overlooked. Many applications 
+employ a tiered architecture. Failing to segregate different tiers properly often 
+leaves an application vulnerable, enabling an attacker who has found a defect 
+in one component to quickly compromise the entire application. A different 
+range of threats arises in shared hosting environments, where defects or mali- 
+cious code in one application can sometimes be exploited to compromise the 
+environment itself and other applications running within it. This chapter also 
+looks at the range of threats that arise in the kinds of shared hosting environ- 
+ments that have become known as "cloud computing." 
+
+Chapter 18, "Attacking the Application Server," describes various ways in 
+which you can target a web application by targeting the web server on which 
+it is running. Vulnerabilities in web servers are broadly composed of defects in 
+their configuration and security flaws within the web server software. This topic 
+is on the boundary of the subjects covered in this book, because the web server 
+is strictly a different component in the technology stack. However, most web 
+applications are intimately bound up with the web server on which they run. 
+Therefore, attacks against the web server are included in the book because they 
+can often be used to compromise an application directly, rather than indirectly 
+by first compromising the underlying host. 
+
+Chapter 19, "Finding Vulnerabilities in Source Code," describes a completely 
+different approach to finding security flaws than those described elsewhere 
+within this book. In many situations it may be possible to review an applica- 
+tion's source code, not all of which requires cooperation from the application's 
+owner. Reviewing an application's source code can often be highly effective in 
+discovering vulnerabilities that would be difficult or time-consuming to detect 
+by probing the running application. We describe a methodology, and provide 
+a language-by-language cheat sheet, to enable you to perform an effective code 
+review even if you have limited programming experience. 
+
+Chapter 20, "A Web Application Hacker's Toolkit," pulls together the various 
+tools described in this book. These are the same tools the authors use when attack- 
+ing real-world web applications. We examine the key features of these tools and 
+describe in detail the type of work flow you generally need to employ to get the 
+best out of them. We also examine the extent to which any fully automated tool 
+
+
+
+Introduction xxix 
+
+
+
+can be effective in finding web application vulnerabilities. Finally, we provide 
+some tips and advice for getting the most out of your toolkit. 
+
+Chapter 21, "A Web Application Hacker's Methodology," is a comprehensive 
+and structured collation of all the procedures and techniques described in this 
+book. These are organized and ordered according to the logical dependencies 
+between tasks when you are carrying out an actual attack. If you have read 
+about and understood all the vulnerabilities and techniques described in this 
+book, you can use this methodology as a complete checklist and work plan 
+when carrying out an attack against a web application. 
+
+What's New in This Edition 
+
+
+
+In the four years since the first edition of this book was published, much has 
+changed, and much has stayed the same. The march of new technology has, of 
+course, continued apace, and this has given rise to specific new vulnerabilities 
+and attacks. The ingenuity of hackers has also led to the development of new 
+attack techniques and new ways of exploiting old bugs. But neither of these 
+factors, technological or human, has created a revolution. The technologies 
+used in today's applications have their roots in those that are many years old. 
+And the fundamental concepts involved in today's cutting-edge exploitation 
+techniques are older than many of the researchers who are applying them so 
+effectively. Web application security is a dynamic and exciting area to work in, 
+but the bulk of what constitutes our accumulated wisdom has evolved slowly 
+over many years. It would have been distinctively recognizable to practitioners 
+working a decade or more ago. 
+
+This second edition is not a complete rewrite of the first. Most of the material 
+in the first edition remains valid and current today. Approximately 30% of the 
+content in this edition is either new or extensively revised. The remaining 70% 
+has had minor modifications or none at all. If you have upgraded from the first 
+edition and feel disappointed by these numbers, you should take heart. If you 
+have mastered all the techniques described in the first edition, you already have 
+the majority of the skills and knowledge you need. You can focus on what is 
+new in this edition and quickly learn about the areas of web application security 
+that have changed in recent years. 
+
+One significant new feature of the second edition is the inclusion through- 
+out the book of real examples of nearly all the vulnerabilities that are covered. 
+Wherever you see a "Try It!" link, you can go online and work interactively 
+with the example being discussed to confirm that you can find and exploit the 
+vulnerability it contains. There are several hundred of these labs, which you 
+can work through at your own pace as you read the book. The online labs are 
+available on a subscription basis for a modest fee to cover the costs of hosting 
+and maintaining the infrastructure involved. 
+
+
+
+xxx Introduction 
+
+
+
+If you want to focus on what's new in the second edition, here is a summary 
+of the key areas where material has been added or rewritten: 
+
+Chapter 1, "Web Application (Insecurity" has been partly updated to reflect 
+new uses of web applications, some broad trends in technologies, and the ways 
+in which a typical organization's security perimeter has continued to change. 
+
+Chapter 2, "Core Defense Mechanisms," has had minor changes. A few 
+examples have been added of generic techniques for bypassing input valida- 
+tion defenses. 
+
+Chapter 3, "Web Application Technologies," has been expanded with some 
+new sections describing technologies that are either new or that were described 
+more briefly elsewhere within the first edition. The topics added include REST, 
+Ruby on Rails, SQL, XML, web services, CSS, VBScript, the document object 
+model, Ajax, JSON, the same-origin policy, and HTML5. 
+
+Chapter 4, "Mapping the Application," has received various minor updates 
+to reflect developments in techniques for mapping content and functionality. 
+
+Chapter 5, "Bypassing Client-Side Controls," has been updated more exten- 
+sively. In particular, the section on browser extension technologies has been 
+largely rewritten to include more detailed guidance on generic approaches to 
+bytecode decompilation and debugging, how to handle serialized data in com- 
+mon formats, and how to deal with common obstacles to your work, including 
+non-proxy-aware clients and problems with SSL. The chapter also now covers 
+Silverlight technology. 
+
+Chapter 6, "Attacking Authentication," remains current and has only minor 
+updates. 
+
+Chapter 7, "Attacking Session Management," has been updated to cover new 
+tools for automatically testing the quality of randomness in tokens. It also contains 
+new material on attacking encrypted tokens, including practical techniques for 
+token tampering without knowing either the cryptographic algorithm or the 
+encryption key being used. 
+
+Chapter 8, "Attacking Access Controls," now covers access control vulner- 
+abilities arising from direct access to server-side methods, and from platform 
+misconfiguration where rules based on HTTP methods are used to control 
+access. It also describes some new tools and techniques you can use to partially 
+automate the frequently onerous task of testing access controls. 
+
+The material in Chapters 9 and 10 has been reorganized to create more man- 
+ageable chapters and a more logical arrangement of topics. Chapter 9, "Attacking 
+Data Stores," focuses on SQL injection and similar attacks against other data 
+store technologies. As SQL injection vulnerabilities have become more widely 
+understood and addressed, this material now focuses more on practical situa- 
+tions where SQL injection is still found. There are also minor updates through- 
+out to reflect current technologies and attack methods. A new section on using 
+automated tools for exploiting SQL injection vulnerabilities is included. The 
+material on LDAP injection has been largely rewritten to include more detailed 
+
+
+
+Introduction xxxi 
+
+
+
+coverage of specific technologies (Microsoft Active Directory and OpenLDAP), 
+as well as new techniques for exploiting common vulnerabilities. This chapter 
+also now covers attacks against NoSQL. 
+
+Chapter 10, "Attacking Back-End Components," covers the other types of 
+server-side injection vulnerabilities that were previously included in Chapter 9. 
+New sections cover XML external entity injection and injection into back-end 
+HTTP requests, including HTTP parameter injection/pollution and injection 
+into URL rewriting schemes. 
+
+Chapter 11, "Attacking Application Logic," includes more real-world examples of 
+common logic flaws in input validation functions. With the increased usage 
+of encryption to protect application data at rest, we also include an example of 
+how to identify and exploit encryption oracles to decrypt encrypted data. 
+
+The topic of attacks against other application users, previously covered in 
+Chapter 12, has been split into two chapters, because this material was becom- 
+ing unmanageably large. Chapter 12, "Attacking Users: Cross-Site Scripting," 
+focuses solely on XSS. This material has been extensively updated in various 
+areas. The sections on bypassing defensive filters to introduce script code have 
+been completely rewritten to cover new techniques and technologies, includ- 
+ing various little-known methods for executing script code on current brows- 
+ers. There is also much more detailed coverage of methods for obfuscating 
+script code to bypass common input filters. The chapter includes several new 
+examples of real-world XSS attacks. A new section on delivering working XSS 
+exploits in challenging conditions covers escalating an attack across application 
+pages, exploiting XSS via cookies and the Ref erer header, and exploiting XSS 
+in nonstandard request and response content such as XML. There is a detailed 
+examination of browsers' built-in XSS filters and how these can be circumvented 
+to deliver exploits. New sections discuss specific techniques for exploiting XSS 
+in webmail applications and in uploaded files. Finally, there are various updates 
+to the defensive measures that can be used to prevent XSS attacks. 
+
+The new Chapter 13, "Attacking Users: Other Techniques," unites the remain- 
+der of this huge area. The topic of cross-site request forgery has been updated to 
+include CSRF attacks against the login function, common defects in anti-CSRF 
+defenses, UI redress attacks, and common defects in framebusting defenses. A 
+new section on cross-domain data capture includes techniques for stealing data 
+by injecting text containing nonscripting HTML and CSS, and various tech- 
+niques for cross-domain data capture using JavaScript and E4X. A new section 
+examines the same-origin policy in more detail, including its implementation 
+in different browser extension technologies, the changes brought by HTML5, 
+and ways of crossing domains via proxy service applications. There are new 
+sections on client-side cookie injection, SQL injection, and HTTP parameter pol- 
+lution. The section on client-side privacy attacks has been expanded to include 
+storage mechanisms provided by browser extension technologies and HTML5. 
+Finally, a new section has been added drawing together general attacks against 
+
+
+
+xxxii Introduction 
+
+
+
+web users that do not depend on vulnerabilities in any particular application. 
+These attacks can be delivered by any malicious or compromised web site or 
+by an attacker who is suitably positioned on the network. 
+
+Chapter 14, "Automating Customized Attacks," has been expanded to cover 
+common barriers to automation and how to circumvent them. Many applications 
+employ defensive session-handling mechanisms that terminate sessions, use 
+ephemeral anti-CSRF tokens, or use multistage processes to update application 
+state. Some new tools are described for handling these mechanisms, which let 
+you continue using automated testing techniques. A new section examines 
+C APTCHA controls and some common vulnerabilities that can often be exploited 
+to circumvent them. 
+
+Chapter 15, "Exploiting Information Disclosure," contains new sections about 
+XSS in error messages and exploiting decryption oracles. 
+
+Chapter 16, "Attacking Native Compiled Applications," has not been updated. 
+
+Chapter 17, "Attacking Application Architecture," has a new section about 
+vulnerabilities that arise in cloud-based architectures, and updated examples 
+of exploiting architecture weaknesses. 
+
+Chapter 18, "Attacking the Application Server," contains several new examples 
+of interesting vulnerabilities in application servers and platforms, including Jetty, 
+the JMX management console, ASP.NET, Apple iDisk server, Ruby WEBrick web 
+server, and Java web server. It also has a new section on practical approaches 
+to circumventing web application firewalls. 
+
+Chapter 19, "Finding Vulnerabilities in Source Code," has not been updated. 
+
+Chapter 20, "A Web Application Hacker's Toolkit," has been updated with 
+details on the latest features of proxy-based tool suites. It contains new sections 
+on how to proxy the traffic of non-proxy-aware clients and how to eliminate SSL 
+errors in browsers and other clients caused by the use of an intercepting proxy. 
+This chapter contains a detailed description of the work flow that is typically 
+employed when you test using a proxy-based tool suite. It also has a new dis- 
+cussion about current web vulnerability scanners and the optimal approaches 
+to using these in different situations. 
+
+Chapter 21, "A Web Application Hacker's Methodology," has been updated 
+to reflect the new methodology steps described throughout the book. 
+
+Tools You Will Need 
+
+
+
+This book is strongly geared toward hands-on techniques you can use to attack 
+web applications. After reading the book, you will understand the specifics of 
+each individual task, what it involves technically, and why it helps you detect 
+and exploit vulnerabilities. The book is emphatically not about downloading 
+a tool, pointing it at a target application, and believing what the tool's output 
+tells you about the state of the application's security. 
+
+
+
+Introduction xxxiii 
+
+
+
+That said, you will find several tools useful, and sometimes indispensable, 
+when performing the tasks and techniques we describe. All of these are avail- 
+able on the Internet. We recommend that you download and experiment with 
+each tool as you read about it. 
+
+What's on the Website 
+
+
+
+The companion website for this book at http : / /mdsec . net /wahh, which you can 
+also link to from www/wiley . com/go /webhacker2e, contains several resources 
+that you will find useful in the course of mastering the techniques we describe 
+and using them to attack actual applications. In particular, the website contains 
+access to the following: 
+
+■ Source code for some of the scripts we present in the book 
+
+■ A list of current links to all the tools and other resources discussed in 
+the book 
+
+■ A handy checklist of the tasks involved in attacking a typical application 
+
+■ Answers to the questions posed at the end of each chapter 
+
+■ Hundreds of interactive vulnerability labs that are used in examples 
+throughout this book and that are available on a subscription basis to 
+help you develop and refine your skills 
+
+Bring It On 
+
+
+
+Web application security remains a fun and thriving subject. We enjoyed writ- 
+ing this book as much as we continue to enjoy hacking into web applications 
+on a daily basis. We hope that you will also take pleasure from learning about 
+the different techniques we describe and how you can defend against them. 
+
+Before going any further, we should mention an important caveat. In most 
+countries, attacking computer systems without the owner's permission is against 
+the law. The majority of the techniques we describe are illegal if carried out 
+without consent. 
+
+The authors are professional penetration testers who routinely attack web 
+applications on behalf of clients to help them improve their security. In recent 
+years, numerous security professionals and others have acquired criminal 
+records — and ended their careers — by experimenting on or actively attack- 
+ing computer systems without permission. We urge you to use the information 
+contained in this book only for lawful purposes. 
+
+
+
+
+Web Application (In)security 
+
+
+
+There is no doubt that web application security is a current and newsworthy 
+subject. For all concerned, the stakes are high: for businesses that derive increas- 
+ing revenue from Internet commerce, for users who trust web applications with 
+sensitive information, and for criminals who can make big money by stealing 
+payment details or compromising bank accounts. Reputation plays a critical role. 
+Few people want to do business with an insecure website, so few organizations 
+want to disclose details about their own security vulnerabilities or breaches. 
+Hence, it is not a trivial task to obtain reliable information about the state of 
+web application security today. 
+
+This chapter takes a brief look at how web applications have evolved and the 
+many benefits they provide. We present some metrics about vulnerabilities in 
+current web applications, drawn from the authors' direct experience, demon- 
+strating that the majority of applications are far from secure. We describe the 
+core security problem facing web applications — that users can supply arbitrary 
+input — and the various factors that contribute to their weak security posture. 
+Finally, we describe the latest trends in web application security and how these 
+may be expected to develop in the near future. 
+
+
+
+1 
+
+
+
+2 
+
+
+
+Chapter 1 Web Application (In)security 
+
+
+
+The Evolution of Web Applications 
+
+
+
+In the early days of the Internet, the World Wide Web consisted only of web 
+sites. These were essentially information repositories containing static docu- 
+ments. Web browsers were invented as a means of retrieving and displaying 
+those documents, as shown in Figure 1-1. The flow of interesting information 
+was one-way, from server to browser. Most sites did not authenticate users, 
+because there was no need to. Each user was treated in the same way and was 
+presented with the same information. Any security threats arising from host- 
+ing a website were related largely to vulnerabilities in web server software (of 
+which there were many). If an attacker compromised a web server, he usually 
+would not gain access to any sensitive information, because the information 
+held on the server was already open to public view. Rather, an attacker typically 
+would modify the files on the server to deface the web site's contents or use the 
+server's storage and bandwidth to distribute "warez." 
+
+
+
+;8' Paul Wrights Future Employer Page - Mozilb Firefojt | p | | E] ||pS3»| 
+
+File Edit View History Bookmarks Tools Help 
+
+■ftt T O s ^Lr ' |_] http;//wvuw,Eikcert.org.uk/p3£jE ^ ~ | Googie P\ 
+
+
+
+Paul Wrights Future Employer Page | ■»- | Q 
+
+
+
+Deal' prospective future employer, 
+
+Tins is the CV site of Paul Michael Wright, Oracle Security Consultant, Developer and Forensic Analyst for NGS 
+Software in Sutton, Surrey (South London) where I have worked for the last two years and previously in a similar 
+
+
+
+role for P elite st Ltd of Cheshire. I am a non- smoking, British, 38 year old, married man, relocatable with no criminal 
+record, disabilities or health problems and can be identified by this photograph of my wife and I. 
+
+Introductory summary: 
+
+-Consulting to top banks and technology companies on the subject of Oracle security and general ET security. 
+-Responsible for writing the Oracle security checks in NGS SOuirreL for Oracle 
+
+-Currently the most qualified SANS-GIAC person outside of US and Spain with 9 certs including the GSM 
+specialised in Oracle Forensics. 
+
+-Credited by Oracle in their April 2007 CPU with finding and ethically reporting a security vulnerability in the Oracle 
+
+RDBMS. I have five more to come in future CPU's. 
+
+-Author of Oracle Forensics by Rampant Techpress. ISBN 0-9776715-2-6 
+
+-Teacher for SANS of Oracle security . Incident Handling and Metasploit courses 
+
+-Author of many papers including a NTSR paper on Oracle passwords (in Japanese! Oracle forensics for 
+vulnerability detection in the SANS Reading Room and the first paper published on the subject of Oracle Forensics at 
+
+
+
+GIAC. 
+
+
+
+Done 
+
+
+
+Figure 1-1: A traditional website containing static information 
+
+
+
+Today, the World Wide Web is almost unrecognizable from its earlier form. 
+The majority of sites on the web are in fact applications (see Figure 1-2). They 
+are highly functional and rely on two-way flow of information between the 
+server and browser. They support registration and login, financial transactions, 
+
+
+
+Chapter 1 Web Application (In)security 
+
+
+
+3 
+
+
+
+search, and the authoring of content by users. The content presented to users 
+is generated dynamically on the fly and is often tailored to each specific user. 
+Much of the information processed is private and highly sensitive. Security 
+therefore, is a big issue. No one wants to use a web application if he believes 
+his information will be disclosed to unauthorized parties. 
+
+
+
+Wikipedia, thefree encyclopedia - Mozilla Firefox 
+Fi I e Edit View H i story Bookm a rlcs Tool e Hel p 
+
+- e 
+
+
+
+'. W http://en.wikipedia.org/wiki/Main_Page 
+
+
+
+3 
+
+
+
+\\'' Wikipedia, the free encyclopedia 
+
+
+
+E 
+
+
+
+
+WlKIPEDlA 
+
+Hie Free Encyclopedia 
+
+Main page 
+Contents 
+Featured content 
+Current events 
+Random article 
+Donate to Wikipedia 
+
+» Interaction 
+Help 
+
+About Wikipedia 
+Community portal 
+Recent changes 
+Contact Wikipedia 
+
+
+
+> Toolbox 
+
+
+
+u Log in I create account __ 
+
+
+
+Main Page Discussion 
+
+
+
+Read View source , *| Search 
+
+
+
+Welcome to Wikipedia, 
+
+the free encyclopedia that anyone can edit 
+3,656,962 articles ir> English. 
+
+
+
+• Arts • History • Society 
+
+• Biography * Mathematics * Technology 
+
+• Geography • Science • All portals 
+
+
+
+Today's featured article 
+
+
+
+In the news 
+
+
+
+
+The Norte Chico 
+civilization was a 
+complex Pre-Columbian 
+society that included as 
+many as 30 major 
+population centers in what 
+is now the Norte Chico region of north-central 
+coastal Peru. It is the oldest known civilization in 
+the Americas and one of the six; sites where 
+civilization separately originated in the ancient 
+world. It flourished between the 30th century BC 
+
+
+
+
+• In basketball, the Dallas 
+Mavericks defeat the 
+Miami Heat to win their 
+first NBA championship 
+[Finals MVP Dirk 
+Nowitzki pictured). 
+
+• In the Turkish general election. 
+Prime Minister Recep Tayyip 
+Erdogan is elected for a third term 
+and the AK Party retains its majority 
+in parliament. 
+
+
+
+Figure 1-2: Atypical web application 
+
+
+
+Web applications bring with them new and significant security threats. Each 
+application is different and may contain unique vulnerabilities. Most applica- 
+tions are developed in-house — many by developers who have only a partial 
+understanding of the security problems that may arise in the code they are 
+producing. To deliver their core functionality, web applications normally require 
+connectivity to internal computer systems that contain highly sensitive data and 
+that can perform powerful business functions. Fifteen years ago, if you wanted 
+to make a funds transfer, you visited your bank, and the teller performed the 
+transfer for you; today, you can visit a web application and perform the transfer 
+yourself. An attacker who compromises a web application may be able to steal 
+personal information, carry out financial fraud, and perform malicious actions 
+against other users. 
+
+
+
+4 
+
+
+
+Chapter 1 Web Application (In)security 
+
+
+
+Common Web Application Functions 
+
+Web applications have been created to perform practically every useful function 
+you could possibly implement online. Here are some web application functions 
+that have risen to prominence in recent years: 
+
+■ Shopping (Amazon) 
+
+■ Social networking (Facebook) 
+
+■ Banking (Citibank) 
+
+■ Web search (Google) 
+
+■ Auctions (eBay) 
+
+■ Gambling (Betfair) 
+
+■ Web logs (Blogger) 
+
+■ Web mail (Gmail) 
+
+■ Interactive information (Wikipedia) 
+
+Applications that are accessed using a computer browser increasingly overlap 
+with mobile applications that are accessed using a smartphone or tablet. Most 
+mobile applications employ either a browser or a customized client that uses 
+HTTP-based APIs to communicate with the server. Application functions and 
+data typically are shared between the various interfaces that the application 
+exposes to different user platforms. 
+
+In addition to the public Internet, web applications have been widely adopted 
+inside organizations to support key business functions. Many of these provide 
+access to highly sensitive data and functionality: 
+
+■ HR applications allowing users to access payroll information, give and 
+receive performance feedback, and manage recruitment and disciplinary 
+procedures. 
+
+■ Administrative interfaces to key infrastructure such as web and mail 
+servers, user workstations, and virtual machine administration. 
+
+■ Collaboration software used for sharing documents, managing work- 
+flow and projects, and tracking issues. These types of functionality often 
+involve critical security and governance issues, and organizations often 
+rely completely on the controls built into their web applications. 
+
+■ Business applications such as enterprise resource planning (ERP) software, 
+which previously were accessed using a proprietary thick-client applica- 
+tion, can now be accessed using a web browser. 
+
+
+
+Chapter 1 Web Application (In)security 
+
+
+
+5 
+
+
+
+■ Software services such as e-mail, which originally required a separate 
+e-mail client, can now be accessed via web interfaces such as Outlook 
+Web Access. 
+
+■ Traditional desktop office applications such as word processors and spread- 
+sheets have been migrated to web applications through services such as 
+Google Apps and Microsoft Office Live. 
+
+In all these examples, what are perceived as "internal" applications are increas- 
+ingly being hosted externally as organizations move to outside service providers 
+to cut costs. In these so-called cloud solutions, business-critical functionality 
+and data are opened to a wider range of potential attackers, and organizations 
+are increasingly reliant on the integrity of security defenses that are outside of 
+their control. 
+
+The time is fast approaching when the only client software that most com- 
+puter users will need is a web browser. A diverse range of functions will have 
+been implemented using a shared set of protocols and technologies, and in so 
+doing will have inherited a distinctive range of common security vulnerabilities. 
+
+Benefits of Web Applications 
+
+It is not difficult to see why web applications have enjoyed such a dramatic rise 
+to prominence. Several technical factors have worked alongside the obvious 
+commercial incentives to drive the revolution that has occurred in how we use 
+the Internet: 
+
+■ HTTP, the core communications protocol used to access the World Wide 
+Web, is lightweight and connectionless. This provides resilience in the 
+event of communication errors and avoids the need for the server to 
+hold open a network connection to every user, as was the case in many 
+legacy client/ server applications. HTTP can also be proxied and tunneled 
+over other protocols, allowing for secure communication in any network 
+configuration. 
+
+■ Every web user already has a browser installed on his computer and 
+mobile device. Web applications deploy their user interface dynamically 
+to the browser, avoiding the need to distribute and manage separate 
+client software, as was the case with pre-web applications. Changes to 
+the interface need to be implemented only once, on the server, and take 
+effect immediately. 
+
+■ Today's browsers are highly functional, enabling rich and satisfying 
+user interfaces to be built. Web interfaces use standard navigational and 
+
+
+
+6 
+
+
+
+Chapter 1 Web Application (In)security 
+
+
+
+input controls that are immediately familiar to users, avoiding the need 
+to learn how each individual application functions. Client-side scripting 
+enables applications to push part of their processing to the client side, and 
+browsers' capabilities can be extended in arbitrary ways using browser 
+extension technologies where necessary. 
+
+■ The core technologies and languages used to develop web applications are 
+relatively simple. A wide range of platforms and development tools are 
+available to facilitate the development of powerful applications by relative 
+beginners, and a large quantity of open source code and other resources 
+is available for incorporation into custom-built applications. 
+
+Web Application Security 
+
+
+
+As with any new class of technology, web applications have brought with them 
+a new range of security vulnerabilities. The set of most commonly encountered 
+defects has evolved somewhat over time. New attacks have been conceived 
+that were not considered when existing applications were developed. Some 
+problems have become less prevalent as awareness of them has increased. New 
+technologies have been developed that have introduced new possibilities for 
+exploitation. Some categories of flaws have largely gone away as the result of 
+changes made to web browser software. 
+
+The most serious attacks against web applications are those that expose 
+sensitive data or gain unrestricted access to the back-end systems on which 
+the application is running. High-profile compromises of this kind continue 
+to occur frequently. For many organizations, however, any attack that causes 
+system downtime is a critical event. Application-level denial-of-service attacks 
+can be used to achieve the same results as traditional resource exhaustion 
+attacks against infrastructure. However, they are often used with more subtle 
+techniques and objectives. They may be used to disrupt a particular user or 
+service to gain a competitive edge against peers in the realms of financial trad- 
+ing, gaming, online bidding, and ticket reservations. 
+
+Throughout this evolution, compromises of prominent web applications have 
+remained in the news. There is no sense that a corner has been turned and that 
+these security problems are on the wane. By some measure, web application 
+security is today the most significant battleground between attackers and those 
+with computer resources and data to defend, and it is likely to remain so for 
+the foreseeable future. 
+
+
+
+Chapter 1 Web Application (In)security 
+
+
+
+7 
+
+
+
+"This Site Is Secure" 
+
+There is a widespread awareness that security is an issue for web applications. 
+Consult the FAQ page of a typical application, and you will be reassured that 
+it is in fact secure. 
+
+Most applications state that they are secure because they use SSL. For example: 
+
+This site is absolutely secure. It has been designed to use 128-bit Secure Socket 
+Layer (SSL) technology to prevent unauthorized users from viewing any of your 
+information. You may use this site with peace of mind that your data is safe with us. 
+
+Users are often urged to verify the site's certificate, admire the advanced 
+cryptographic protocols in use, and, on this basis, trust it with their personal 
+information. 
+
+Increasingly, organizations also cite their compliance with Payment Card 
+Industry (PCI) standards to reassure users that they are secure. For example: 
+
+We take security very seriously. Our web site is scanned daily to ensure that we 
+remain PCI compliant and safe from hackers. You can see the date of the latest scan 
+on the logo below, and you are guaranteed that our web site is safe to use. 
+
+In fact, the majority of web applications are insecure, despite the widespread 
+usage of SSL technology and the adoption of regular PCI scanning. The authors 
+of this book have tested hundreds of web applications in recent years. Figure 1-3 
+shows what percentage of applications tested during 2007 and 2011 were found 
+to be affected by some common categories of vulnerability: 
+
+■ Broken authentication (62%) — This category of vulnerability encom- 
+passes various defects within the application's login mechanism, which 
+may enable an attacker to guess weak passwords, launch a brute-force 
+attack, or bypass the login. 
+
+■ Broken access controls (71%) — This involves cases where the application 
+fails to properly protect access to its data and functionality, potentially 
+enabling an attacker to view other users' sensitive data held on the server 
+or carry out privileged actions. 
+
+■ SQL injection (32%) — This vulnerability enables an attacker to submit 
+crafted input to interfere with the application's interaction with back-end 
+databases. An attacker may be able to retrieve arbitrary data from the 
+application, interfere with its logic, or execute commands on the database 
+server itself. 
+
+
+
+8 
+
+
+
+Chapter 1 Web Application (In)security 
+
+
+
+■ Cross-site scripting (94%) — This vulnerability enables an attacker to 
+target other users of the application, potentially gaining access to their 
+data, performing unauthorized actions on their behalf, or carrying out 
+other attacks against them. 
+
+■ Information leakage (78%) — This involves cases where an application 
+divulges sensitive information that is of use to an attacker in developing 
+an assault against the application, through defective error handling or 
+other behavior. 
+
+■ Cross-site request forgery (92%) — This flaw means that application 
+users can be induced to perform unintended actions on the application 
+within their user context and privilege level. The vulnerability allows a 
+malicious web site visited by the victim user to interact with the applica- 
+tion to perform actions that the user did not intend. 
+
+
+
+Broken authentication 
+
+
+
+Broken access controls 
+
+
+
+SQL injection 
+
+
+
+Cross-site scripting 
+
+
+
+Information leakage 
+
+
+
+Cross-site request 
+forgery 
+
+
+
+32% 
+
+
+
+62% 
+
+
+
+71% 
+
+
+
+94% 
+
+
+
+78% 
+
+
+
+92% 
+
+
+
+0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+Incidence in recently tested applications 
+
+Figure 1-3: The incidence of some common web application vulnerabilities in 
+applications recently tested by the authors (based on a sample of more than 100) 
+
+
+
+SSL is an excellent technology that protects the confidentiality and integrity 
+of data in transit between the user's browser and the web server. It helps defend 
+against eavesdroppers, and it can provide assurance to the user of the identity of 
+the web server he is dealing with. But it does not stop attacks that directly target 
+the server or client components of an application, as most successful attacks do. 
+Specifically, it does not prevent any of the vulnerabilities just listed, or many 
+others that can render an application critically exposed to attack. Regardless of 
+whether they use SSL, most web applications still contain security flaws. 
+
+
+
+Chapter 1 Web Application (In)security 
+
+
+
+9 
+
+
+
+The Core Security Problem: Users Can Submit 
+Arbitrary Input 
+
+As with most distributed applications, web applications face a fundamental 
+problem they must address to be secure. Because the client is outside of the 
+application's control, users can submit arbitrary input to the server-side appli- 
+cation. The application must assume that all input is potentially malicious. 
+Therefore, it must take steps to ensure that attackers cannot use crafted input 
+to compromise the application by interfering with its logic and behavior, thus 
+gaining unauthorized access to its data and functionality. 
+This core problem manifests itself in various ways: 
+
+■ Users can interfere with any piece of data transmitted between the client 
+and the server, including request parameters, cookies, and HTTP head- 
+ers. Any security controls implemented on the client side, such as input 
+validation checks, can be easily circumvented. 
+
+■ Users can send requests in any sequence and can submit parameters at a 
+different stage than the application expects, more than once, or not at all. 
+Any assumption developers make about how users will interact with the 
+application may be violated. 
+
+■ Users are not restricted to using only a web browser to access the application. 
+Numerous widely available tools operate alongside, or independently of, 
+a browser to help attack web applications. These tools can make requests 
+that no browser would ordinarily make and can generate huge numbers 
+of requests quickly to find and exploit problems. 
+
+The majority of attacks against web applications involve sending input to the 
+server that is crafted to cause some event that was not expected or desired by 
+the application's designer. Here are some examples of submitting crafted input 
+to achieve this objective: 
+
+■ Changing the price of a product transmitted in a hidden HTML form field 
+to fraudulently purchase the product for a cheaper amount 
+
+■ Modifying a session token transmitted in an HTTP cookie to hijack the 
+session of another authenticated user 
+
+■ Removing certain parameters that normally are submitted to exploit a 
+logic flaw in the application's processing 
+
+■ Altering some input that will be processed by a back-end database to inject 
+a malicious database query and access sensitive data 
+
+Needless to say, SSL does nothing to stop an attacker from submitting crafted 
+input to the server. If the application uses SSL, this simply means that other users 
+on the network cannot view or modify the attacker's data in transit. Because 
+
+
+
+10 Chapter 1 Web Application (In)security 
+
+
+
+the attacker controls her end of the SSL tunnel, she can send anything she likes 
+to the server through this tunnel. If any of the previously mentioned attacks 
+are successful, the application is emphatically vulnerable, regardless of what 
+its FAQ may tell you. 
+
+Key Problem Factors 
+
+The core security problem faced by web applications arises in any situation 
+where an application must accept and process untrusted data that may be mali- 
+cious. However, in the case of web applications, several factors have combined 
+to exacerbate the problem and explain why so many web applications on the 
+Internet today do such a poor job of addressing it. 
+
+Underdeveloped Security Awareness 
+
+Although awareness of web application security issues has grown in recent 
+years, it remains less well-developed than in longer-established areas such as 
+networks and operating systems. Although most people working in IT security 
+have a reasonable grasp of the essentials of securing networks and hardening 
+hosts, widespread confusion and misconception still exist about many of the 
+core concepts involved in web application security. A web application devel- 
+oper's work increasingly involves weaving together tens, or even hundreds, 
+of third-party packages, all designed to abstract the developer away from the 
+underlying technologies. It is common to meet experienced web application 
+developers who make major assumptions about the security provided by their 
+programming framework and to whom an explanation of many basic types of 
+flaws comes as a revelation. 
+
+Custom Development 
+
+Most web applications are developed in-house by an organization's own staff 
+or third-party contractors. Even where an application employs well-established 
+components, these are typically customized or bolted together using new code. 
+In this situation, every application is different and may contain its own unique 
+defects. This stands in contrast to a typical infrastructure deployment, in which 
+an organization can purchase a best-of-breed product and install it in line with 
+industry-standard guidelines. 
+
+Deceptive Simplicity 
+
+With today's web application platforms and development tools, it is possible for 
+a novice programmer to create a powerful application from scratch in a short 
+period of time. But there is a huge difference between producing code that is 
+
+
+
+Chapter! Web Application (In)security 11 
+
+
+
+functional and code that is secure. Many web applications are created by well- 
+meaning individuals who simply lack the knowledge and experience to identify 
+where security problems may arise. 
+
+A prominent trend in recent years has been the use of application frameworks 
+that provide ready-made code components to handle numerous common areas 
+of functionality, such as authentication, page templates, message boards, and 
+integration with common back-end infrastructure components. Examples of these 
+frameworks include Liferay and Appfuse. These products make it quick and 
+easy to create working applications without requiring a technical understanding 
+of how the applications work or the potential risks they may contain. This also 
+means many companies use the same frameworks. Thus, when a vulnerability 
+is discovered, it affects many unrelated applications. 
+
+Rapidly Evolving Threat Profile 
+
+Research into web application attacks and defenses continues to be a thriving 
+area in which new concepts and threats are conceived at a faster rate than is now 
+the case for older technologies. Particularly on the client side, it is common for 
+the accepted defenses against a particular attack to be undermined by research 
+that demonstrates a new attack technique. A development team that begins a 
+project with a complete knowledge of current threats may have lost this status 
+by the time the application is completed and deployed. 
+
+Resource and Time Constraints 
+
+Most web application development projects are subject to strict constraints on 
+time and resources, arising from the economics of in-house, one-off develop- 
+ment. In most organizations, it is often infeasible to employ dedicated security 
+expertise in the design or development teams. And due to project slippage, 
+security testing by specialists is often left until very late in the project's life 
+cycle. In the balancing of competing priorities, the need to produce a stable and 
+functional application by a deadline normally overrides less tangible security 
+considerations. A typical small organization may be willing to pay for only a 
+few man-days of consulting time to evaluate a new application. A quick pen- 
+etration test will often find the low-hanging fruit, but it may miss more subtle 
+vulnerabilities that require time and patience to identify. 
+
+Overextended Technologies 
+
+Many of the core technologies employed in web applications began life when 
+the landscape of the World Wide Web was very different. They have since been 
+pushed far beyond the purposes for which they were originally conceived, such 
+as the use of JavaScript as a means of data transmission in many AJAX-based 
+
+
+
+12 Chapter 1 Web Application (In)security 
+
+
+
+applications. As the expectations placed on web application functionality have 
+rapidly evolved, the technologies used to implement this functionality have 
+lagged behind the curve, with old technologies stretched and adapted to meet 
+new requirements. Unsurprisingly, this has led to security vulnerabilities as 
+unforeseen side effects emerge. 
+
+Increasing Demands on Functionality 
+
+Applications are designed primarily with functionality and usability in mind. 
+Once-static user profiles now contain social networking features, allowing upload- 
+ing of pictures and wiki-style editing of pages. A few years ago an application 
+designer may have been content with implementing a username and password 
+challenge to create the login functionality. Modern sites may include password 
+recovery, username recovery, password hints, and an option to remember the 
+username and password on future visits. Such a site would undoubtedly be 
+promoted as having numerous security features, yet each one is really a self- 
+service feature adding to the site's attack surface. 
+
+The New Security Perimeter 
+
+Before the rise of web applications, organizations' efforts to secure themselves 
+against external attack were largely focused on the network perimeter. Defending 
+this perimeter entailed hardening and patching the services it needed to expose 
+and firewalling access to others. 
+
+Web applications have changed all this. For an application to be accessible 
+by its users, the perimeter firewall must allow inbound connections to the 
+server over HTTP or HTTPS. And for the application to function, the server 
+must be allowed to connect to supporting back-end systems, such as databases, 
+mainframes, and financial and logistical systems. These systems often lie at 
+the core of the organization's operations and reside behind several layers of 
+network-level defenses. 
+
+If a vulnerability exists within a web application, an attacker on the public 
+Internet may be able to compromise the organization's core back-end systems 
+solely by submitting crafted data from his web browser. This data sails past all 
+the organization's network defenses, in the same way as does ordinary, benign 
+traffic to the web application. 
+
+The effect of widespread deployment of web applications is that the security 
+perimeter of a typical organization has moved. Part of that perimeter is still 
+embodied in firewalls and bastion hosts. But a significant part of it is now occupied 
+by the organization's web applications. Because of the manifold ways in which 
+web applications receive user input and pass this to sensitive back-end systems, 
+they are the potential gateways for a wide range of attacks, and defenses against 
+these attacks must be implemented within the applications themselves. A single 
+
+
+
+Chapter 1 Web Application (In)security 15 
+
+
+
+line of defective code in a single web application can render an organization's 
+internal systems vulnerable. Furthermore, with the rise of mash-up applications, 
+third-party widgets, and other techniques for cross-domain integration, the 
+server-side security perimeter frequently extends well beyond the organization 
+itself. Implicit trust is placed in the services of external applications and services. 
+The statistics described previously, of the incidence of vulnerabilities within 
+this new security perimeter, should give every organization pause for thought. 
+
+M?I»lM For an attacker targeting an organization, gaining access to the net- 
+work or executing arbitrary commands on servers may not be what he wants 
+to achieve. Often, and perhaps typically, what an attacker really wants is to 
+perform some application-level action such as stealing personal informa- 
+tion, transferring funds, or making cheap purchases. And the relocation of the 
+security perimeter to the application layer may greatly assist an attacker in 
+achieving these objectives. 
+
+For example, suppose that an attacker wants to "hack in" to a bank's systems 
+and steal money from users' accounts. In the past, before the bank deployed 
+a web application, the attacker might have needed to find a vulnerability 
+in a publicly reachable service, exploit this to gain a toehold on the bank's 
+DMZ, penetrate the firewall restricting access to its internal systems, map the 
+network to find the mainframe computer, decipher the arcane protocol used 
+to access it, and guess some credentials to log in. However, if the bank now 
+deploys a vulnerable web application, the attacker may be able to achieve the 
+same outcome simply by modifying an account number in a hidden field of an 
+HTML form. 
+
+
+
+A second way in which web applications have moved the security perimeter 
+arises from the threats that users themselves face when they access a vulner- 
+able application. A malicious attacker can leverage a benign but vulnerable web 
+application to attack any user who visits it. If that user is located on an internal 
+corporate network, the attacker may harness the user's browser to launch an 
+attack against the local network from the user's trusted position. Without any 
+cooperation from the user, the attacker may be able to carry out any action that 
+the user could perform if she were herself malicious. With the proliferation of 
+browser extension technologies and plug-ins, the extent of the client-side attack 
+surface has increased considerably. 
+
+Network administrators are familiar with the idea of preventing their users 
+from visiting malicious web sites, and end users themselves are gradually becom- 
+ing more aware of this threat. But the nature of web application vulnerabilities 
+means that a vulnerable application may present no less of a threat to its users 
+and their organization than a web site that is overtly malicious. Correspondingly, 
+the new security perimeter imposes a duty of care on all application owners 
+to protect their users from attacks against them delivered via the application. 
+
+
+
+14 Chapter 1 Web Application (In)security 
+
+
+
+A further way in which the security perimeter has partly moved to the cli- 
+ent side is through the widespread use of e-mail as an extended authentication 
+mechanism. A huge number of today's applications contain "forgotten password" 
+functions that allow an attacker to generate an account recovery e-mail to any 
+registered address, without requiring any other user-specific information. This 
+allows an attacker who compromises a user's web mail account to easily escalate 
+the attack and compromise the victim's accounts on most of the web applications 
+for which the victim is registered. 
+
+The Future of Web Application Security 
+
+Over a decade after their widespread adoption, web applications on the Internet 
+today are still rife with vulnerabilities. Understanding of the security threats 
+facing web applications, and effective ways of addressing these, are still underde- 
+veloped within the industry. There is currently little indication that the problem 
+factors described in this chapter will disappear in the near future. 
+
+That said, the details of the web application security landscape are not static. 
+Even though old and well-understood vulnerabilities such as SQL injection 
+continue to appear, their prevalence is gradually diminishing. Furthermore, 
+the instances that remain are becoming more difficult to find and exploit. New 
+research in these areas is generally focused on developing advanced techniques 
+for attacking more subtle manifestations of vulnerabilities that a few years ago 
+could be easily detected and exploited using only a browser. 
+
+A second prominent trend has been a gradual shift in attention from attacks 
+against the server side of the application to those that target application users. 
+The latter kind of attack still leverages defects within the application itself, but 
+it generally involves some kind of interaction with another user to compromise 
+that user's dealings with the vulnerable application. This is a trend that has 
+been replicated in other areas of software security. As awareness of security 
+threats matures, flaws in the server side are the first to be well understood and 
+addressed, leaving the client side as a key battleground as the learning process 
+continues. Of all the attacks described in this book, those against other users 
+are evolving the most quickly, and they have been the focus of most research 
+in recent years. 
+
+Various recent trends in technology have somewhat altered the landscape of 
+web applications. Popular consciousness about these trends exists by means of 
+various rather misleading buzzwords, the most prominent of which are these: 
+
+■ Web 2.0 — This term refers to the greater use of functionality that enables 
+user-generated content and information sharing, and also the adoption 
+of various technologies that broadly support this functionality, including 
+asynchronous HTTP requests and cross-domain integration. 
+
+
+
+Chapter 1 Web Application (In)security 15 
+
+
+
+■ Cloud computing — This term refers to greater use of external service 
+providers for various parts of the technology stack, including applica- 
+tion software, application platforms, web server software, databases, and 
+hardware. It also refers to increased usage of virtualization technologies 
+within hosting environments. 
+
+As with most changes in technology, these trends have brought with them 
+some new attacks and variations on existing attacks. Notwithstanding the hype, 
+the issues raised are not quite as revolutionary as they may initially appear. We 
+will examine the security implications of these and other recent trends in the 
+appropriate locations throughout this book. 
+
+Despite all the changes that have occurred within web applications, some 
+categories of "classic" vulnerabilities show no sign of diminishing. They continue 
+to arise in pretty much the same form as they did in the earliest days of the 
+web. These include defects in business logic, failures to properly apply access 
+controls, and other design issues. Even in a world of bolted-together applica- 
+tion components and everything-as-a-service, these timeless issues are likely 
+to remain widespread. 
+
+Summary 
+
+
+
+In a little over a decade, the World Wide Web has evolved from purely static 
+information repositories into highly functional applications that process sensitive 
+data and perform powerful actions with real-world consequences. During this 
+development, several factors have combined to bring about the weak security 
+posture demonstrated by the majority of today's web applications. 
+
+Most applications face the core security problem that users can submit arbi- 
+trary input. Every aspect of the user's interaction with the application may be 
+malicious and should be regarded as such unless proven otherwise. Failure to 
+properly address this problem can leave applications vulnerable to attack in 
+numerous ways. 
+
+All the evidence about the current state of web application security indicates 
+that although some aspects of security have indeed improved, entirely new 
+threats have evolved to replace them. The overall problem has not been resolved 
+on any significant scale. Attacks against web applications still present a serious 
+threat to both the organizations that deploy them and the users who access them. 
+
+
+
+
+
