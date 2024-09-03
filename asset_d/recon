@@ -1,0 +1,55 @@
+target='classroom.github.com'
+results=$HOME/public/results.txt
+
+echo -e '\nAMASS\n'
+amass enum -d $target | tee -a $results
+
+
+echo -e '\nSUBFINDER\n'
+subfinder -all -d $target | tee -a $results
+
+
+echo -e '\nASSETFINDER\n'
+assetfinder --subs-only $target | tee -a $results
+
+
+
+echo -e '\nSUBLIST3R\n'
+sublist3r -d $target | tee -a $results
+
+
+echo -e '\nFINDDOMAIN\n'
+findomain -t target.com | tee -a $results
+
+
+echo -e '\nMASSDNS\n'
+massdns -r resolvers.txt -t A -o S $results
+
+
+
+echo -e '\nDNSRECON\n'
+dnsrecon -d target.com -a | tee -a $results
+
+
+
+echo -e '\nKNOCKPY\n'
+knockpy target.com | tee -a $results
+
+
+
+echo -e '\nBRUTESUBS\n'
+brutesubs -d target.com -w wordlist.txt | tee -a $results
+
+
+
+
+
+#httpx
+cat $results | httpx -silent -status-code -tech-detect -title
+
+#aquatone
+aquatone-discover -d $target
+cat $results | aquatone-scan
+
+
+
