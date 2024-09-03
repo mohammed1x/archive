@@ -1,0 +1,23 @@
+amass enum -d $target | tee -a $results
+subfinder -all -d $target | tee -a $results
+assetfinder --subs-only $target | tee -a $results
+sublist3r -d $target | tee -a $results
+findomain -t target.com | tee -a $results
+massdns -r resolvers.txt -t A -o S $results
+dnsrecon -d target.com -a | tee -a $results
+knockpy target.com | tee -a $results
+brutesubs -d target.com -w wordlist.txt | tee -a $results
+
+
+
+
+
+#httpx
+cat $results | httpx -silent -status-code -tech-detect -title
+
+#aquatone
+aquatone-discover -d $target
+cat $results | aquatone-scan
+
+
+
