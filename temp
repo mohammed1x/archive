@@ -1,4 +1,0 @@
-pip3 uninstall -y yewtube pylast pyperclip yt-dlp youtube-search-python
-pip3 cache purge
-rm -rf ~/.local/lib/python3.x/site-packages/{yewtube,pylast,pyperclip,yt_dlp,youtube_search_python}
-rm -rf ~/.config/yewtube ~/.cache/yewtube
