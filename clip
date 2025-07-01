@@ -1,1 +1,1 @@
-proxychains mpv --no-video --ytdl-raw-options=cookies=~/scripts/.config/mpv/yt-cookies.txt $(notes1)
+pip install git+https://github.com/shadowsocks/shadowsocks.git@master
