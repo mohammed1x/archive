@@ -1,1 +1,1 @@
-while :; do ifstat | grep wlan0; sleep 0.5;  done
+proxychains mpv --no-video --ytdl-raw-options=cookies=~/scripts/.config/mpv/yt-cookies.txt $(notes1)
