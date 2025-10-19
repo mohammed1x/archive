@@ -4,3 +4,4 @@ olacabs_split_config.arm64_v8a.apk filter=lfs diff=lfs merge=lfs -text
 test_for_lfs filter=lfs diff=lfs merge=lfs -text
 clip filter=lfs diff=lfs merge=lfs -text
 ola_lite.apk filter=lfs diff=lfs merge=lfs -text
+androidUnpinner filter=lfs diff=lfs merge=lfs -text
