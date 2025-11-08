@@ -1,0 +1,6 @@
+--2025-11-08 10:12:16--  https://gsf-fl.softonic.com/2ad/33d/3cc3aab0de83487fe35a24b4f2371dd601/com-olacabs-customer-60609007-68074898-799abc5bd7a6e9339cbfd589ae979c8c.apk?Expires=1762625838
+Resolving gsf-fl.softonic.com (gsf-fl.softonic.com)... 151.101.1.91, 151.101.65.91, 151.101.129.91, ...
+Connecting to gsf-fl.softonic.com (gsf-fl.softonic.com)|151.101.1.91|:443... connected.
+HTTP request sent, awaiting response... 400 Invalid request (bad params)
+2025-11-08 10:12:16 ERROR 400: Invalid request (bad params).
+
