@@ -13,3 +13,4 @@ base.unpinned.apk filter=lfs diff=lfs merge=lfs -text
 split_config.arm64_v8a.apk filter=lfs diff=lfs merge=lfs -text
 split_config.arm64_v8a.unpinned.apk filter=lfs diff=lfs merge=lfs -text
 split_config.en.apk filter=lfs diff=lfs merge=lfs -text
+olacabs_unpinned.apk filter=lfs diff=lfs merge=lfs -text
