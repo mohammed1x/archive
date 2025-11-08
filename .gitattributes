@@ -21,3 +21,6 @@ unpinned filter=lfs diff=lfs merge=lfs -text
 split_config.xhdpi.apk filter=lfs diff=lfs merge=lfs -text
 ola.apks filter=lfs diff=lfs merge=lfs -text
 ola-patched.apks filter=lfs diff=lfs merge=lfs -text
+ola_android_unpinner.apks filter=lfs diff=lfs merge=lfs -text
+ola_apk_mitm.apks filter=lfs diff=lfs merge=lfs -text
+ola_original.apks filter=lfs diff=lfs merge=lfs -text
