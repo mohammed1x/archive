@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/fragment_tutorial_page_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.google.android.exoplayer2.ui.PlayerView android:id="@id/player_view" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintBottom_toBottomOf="parent" app:resize_mode="fill" app:shutter_background_color="?bottomSheetBgColor" />
-    <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_tutorial" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
-</androidx.constraintlayout.widget.ConstraintLayout>

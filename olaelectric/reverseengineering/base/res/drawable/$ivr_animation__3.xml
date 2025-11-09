@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<set
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
-    <objectAnimator android:interpolator="@android:anim/linear_interpolator" android:duration="300" android:startOffset="600" android:valueFrom="#ffd2e7c4" android:valueTo="#ff6bb03b" android:valueType="colorType" android:propertyName="fillColor" />
-    <objectAnimator android:interpolator="@android:anim/linear_interpolator" android:duration="300" android:startOffset="900" android:valueFrom="#ff6bb03b" android:valueTo="#ffd2e7c4" android:valueType="colorType" android:propertyName="fillColor" />
-</set>

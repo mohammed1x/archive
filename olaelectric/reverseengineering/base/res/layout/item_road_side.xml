@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/item_road_side_0" android:background="@drawable/bottom_sheet_round_top_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <TextView android:id="@id/tv_ble_sub_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="36.0dip" android:text="@string/road_side_web_view" android:layout_marginEnd="30.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Text.Gentona.14.Blue200DmBlack500" />
-</androidx.constraintlayout.widget.ConstraintLayout>

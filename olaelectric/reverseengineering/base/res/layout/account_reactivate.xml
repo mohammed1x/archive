@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/ola_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <TextView android:textSize="@dimen/size_25" android:textStyle="bold" android:textColor="@color/black" android:id="@id/txtGetRegularUpdate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_8" android:fontFamily="@font/gentona" android:paddingStart="@dimen/margin_20" android:paddingEnd="@dimen/margin_20" />
-        <ImageView android:id="@id/placeHolderImage" android:background="@drawable/ic_rectangle_light_grey" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/margin_200" android:layout_marginTop="@dimen/margin_32" android:layout_marginBottom="@dimen/margin_24" android:layout_marginStart="@dimen/margin_20" android:layout_marginEnd="@dimen/margin_20" />
-        <TextView android:textSize="@dimen/size_17" android:textColor="@color/text_colour" android:id="@id/txtMessage" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_8" android:lineSpacingExtra="@dimen/margin_8" android:fontFamily="@font/gentona" android:paddingStart="@dimen/margin_20" android:paddingEnd="@dimen/margin_20" />
-    </LinearLayout>
-</androidx.constraintlayout.widget.ConstraintLayout>

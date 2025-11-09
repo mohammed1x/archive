@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/passcode_indicator_view_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <TextView android:textStyle="bold" android:id="@id/tv_indicator_strength" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textAllCaps="true" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/txt_16_gentona_black36" />
-    <TextView android:id="@id/tv_error_msg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_5" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tv_indicator_strength" style="@style/txt_16_gentona_black36" />
-</androidx.constraintlayout.widget.ConstraintLayout>

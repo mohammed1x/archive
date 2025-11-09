@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="horizontal" android:id="@id/bottomLayout" android:tag="layout/ola_base_webview_bottom_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <androidx.appcompat.widget.AppCompatButton android:gravity="center" android:id="@id/closeButton" android:tag="binding_1" android:background="@drawable/box_gray" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="@dimen/dp_60" android:text="@string/close" android:layout_weight="1.0" android:layout_marginEnd="@dimen/dp_16" style="@style/closeButtonStyle" />
-    <androidx.appcompat.widget.AppCompatButton android:gravity="center" android:id="@id/retryButton" android:tag="binding_2" android:layout_width="0.0dip" android:layout_height="@dimen/dp_60" android:text="@string/retry" android:layout_weight="1.0" style="@style/positiveButtonStyle" />
-</LinearLayout>

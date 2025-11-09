@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/location_list_tag_0" android:background="?whiteDmBlack200" android:paddingBottom="@dimen/dp_10" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <TextView android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="21.0dip" android:layout_marginStart="20.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Text.Gentona.14.Blues100White_20" />
-    <androidx.appcompat.widget.LinearLayoutCompat android:id="@id/ll_viewAll" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_22" android:layout_marginEnd="26.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent">
-        <TextView android:id="@id/tv_viewAll" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/view_all" style="@style/Text.Medium.16.greenDarkGreenLight" />
-        <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_right_arrow" android:background="@drawable/ic_green_right_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_7" android:layout_marginStart="@dimen/dp_7" />
-    </androidx.appcompat.widget.LinearLayoutCompat>
-</androidx.constraintlayout.widget.ConstraintLayout>

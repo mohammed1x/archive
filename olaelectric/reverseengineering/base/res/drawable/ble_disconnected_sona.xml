@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<vector android:height="40.0dip" android:width="40.0dip" android:viewportWidth="40.0" android:viewportHeight="40.0"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
-    <path android:fillColor="#ff000000" android:pathData="M20,0L20,0A20,20 0,0 1,40 20L40,20A20,20 0,0 1,20 40L20,40A20,20 0,0 1,0 20L0,20A20,20 0,0 1,20 0z" android:fillAlpha="0.15" />
-    <path android:fillColor="#00000000" android:pathData="M20,0.25L20,0.25A19.75,19.75 0,0 1,39.75 20L39.75,20A19.75,19.75 0,0 1,20 39.75L20,39.75A19.75,19.75 0,0 1,0.25 20L0.25,20A19.75,19.75 0,0 1,20 0.25z" android:strokeColor="@drawable/$ble_disconnected_sona__0" android:strokeWidth="0.5" />
-    <path android:fillColor="#ffffffff" android:pathData="M21.485,17.46V14.805L23.225,16.495L21.87,17.85L23.115,19.09L25.655,16.57L25.755,16.47L20.67,11.41L20.63,11.37H19.675V15.65L21.485,17.46Z" />
-    <path android:fillColor="#ffffffff" android:pathData="M12.47,11L11.205,12.265L19.315,20.385L14.345,25.33L14.245,25.43L15.42,26.605L15.52,26.7L19.675,22.545V29.305H19.74V29.36H20.63L24.465,25.54L27.505,28.585L28.775,27.305L12.47,11ZM21.485,25.97V22.565L21.675,22.75L23.22,24.295L21.49,25.97H21.485Z" />
-</vector>

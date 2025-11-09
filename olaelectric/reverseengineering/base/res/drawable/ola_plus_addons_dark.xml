@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<vector android:height="320.0dip" android:width="335.0dip" android:viewportWidth="335.0" android:viewportHeight="320.0"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
-    <group>
-        <clip-path android:pathData="M0,0h335v320h-335z" />
-        <path android:fillColor="#ff24292c" android:pathData="M0,0h335v320h-335z" />
-        <path android:fillColor="@drawable/$ola_plus_addons_dark__0" android:pathData="M0,0h335v320h-335z" />
-    </group>
-</vector>

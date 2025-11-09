@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/item_issue_from_list_0" android:paddingTop="@dimen/dp_18" android:paddingBottom="@dimen/dp_18" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingVertical="@dimen/dp_18"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <TextView android:id="@id/tv_heading" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dp_20" android:layout_marginEnd="@dimen/dp_20" app:layout_constraintEnd_toStartOf="@id/checkbox" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Text.Medium.18.Blue100Whites100" />
-    <ImageView android:id="@id/checkbox" android:layout_width="@dimen/dp_24" android:layout_height="@dimen/dp_24" android:src="@drawable/ic_check" android:layout_marginEnd="@dimen/dp_20" app:layout_constraintBottom_toBottomOf="@id/tv_heading" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@id/tv_heading" />
-</androidx.constraintlayout.widget.ConstraintLayout>

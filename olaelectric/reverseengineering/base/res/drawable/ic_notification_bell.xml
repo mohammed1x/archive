@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<vector android:height="54.0dip" android:width="54.0dip" android:viewportWidth="54.0" android:viewportHeight="54.0"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
-    <path android:fillColor="@drawable/$ic_notification_bell__0" android:pathData="M27,0L27,0A27,27 0,0 1,54 27L54,27A27,27 0,0 1,27 54L27,54A27,27 0,0 1,0 27L0,27A27,27 0,0 1,27 0z" />
-    <path android:fillColor="@drawable/$ic_notification_bell__1" android:pathData="M27,41.2105C28.7016,41.2105 30.0938,39.8277 30.0938,38.1376H23.9062C23.9062,39.8277 25.2984,41.2105 27,41.2105ZM36.2812,31.9919V24.3097C36.2812,19.5929 33.7598,15.6442 29.3203,14.5994V11.25H24.6797V14.5994C20.2556,15.6442 17.7188,19.5775 17.7188,24.3097V31.9919L14.625,35.0648V36.6012H39.375V35.0648L36.2812,31.9919ZM33.1875,33.5283H20.8125V24.3097C20.8125,20.4994 23.1483,17.3957 27,17.3957C30.8517,17.3957 33.1875,20.4994 33.1875,24.3097V33.5283Z" />
-</vector>

@@ -1,3 +1,0 @@
-.class public interface abstract LM0/c;
-.super Ljava/lang/Object;
-.source "VersionedParcelable.java"

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/doc_type" android:tag="layout/layout_btmsheet_doc_type_0" android:background="?bottomSheetBackground" android:layout_width="fill_parent" android:layout_height="@dimen/dp_64"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <ImageView android:id="@id/dl_icon" android:layout_width="@dimen/dp_24" android:layout_height="@dimen/dp_24" android:src="?icDl" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
-    <TextView android:id="@id/dl_doc" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/driving_licence" android:layout_marginStart="@dimen/dp_16" app:layout_constrainedHeight="true" app:layout_constrainedWidth="true" app:layout_constraintBottom_toBottomOf="@id/dl_icon" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/dl_icon" app:layout_constraintTop_toTopOf="@id/dl_icon" style="@style/Text.Medium.18.Blue100Whites100" />
-    <View android:id="@id/divider_1" android:background="?black100Op6DmWhiteOp8" android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_marginTop="@dimen/dp_20" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="@id/dl_doc" />
-</androidx.constraintlayout.widget.ConstraintLayout>

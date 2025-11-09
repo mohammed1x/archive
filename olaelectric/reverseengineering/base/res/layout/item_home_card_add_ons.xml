@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <View android:id="@id/top_divider" android:background="?homecardseprator" android:layout_width="fill_parent" android:layout_height="@dimen/dp_1" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
-    <TextView android:gravity="start" android:id="@id/add_ons_for" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_20" android:layout_marginTop="@dimen/dp_28" android:text="@string/add_ons_for" android:lineSpacingExtra="4.0sp" android:translationY="-2.0sp" android:layout_marginStart="@dimen/dp_20" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/top_divider" style="@style/txt_24_gentona_italic_blue_100" />
-    <com.olaelectric.presentationv3.views.companionMode.scooterSettings.addOns.home.AddOnCustomView android:orientation="horizontal" android:id="@id/add_ons_container" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/add_ons_for" app:layout_constraintVertical_bias="0.0" />
-</androidx.constraintlayout.widget.ConstraintLayout>

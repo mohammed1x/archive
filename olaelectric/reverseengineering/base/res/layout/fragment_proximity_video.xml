@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:windowIsFloating="false" android:tag="layout/fragment_proximity_video_0" android:layout_width="fill_parent" android:layout_height="fill_parent" android:statusBarColor="@android:color/transparent" android:navigationBarColor="@color/black"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.google.android.exoplayer2.ui.PlayerView android:id="@id/player_view" android:layout_width="fill_parent" android:layout_height="fill_parent" app:resize_mode="fill" app:shutter_background_color="?whiteDmBlack100" app:surface_type="texture_view" />
-    <ImageView android:id="@id/btn_cancel" android:layout_width="@dimen/dp_32" android:layout_height="@dimen/dp_32" android:layout_marginTop="@dimen/dp_20" android:src="@drawable/iv_white_cross" android:layout_marginEnd="@dimen/dp_20" android:layout_alignParentEnd="true" />
-</RelativeLayout>

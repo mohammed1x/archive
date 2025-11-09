@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<vector android:height="@dimen/dp_129" android:width="@dimen/dp_92" android:viewportWidth="92.0" android:viewportHeight="129.0"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
-    <path android:fillColor="@drawable/$ic_nav_location_stale_pointer__0" android:pathData="M16.07,86.96L45.4,15.84L75.64,86.63L80,89.99V96.83L46.6,71.08L12,96.83V89.99L16.07,86.96Z" />
-    <path android:fillColor="@drawable/$ic_nav_location_stale_pointer__1" android:pathData="M16.07,86.96L45.4,15.84L75.64,86.63L80,89.99V96.83L46.6,71.08L12,96.83V89.99L16.07,86.96Z" />
-    <path android:fillColor="@drawable/$ic_nav_location_stale_pointer__2" android:pathData="M45.4,9L12,90.95L46.6,65.19L80,90.95L45.4,9Z" />
-    <path android:fillColor="@drawable/$ic_nav_location_stale_pointer__3" android:pathData="M45.4,9L12,90.95L46.6,65.19L80,90.95L45.4,9Z" />
-    <path android:fillColor="@drawable/$ic_nav_location_stale_pointer__4" android:pathData="M45.4,9L80,90.95V110.79L46,107L12,110.79L12,90.95L45.4,9Z" />
-</vector>

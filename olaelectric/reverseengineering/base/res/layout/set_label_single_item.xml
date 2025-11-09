@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/set_label_single_item_0" android:background="@drawable/label_chip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="@dimen/dp_11" android:layout_marginEnd="@dimen/dp_8"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_label_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dp_18" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
-    <TextView android:id="@id/tv_label_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_11" android:layout_marginStart="@dimen/dp_10" app:layout_constraintStart_toEndOf="@id/iv_label_icon" app:layout_constraintTop_toTopOf="parent" style="@style/text_16_gentona_black_100" />
-</androidx.constraintlayout.widget.ConstraintLayout>

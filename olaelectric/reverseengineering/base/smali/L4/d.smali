@@ -1,3 +1,0 @@
-.class public interface abstract LL4/d;
-.super Ljava/lang/Object;
-.source "LabelFormatter.java"

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/cl_top_ranked_earner" android:tag="layout/refer_top_ranked_earners_0" android:paddingBottom="35.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_28" app:layout_constraintTop_toBottomOf="parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <androidx.appcompat.widget.AppCompatTextView android:id="@id/tv_top_ranked_earner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/top_ranked_earners" android:layout_marginStart="@dimen/dp_20" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/txt_24_gentona_semibolditalic_blue_100_refer" />
-    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_top_ranked_earner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_8" android:layout_marginStart="@dimen/dp_20" android:layout_marginEnd="@dimen/dp_20" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" app:layout_constraintTop_toBottomOf="@id/tv_top_ranked_earner" />
-</androidx.constraintlayout.widget.ConstraintLayout>

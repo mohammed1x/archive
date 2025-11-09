@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:background="?whiteDmBlack200" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <TextView android:layout_gravity="start" android:id="@id/tv_rating_detail" android:paddingTop="@dimen/dp_16" android:paddingBottom="@dimen/dp_16" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textAlignment="textStart" android:paddingVertical="@dimen/dp_16" app:layout_constraintEnd_toStartOf="@id/iv_rating_detail" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Text.Gentona.16.400.Blue100.White100" />
-    <ImageView android:id="@id/iv_rating_detail" android:layout_width="@dimen/dp_18" android:layout_height="@dimen/dp_18" app:layout_constraintBottom_toBottomOf="@id/tv_rating_detail" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@id/tv_rating_detail" />
-    <View android:id="@id/divider" android:background="?serviceModeSeparatorColor" android:layout_width="@dimen/dp_0" android:layout_height="1.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tv_rating_detail" />
-</androidx.constraintlayout.widget.ConstraintLayout>

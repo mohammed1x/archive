@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<appwidget-provider android:description="@string/distance_covered_all_time_widget_description" android:minWidth="@dimen/dp_130" android:minHeight="@dimen/dp_130" android:updatePeriodMillis="1800000" android:initialLayout="@layout/widget_distance_covered_all_time" android:previewImage="@drawable/distance_covered_all_time_widget" android:resizeMode="none" android:minResizeWidth="@dimen/dp_155" android:minResizeHeight="@dimen/dp_155" android:initialKeyguardLayout="@layout/widget_distance_covered_all_time" android:widgetCategory="home_screen" android:targetCellWidth="2" android:targetCellHeight="2"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/user_details_list_item" android:tag="layout/route_list_single_item_0" android:paddingLeft="@dimen/dp_16" android:paddingRight="@dimen/dp_16" android:paddingBottom="@dimen/dp_16" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/dp_16"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <LinearLayout android:gravity="center" android:id="@id/ll_icon" android:layout_width="@dimen/dp_56" android:layout_height="@dimen/dp_56" app:layout_constraintBottom_toBottomOf="@id/tv_subtitle_text" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/tv_title_text" app:layout_goneMarginStart="@dimen/dp_20">
-        <ImageView android:id="@id/iv_icon" android:layout_width="@dimen/dp_40" android:layout_height="@dimen/dp_40" />
-    </LinearLayout>
-    <TextView android:id="@id/tv_title_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dp_12" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@id/ll_icon" app:layout_constraintTop_toTopOf="parent" style="@style/text_24_gentona_medium_blue_100" />
-    <TextView android:ellipsize="end" android:id="@id/tv_subtitle_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_4" android:maxLines="1" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintStart_toStartOf="@id/tv_title_text" app:layout_constraintTop_toBottomOf="@id/tv_title_text" style="@style/text_16_gentona_blue_200_refer" />
-</androidx.constraintlayout.widget.ConstraintLayout>

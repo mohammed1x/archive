@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/ble_pairing_fail_item_0" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/margin_24"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <ImageView android:id="@id/iv_tick_image" android:layout_width="@dimen/dp_36" android:layout_height="@dimen/dp_36" android:src="@null" android:scaleType="centerInside" android:layout_marginStart="@dimen/dp_10" app:layout_constraintBottom_toBottomOf="@id/tv_info_item" app:layout_constraintEnd_toStartOf="@id/tv_info_item" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/tv_info_item" app:layout_constraintWidth_default="wrap" />
-    <TextView android:gravity="center_vertical" android:id="@id/tv_info_item" android:layout_width="@dimen/dp_0" android:layout_height="fill_parent" android:text="@string/pairing_failed_info_one" android:layout_marginStart="@dimen/dp_6" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/iv_tick_image" style="@style/Text.Gentona.16.Blue100White100" />
-</androidx.constraintlayout.widget.ConstraintLayout>

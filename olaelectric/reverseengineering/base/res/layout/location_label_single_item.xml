@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/cl_label" android:tag="layout/location_label_single_item_0" android:background="@drawable/bg_location_label" android:layout_width="wrap_content" android:layout_height="@dimen/dp_40" android:layout_marginEnd="@dimen/dp_8"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <androidx.appcompat.widget.AppCompatImageView android:id="@id/ic_label" android:layout_width="@dimen/dp_18" android:layout_height="@dimen/dp_18" android:layout_marginStart="@dimen/dp_8" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
-    <TextView android:textSize="@dimen/sp_19" android:textColor="@color/blue_100" android:id="@id/tv_label_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dp_6" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/ic_label" app:layout_constraintTop_toTopOf="parent" style="@style/Text.Medium.16.Blue100White100" />
-</androidx.constraintlayout.widget.ConstraintLayout>

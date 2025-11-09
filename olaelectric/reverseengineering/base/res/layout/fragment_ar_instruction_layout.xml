@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/fragment_ar_instruction_layout_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <FrameLayout android:id="@id/img_illustration" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
-    <androidx.appcompat.widget.AppCompatTextView android:textColor="#ffffffff" android:gravity="center" android:id="@id/tv_illustration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_36" android:text="@string/hold_your_device_steady" android:paddingStart="38.0dip" android:paddingEnd="38.0dip" android:layout_marginStart="@dimen/dp_38" android:layout_marginEnd="@dimen/dp_38" android:elevation="5.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/img_illustration" style="@style/txt_24_gentona_semibolditalic_blue_100" />
-</androidx.constraintlayout.widget.ConstraintLayout>

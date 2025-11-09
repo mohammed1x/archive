@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<vector android:height="56.0dip" android:width="56.0dip" android:viewportWidth="56.0" android:viewportHeight="56.0"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
-    <path android:fillColor="#ffe4ffef" android:pathData="M28,28m-28,0a28,28 0,1 1,56 0a28,28 0,1 1,-56 0" />
-    <path android:fillColor="@drawable/$maps_destination_reached__0" android:pathData="M45.512,17.193L20.283,41.299L11.404,32.041L14.066,29.121L20.283,35.426L42.832,14.5L45.512,17.193Z" android:fillType="evenOdd" />
-</vector>

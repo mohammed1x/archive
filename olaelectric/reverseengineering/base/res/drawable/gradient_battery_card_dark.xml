@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<vector android:height="252.0dip" android:width="252.0dip" android:viewportWidth="252.0" android:viewportHeight="252.0"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
-    <path android:fillColor="@drawable/$gradient_battery_card_dark__0" android:pathData="M246,126C246,192.27 192.27,246 126,246C59.73,246 6,192.27 6,126C6,59.73 59.73,6 126,6C192.27,6 246,59.73 246,126Z" />
-    <path android:fillColor="#00000000" android:pathData="M126,248C193.38,248 248,193.38 248,126C248,58.62 193.38,4 126,4C58.62,4 4,58.62 4,126C4,193.38 58.62,248 126,248Z" android:strokeColor="@drawable/$gradient_battery_card_dark__1" android:strokeWidth="4.0" />
-</vector>

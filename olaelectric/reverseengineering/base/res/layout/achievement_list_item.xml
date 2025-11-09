@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/achievement_list_item_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <TextView android:id="@id/tv_subtitle" android:paddingBottom="@dimen/dp_11" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_43" android:layout_marginStart="@dimen/dp_20" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Text.SemiBoldItalic.24.Blue100Whites100" />
-    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_achievements" android:paddingLeft="10.5dip" android:paddingRight="10.5dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:nestedScrollingEnabled="false" android:paddingHorizontal="10.5dip" app:layoutManager="androidx.recyclerview.widget.GridLayoutManager" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tv_subtitle" app:spanCount="3" />
-</androidx.constraintlayout.widget.ConstraintLayout>
