@@ -1,0 +1,81 @@
+.class public final LM3/b;
+.super Ljava/lang/Object;
+.source "com.google.android.gms:play-services-basement@@18.3.0"
+
+# interfaces
+.implements Ljava/util/concurrent/ThreadFactory;
+
+
+# instance fields
+.field public final a:Ljava/lang/String;
+
+.field public final b:Ljava/util/concurrent/ThreadFactory;
+
+
+# direct methods
+.method public constructor <init>(Ljava/lang/String;)V
+    .locals 1
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    invoke-static {}, Ljava/util/concurrent/Executors;->defaultThreadFactory()Ljava/util/concurrent/ThreadFactory;
+
+    .line 5
+    .line 6
+    .line 7
+    move-result-object v0
+
+    .line 8
+    iput-object v0, p0, LM3/b;->b:Ljava/util/concurrent/ThreadFactory;
+
+    .line 9
+    .line 10
+    iput-object p1, p0, LM3/b;->a:Ljava/lang/String;
+
+    .line 11
+    .line 12
+    return-void
+.end method
+
+
+# virtual methods
+.method public final newThread(Ljava/lang/Runnable;)Ljava/lang/Thread;
+    .locals 1
+
+    .line 1
+    new-instance v0, LM3/c;
+
+    .line 2
+    .line 3
+    invoke-direct {v0, p1}, LM3/c;-><init>(Ljava/lang/Runnable;)V
+
+    .line 4
+    .line 5
+    .line 6
+    iget-object p1, p0, LM3/b;->b:Ljava/util/concurrent/ThreadFactory;
+
+    .line 7
+    .line 8
+    invoke-interface {p1, v0}, Ljava/util/concurrent/ThreadFactory;->newThread(Ljava/lang/Runnable;)Ljava/lang/Thread;
+
+    .line 9
+    .line 10
+    .line 11
+    move-result-object p1
+
+    .line 12
+    iget-object v0, p0, LM3/b;->a:Ljava/lang/String;
+
+    .line 13
+    .line 14
+    invoke-virtual {p1, v0}, Ljava/lang/Thread;->setName(Ljava/lang/String;)V
+
+    .line 15
+    .line 16
+    .line 17
+    return-object p1
+.end method

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@android:color/transparent" android:paddingTop="@dimen/credit_bs_top_padding" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:id="@id/cardView" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginBottom="@dimen/credit_bs_bottom_corner_radius" android:shadowRadius="0.0" android:layout_weight="0.5" android:outlineSpotShadowColor="@android:color/transparent" android:outlineAmbientShadowColor="@android:color/transparent" app:cardCornerRadius="@dimen/credit_bs_corner_radius">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/imgViewDragHandle" android:layout_width="35.0dip" android:layout_height="5.0dip" android:layout_marginTop="20.0dip" android:src="@drawable/ic_drag_handle" android:elevation="10.0dip" />
+        <ImageView android:id="@id/imgViewBg" android:layout_width="fill_parent" android:layout_height="350.0dip" android:src="@drawable/bottom_sheet_bg_png" android:scaleType="fitXY" />
+    </androidx.cardview.widget.CardView>
+    <RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.5" android:paddingStart="25.0dip" android:paddingEnd="25.0dip">
+        <ImageView android:id="@id/imgViewOlaMapLogo" android:background="@drawable/bottom_sheet_ola_maps_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="15.0dip" />
+        <TextView android:textSize="@dimen/credit_bs_text_size" android:textColor="@color/bottom_sheet_text_color" android:id="@id/bottom_sheet_credit_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/bottom_sheet_credit_text" android:layout_below="@id/imgViewOlaMapLogo" android:fontFamily="@font/cbs_gentona_book" android:lineHeight="27.0dip" android:textFontWeight="400" />
+        <TextView android:textSize="@dimen/credit_bs_subtext_size" android:textColor="@color/bottom_sheet_subtext_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/bottom_sheet_credit_subtext" android:layout_below="@id/bottom_sheet_credit_text" android:fontFamily="@font/cbs_gentona_book" android:lineHeight="16.0dip" android:textFontWeight="500" />
+    </RelativeLayout>
+</LinearLayout>

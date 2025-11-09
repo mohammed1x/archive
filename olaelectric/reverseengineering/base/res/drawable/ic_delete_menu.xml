@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="23.0dip" android:width="24.0dip" android:viewportWidth="24.0" android:viewportHeight="23.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$ic_delete_menu__0" android:pathData="M21.1667,4.75H17.8333V2.6667C17.8333,1.7474 17.0859,1 16.1667,1H7.8333C6.9141,1 6.1667,1.7474 6.1667,2.6667V4.75H2.8333C2.3724,4.75 2,5.1224 2,5.5833V6.4167C2,6.5313 2.0938,6.625 2.2083,6.625H3.7813L4.4245,20.2448C4.4661,21.1328 5.2005,21.8333 6.0885,21.8333H17.9115C18.8021,21.8333 19.5339,21.1354 19.5755,20.2448L20.2187,6.625H21.7917C21.9062,6.625 22,6.5313 22,6.4167V5.5833C22,5.1224 21.6276,4.75 21.1667,4.75ZM15.9583,4.75H8.0417V2.875H15.9583V4.75Z" />
+</vector>

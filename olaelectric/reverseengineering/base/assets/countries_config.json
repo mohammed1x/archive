@@ -1,0 +1,25 @@
+{"countries_config": {
+    "country": "IN",
+    "supported_countries": [
+      {
+        "hint_text": "Your number",
+        "dialing_code": "+91",
+        "name": "India",
+        "country_code": "IN",
+        "min_phone_no_length": 10,
+        "max_phone_no_length": 10,
+        "phone_no_format": "5:5",
+        "allowed_start_digits": [
+          4,
+          6,
+          7,
+          8,
+          9
+        ],
+        "support_email": "support@olacabs.com",
+        "support_number": ""
+      }
+    ],
+    "flags_base_url": "https://capp-images.olacabs.com/flags/"
+  }
+}

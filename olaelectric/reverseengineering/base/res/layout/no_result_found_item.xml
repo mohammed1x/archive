@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textColor="#ffa0a8ad" android:id="@id/tv_location_name" android:tag="layout/no_result_found_item_0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_10" android:layout_marginBottom="@dimen/dp_4" android:text="@string/sorry_no_results_found" android:lines="1" android:layout_marginStart="@dimen/dp_20" style="@style/text_16_gentona_black"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

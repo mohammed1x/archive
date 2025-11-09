@@ -1,0 +1,79 @@
+.class public final Lkotlin/reflect/jvm/internal/impl/types/TypeCheckerState$b$b;
+.super Lkotlin/reflect/jvm/internal/impl/types/TypeCheckerState$b;
+.source "AbstractTypeChecker.kt"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lkotlin/reflect/jvm/internal/impl/types/TypeCheckerState$b;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "b"
+.end annotation
+
+
+# static fields
+.field public static final a:Lkotlin/reflect/jvm/internal/impl/types/TypeCheckerState$b$b;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    .line 1
+    new-instance v0, Lkotlin/reflect/jvm/internal/impl/types/TypeCheckerState$b$b;
+
+    .line 2
+    .line 3
+    invoke-direct {v0}, Lkotlin/reflect/jvm/internal/impl/types/TypeCheckerState$b;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    sput-object v0, Lkotlin/reflect/jvm/internal/impl/types/TypeCheckerState$b$b;->a:Lkotlin/reflect/jvm/internal/impl/types/TypeCheckerState$b$b;
+
+    .line 7
+    .line 8
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(Lkotlin/reflect/jvm/internal/impl/types/TypeCheckerState;LZf/e;)LZf/f;
+    .locals 1
+
+    .line 1
+    const-string v0, "state"
+
+    .line 2
+    .line 3
+    invoke-static {p1, v0}, LTe/i;->h(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 4
+    .line 5
+    .line 6
+    const-string v0, "type"
+
+    .line 7
+    .line 8
+    invoke-static {p2, v0}, LTe/i;->h(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 9
+    .line 10
+    .line 11
+    iget-object p1, p1, Lkotlin/reflect/jvm/internal/impl/types/TypeCheckerState;->c:Lkotlin/reflect/jvm/internal/impl/types/checker/b;
+
+    .line 12
+    .line 13
+    invoke-interface {p1, p2}, LZf/k;->b0(LZf/e;)LWf/v;
+
+    .line 14
+    .line 15
+    .line 16
+    move-result-object p1
+
+    .line 17
+    return-object p1
+.end method

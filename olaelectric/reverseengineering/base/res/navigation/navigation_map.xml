@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/navigation_map" app:startDestination="@id/blankFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="BlankFragment" android:name="com.olaelectric.presentationv3.views.map.BlankFragment" android:id="@id/blankFragment" />
+    <fragment android:label="DestinationSheetFragment" android:name="com.olaelectric.presentationv3.views.map.destination.DestinationSheetFragment" android:id="@id/destinationSheetFragment" />
+    <fragment android:label="NavigateSheetFragment" android:name="com.olaelectric.presentationv3.views.map.navigate.NavigateSheetFragment" android:id="@id/navigateFragment" />
+    <fragment android:label="NavigateSheetFragmentOld" android:name="com.olaelectric.presentationv3.views.map.navigate.NavigateSheetFragmentOld" android:id="@id/navigateFragmentOld" />
+    <fragment android:label="ShareLocationFragment" android:name="com.olaelectric.presentationv3.views.map.shareLocation.ShareLocationSheetFragment" android:id="@id/shareLocationFragment" />
+    <fragment android:label="LiveLocationFragment" android:name="com.olaelectric.presentationv3.views.map.liveLocation.LiveLocationSheetFragment" android:id="@id/liveLocationFragment" />
+    <fragment android:label="UpdateLocationFragment" android:name="com.olaelectric.presentationv3.views.map.update.UpdateLocationFragment" android:id="@id/updateLocationFragment" />
+    <fragment android:label="LocateScooterPreviewFragment" android:name="com.olaelectric.presentationv3.views.map.navigate.LocateScooterPreviewFragment" android:id="@id/locateScooterPreviewFragment" />
+    <fragment android:label="RouteFragment" android:name="com.olaelectric.presentationv3.views.map.route.RouteFragment" android:id="@id/routeFragment" />
+    <dialog android:label="AddToFavouriteSheetFragment" android:name="com.olaelectric.presentationv3.views.map.favourite.AddToFavouriteSheetFragment" android:id="@id/addToFavouriteSheetFragment" />
+    <dialog android:label="EnableOlaMapsSheetFragment" android:name="com.olaelectric.presentationv3.views.map.EnableOlaMapsBottomSheet" android:id="@id/enableOlaMapsSheetFragment" />
+    <fragment android:label="HyperChargersListFragment" android:name="com.olaelectric.presentationv3.views.map.hypercharger.HyperChargersListFragment" android:id="@id/hyperChargersListFragment" />
+    <fragment android:label="TripGroupMemberFragment" android:name="com.olaelectric.presentationv3.views.map.trip.RoadTripGroupDetailsFragment" android:id="@id/tripGroupMemberFragment" />
+    <fragment android:label="TripPreviewFragment" android:name="com.olaelectric.presentationv3.views.map.trip.TripPreviewFragment" android:id="@id/tripPreviewFragment" />
+    <fragment android:label="EditTripFragment" android:name="com.olaelectric.presentationv3.views.map.trip.EditTripFragment" android:id="@id/editTripFragment" />
+    <dialog android:label="ReportChargingIssue" android:name="com.olaelectric.presentationv3.views.map.destination.facingIssueBottomSheet.ReportAnIssueOlaChargerBottomSheet" android:id="@id/reportAnIssue" />
+</navigation>

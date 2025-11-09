@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/cl_search_places" android:tag="layout/simple_list_header_0" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/cityName" android:paddingTop="@dimen/dp_13" android:paddingBottom="@dimen/dp_13" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/agra" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/txt_12_gentona_semibold_blues_300" />
+</androidx.constraintlayout.widget.ConstraintLayout>

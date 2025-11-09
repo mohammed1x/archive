@@ -1,0 +1,8 @@
+{
+    "headerAllowAppTitle": "Allow From Apps",
+    "allowAppSelected": "No",
+    "headerAllowRidingTitle": "Allow while Riding",
+    "allowRidingSelected": "No notifications",
+    "appList": [],
+    "appSelectedCount": 0
+}

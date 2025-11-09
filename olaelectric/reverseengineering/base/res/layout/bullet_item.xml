@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/img_bullet" android:tag="layout/bullet_item_0" android:layout_width="@dimen/dp_10" android:layout_height="@dimen/dp_10" android:src="@drawable/ic_bullet" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:id="@id/tv_bullet_text" android:tag="layout/bullet_item_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dp_15" app:layout_constraintBottom_toBottomOf="@id/img_bullet" app:layout_constraintStart_toEndOf="@id/img_bullet" app:layout_constraintTop_toTopOf="@id/img_bullet" style="@style/text_16_gentona_black" />
+</merge>

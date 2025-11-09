@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="?btn_background_login_disabled"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <padding android:padding="@dimen/dp_1" />
+            <solid android:color="?btn_background_login_disabled" />
+        </shape>
+    </item>
+</ripple>

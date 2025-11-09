@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/item_accessory_horizontal_0" android:layout_width="@dimen/dp_180" android:layout_height="@dimen/dp_205" android:paddingEnd="@dimen/dp_12"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.card.MaterialCardView android:id="@id/cv_accessory" android:layout_width="fill_parent" android:layout_height="120.0dip" app:cardBackgroundColor="#fff5f5f5" app:cardCornerRadius="12.0dip" app:cardElevation="0.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:id="@id/iv_accessory_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" />
+    </com.google.android.material.card.MaterialCardView>
+    <TextView android:id="@id/tv_accessory_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_16" android:layout_marginTop="@dimen/dp_12" android:layout_marginRight="@dimen/dp_16" android:layout_marginBottom="@dimen/dp_16" android:maxLines="2" android:layout_marginHorizontal="@dimen/dp_16" app:layout_constraintTop_toBottomOf="@id/cv_accessory" style="@style/Text.GentonaMedium.16.Black100White100" />
+</androidx.constraintlayout.widget.ConstraintLayout>

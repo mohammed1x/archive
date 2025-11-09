@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.maplibre.android.maps.MapView android:id="@id/mapViewFromMapBox" android:layout_width="fill_parent" android:layout_height="fill_parent" app:maplibre_cameraTargetLat="@dimen/lat" app:maplibre_cameraTargetLng="@dimen/lng" app:maplibre_enableTilePrefetch="true" app:maplibre_enableZMediaOverlay="true" app:maplibre_renderTextureMode="true" app:maplibre_renderTextureTranslucentSurface="true" app:maplibre_uiDoubleTapGestures="true" app:maplibre_uiRotateGestures="true" app:maplibre_uiScrollGestures="true" app:maplibre_uiTiltGestures="true" app:maplibre_uiZoomGestures="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

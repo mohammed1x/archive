@@ -1,0 +1,88 @@
+.class public final synthetic LH2/E;
+.super Ljava/lang/Object;
+.source "R8$$SyntheticClass"
+
+# interfaces
+.implements Lu3/o$a;
+.implements Lg4/e;
+
+
+# instance fields
+.field public final synthetic i:Ljava/lang/Object;
+
+
+# direct methods
+.method public synthetic constructor <init>(Ljava/lang/Object;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, LH2/E;->i:Ljava/lang/Object;
+
+    .line 2
+    .line 3
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+.end method
+
+
+# virtual methods
+.method public a(Ljava/lang/Object;)V
+    .locals 2
+
+    .line 1
+    const-string v0, "$tmp0"
+
+    .line 2
+    .line 3
+    iget-object v1, p0, LH2/E;->i:Ljava/lang/Object;
+
+    .line 4
+    .line 5
+    check-cast v1, LSe/l;
+
+    .line 6
+    .line 7
+    invoke-static {v1, v0}, LTe/i;->h(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 8
+    .line 9
+    .line 10
+    invoke-interface {v1, p1}, LSe/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 11
+    .line 12
+    .line 13
+    return-void
+.end method
+
+.method public invoke(Ljava/lang/Object;)V
+    .locals 1
+
+    .line 1
+    check-cast p1, Lcom/google/android/exoplayer2/u$c;
+
+    .line 2
+    .line 3
+    iget-object v0, p0, LH2/E;->i:Ljava/lang/Object;
+
+    .line 4
+    .line 5
+    check-cast v0, Lcom/google/android/exoplayer2/j;
+
+    .line 6
+    .line 7
+    iget-object v0, v0, Lcom/google/android/exoplayer2/j;->N:Lcom/google/android/exoplayer2/u$a;
+
+    .line 8
+    .line 9
+    invoke-interface {p1, v0}, Lcom/google/android/exoplayer2/u$c;->l(Lcom/google/android/exoplayer2/u$a;)V
+
+    .line 10
+    .line 11
+    .line 12
+    return-void
+.end method

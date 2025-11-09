@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/imgViewCopyright" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="-40.0dip" android:src="@drawable/ic_copyright" android:layout_above="@id/imgViewOlaMapsWaterMark" android:layout_alignBottom="@id/imgViewOlaMapsWaterMark" android:layout_toEndOf="@id/imgViewOlaMapsWaterMark" />
+    <ImageView android:id="@id/imgViewOlaMapsWaterMark" android:paddingBottom="8.0dip" android:layout_width="100.0dip" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:src="@drawable/ola_maps_logo_small" android:scaleType="fitXY" android:adjustViewBounds="true" android:layout_alignParentBottom="true" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" />
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="24.0dip" android:width="24.0dip" android:viewportWidth="24.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <group>
+        <clip-path android:pathData="M0,0h24v24h-24z" />
+        <path android:fillColor="#ffffffff" android:pathData="M10.149,13.765L5.6,5.047H3.456C3.335,5.047 3.234,5.147 3.234,5.269V20.758C3.234,20.777 3.24,20.793 3.245,20.808L10.149,13.765ZM10.547,13.363L13.128,10.753L8.661,5.203C8.576,5.118 8.405,5.047 8.286,5.047H6.142L10.547,13.363Z" android:fillAlpha="0.4" />
+        <path android:fillColor="#00000000" android:pathData="M19.621,11.11L19.621,5.625L14.135,5.625" android:strokeColor="#ffffffff" android:strokeWidth="2.0" />
+        <path android:fillColor="@drawable/$ic_highway_keepright_pip_map__0" android:pathData="M20.134,6.482L18.741,5.047L12.284,11.612L3.244,20.755H3.292L3.246,20.802L20.872,20.759C20.872,20.759 17.979,17.074 16.237,14.86C16.048,14.619 15.876,14.335 15.733,14.065C15.418,13.471 15.527,12.759 15.925,12.218L20.134,6.482Z" android:fillType="evenOdd" />
+    </group>
+</vector>

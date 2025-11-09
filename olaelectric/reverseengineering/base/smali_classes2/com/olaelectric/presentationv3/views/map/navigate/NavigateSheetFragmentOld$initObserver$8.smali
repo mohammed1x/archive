@@ -1,0 +1,173 @@
+.class final Lcom/olaelectric/presentationv3/views/map/navigate/NavigateSheetFragmentOld$initObserver$8;
+.super Lkotlin/jvm/internal/Lambda;
+.source "NavigateSheetFragmentOld.kt"
+
+# interfaces
+.implements LSe/l;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lkotlin/jvm/internal/Lambda;",
+        "LSe/l<",
+        "Lcom/olaelectric/presentationv3/views/map/model/DriveMode;",
+        "LFe/r;",
+        ">;"
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000\u000e\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0003\u0010\u0005\u001a\u00020\u00022\u0008\u0010\u0001\u001a\u0004\u0018\u00010\u0000H\n\u00a2\u0006\u0004\u0008\u0003\u0010\u0004"
+    }
+    d2 = {
+        "Lcom/olaelectric/presentationv3/views/map/model/DriveMode;",
+        "mode",
+        "LFe/r;",
+        "invoke",
+        "(Lcom/olaelectric/presentationv3/views/map/model/DriveMode;)V",
+        "<anonymous>"
+    }
+    k = 0x3
+    mv = {
+        0x1,
+        0x9,
+        0x0
+    }
+.end annotation
+
+
+# instance fields
+.field public final synthetic a:Lcom/olaelectric/presentationv3/views/map/navigate/NavigateSheetFragmentOld;
+
+
+# direct methods
+.method public constructor <init>(Lcom/olaelectric/presentationv3/views/map/navigate/NavigateSheetFragmentOld;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lcom/olaelectric/presentationv3/views/map/navigate/NavigateSheetFragmentOld$initObserver$8;->a:Lcom/olaelectric/presentationv3/views/map/navigate/NavigateSheetFragmentOld;
+
+    .line 2
+    .line 3
+    const/4 p1, 0x1
+
+    .line 4
+    invoke-direct {p0, p1}, Lkotlin/jvm/internal/Lambda;-><init>(I)V
+
+    .line 5
+    .line 6
+    .line 7
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 5
+
+    .line 1
+    check-cast p1, Lcom/olaelectric/presentationv3/views/map/model/DriveMode;
+
+    .line 2
+    .line 3
+    if-eqz p1, :cond_2
+
+    .line 4
+    .line 5
+    iget-object v0, p0, Lcom/olaelectric/presentationv3/views/map/navigate/NavigateSheetFragmentOld$initObserver$8;->a:Lcom/olaelectric/presentationv3/views/map/navigate/NavigateSheetFragmentOld;
+
+    .line 6
+    .line 7
+    invoke-virtual {v0}, Lcom/olaelectric/presentationv3/core/BaseFragment;->getBinding()Lf0/i;
+
+    .line 8
+    .line 9
+    .line 10
+    move-result-object v1
+
+    .line 11
+    check-cast v1, Lw9/f5;
+
+    .line 12
+    .line 13
+    iget-object v1, v1, Lw9/f5;->x:Landroid/widget/LinearLayout;
+
+    .line 14
+    .line 15
+    sget-object v2, Lcom/olaelectric/presentationv3/views/map/model/DriveMode;->driving:Lcom/olaelectric/presentationv3/views/map/model/DriveMode;
+
+    .line 16
+    .line 17
+    const/4 v3, 0x0
+
+    .line 18
+    const/4 v4, 0x1
+
+    .line 19
+    if-ne p1, v2, :cond_0
+
+    .line 20
+    .line 21
+    move v2, v4
+
+    .line 22
+    goto :goto_0
+
+    .line 23
+    :cond_0
+    move v2, v3
+
+    .line 24
+    :goto_0
+    invoke-virtual {v1, v2}, Landroid/view/View;->setSelected(Z)V
+
+    .line 25
+    .line 26
+    .line 27
+    invoke-virtual {v0}, Lcom/olaelectric/presentationv3/core/BaseFragment;->getBinding()Lf0/i;
+
+    .line 28
+    .line 29
+    .line 30
+    move-result-object v1
+
+    .line 31
+    check-cast v1, Lw9/f5;
+
+    .line 32
+    .line 33
+    iget-object v1, v1, Lw9/f5;->y:Landroid/widget/LinearLayout;
+
+    .line 34
+    .line 35
+    sget-object v2, Lcom/olaelectric/presentationv3/views/map/model/DriveMode;->walking:Lcom/olaelectric/presentationv3/views/map/model/DriveMode;
+
+    .line 36
+    .line 37
+    if-ne p1, v2, :cond_1
+
+    .line 38
+    .line 39
+    move v3, v4
+
+    .line 40
+    :cond_1
+    invoke-virtual {v1, v3}, Landroid/view/View;->setSelected(Z)V
+
+    .line 41
+    .line 42
+    .line 43
+    invoke-static {v0}, Lcom/olaelectric/presentationv3/views/map/navigate/NavigateSheetFragmentOld;->s0(Lcom/olaelectric/presentationv3/views/map/navigate/NavigateSheetFragmentOld;)V
+
+    .line 44
+    .line 45
+    .line 46
+    :cond_2
+    sget-object p1, LFe/r;->a:LFe/r;
+
+    .line 47
+    .line 48
+    return-object p1
+.end method

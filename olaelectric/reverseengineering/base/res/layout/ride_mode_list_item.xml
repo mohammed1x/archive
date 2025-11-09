@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/cl_ride_mode_item_parent" android:background="@drawable/bg_ride_stats_rounded_corners" android:layout_width="fill_parent" android:layout_height="@dimen/dp_77" android:layout_marginLeft="@dimen/dp_2" android:layout_marginTop="@dimen/dp_4" android:layout_marginRight="@dimen/dp_2" android:backgroundTint="@color/hyper_bg_color" android:layout_marginHorizontal="@dimen/dp_2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/ride_mode_item" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dp_16" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/layout_different_ride_modes_key_value" />
+</androidx.constraintlayout.widget.ConstraintLayout>

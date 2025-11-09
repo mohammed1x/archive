@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_rating" android:tag="layout/rating_bar_0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:animateLayoutChanges="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/iv_rating_1" android:paddingLeft="@dimen/dp_6" android:paddingRight="@dimen/dp_6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_star_empty" android:paddingHorizontal="@dimen/dp_6" />
+    <ImageView android:id="@id/iv_rating_2" android:paddingLeft="@dimen/dp_6" android:paddingRight="@dimen/dp_6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_star_empty" android:paddingHorizontal="@dimen/dp_6" />
+    <ImageView android:id="@id/iv_rating_3" android:paddingLeft="@dimen/dp_6" android:paddingRight="@dimen/dp_6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_star_empty" android:paddingHorizontal="@dimen/dp_6" />
+    <ImageView android:id="@id/iv_rating_4" android:paddingLeft="@dimen/dp_6" android:paddingRight="@dimen/dp_6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_star_empty" android:paddingHorizontal="@dimen/dp_6" />
+    <ImageView android:id="@id/iv_rating_5" android:paddingLeft="@dimen/dp_6" android:paddingRight="@dimen/dp_6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_star_empty" android:paddingHorizontal="@dimen/dp_6" />
+</LinearLayout>

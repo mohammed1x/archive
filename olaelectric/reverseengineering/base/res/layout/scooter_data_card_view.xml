@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ll_parent" android:tag="layout/scooter_data_card_view_0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_20" android:paddingStart="@dimen/dp_20" android:paddingEnd="@dimen/dp_20"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/blue_200" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAllCaps="false" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Text.Book.16.Blues200DmBlacks500" />
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/tv_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_4" android:layout_marginBottom="@dimen/dp_20" style="@style/Text.Medium.18.Blue100White100" />
+</LinearLayout>

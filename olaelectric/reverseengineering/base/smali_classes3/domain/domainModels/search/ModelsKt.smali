@@ -1,0 +1,259 @@
+.class public final Ldomain/domainModels/search/ModelsKt;
+.super Ljava/lang/Object;
+.source "Models.kt"
+
+
+# annotations
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000\u0012\n\u0000\n\u0002\u0010\u000b\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\u001a\n\u0010\u0000\u001a\u00020\u0001*\u00020\u0002\u001a\n\u0010\u0003\u001a\u00020\u0004*\u00020\u0002\u00a8\u0006\u0005"
+    }
+    d2 = {
+        "hasLatLng",
+        "",
+        "Ldomain/domainModels/search/SearchResult;",
+        "toPlaceDetails",
+        "Ldomain/domainModels/search/PlaceDetailEntity;",
+        "_domainV2_release"
+    }
+    k = 0x2
+    mv = {
+        0x1,
+        0x9,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# direct methods
+.method public static final hasLatLng(Ldomain/domainModels/search/SearchResult;)Z
+    .locals 4
+
+    .line 1
+    const-string v0, "<this>"
+
+    .line 2
+    .line 3
+    invoke-static {p0, v0}, LTe/i;->h(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 4
+    .line 5
+    .line 6
+    invoke-virtual {p0}, Ldomain/domainModels/search/SearchResult;->getLatitude()D
+
+    .line 7
+    .line 8
+    .line 9
+    move-result-wide v0
+
+    .line 10
+    const-wide/high16 v2, -0x4010000000000000L    # -1.0
+
+    .line 11
+    .line 12
+    cmpg-double v0, v0, v2
+
+    .line 13
+    .line 14
+    if-nez v0, :cond_0
+
+    .line 15
+    .line 16
+    goto :goto_0
+
+    .line 17
+    :cond_0
+    invoke-virtual {p0}, Ldomain/domainModels/search/SearchResult;->getLongitude()D
+
+    .line 18
+    .line 19
+    .line 20
+    move-result-wide v0
+
+    .line 21
+    cmpg-double v0, v0, v2
+
+    .line 22
+    .line 23
+    if-nez v0, :cond_1
+
+    .line 24
+    .line 25
+    goto :goto_0
+
+    .line 26
+    :cond_1
+    invoke-virtual {p0}, Ldomain/domainModels/search/SearchResult;->getLatitude()D
+
+    .line 27
+    .line 28
+    .line 29
+    move-result-wide v0
+
+    .line 30
+    const-wide/16 v2, 0x0
+
+    .line 31
+    .line 32
+    cmpg-double v0, v0, v2
+
+    .line 33
+    .line 34
+    if-nez v0, :cond_2
+
+    .line 35
+    .line 36
+    goto :goto_0
+
+    .line 37
+    :cond_2
+    invoke-virtual {p0}, Ldomain/domainModels/search/SearchResult;->getLongitude()D
+
+    .line 38
+    .line 39
+    .line 40
+    move-result-wide v0
+
+    .line 41
+    cmpg-double p0, v0, v2
+
+    .line 42
+    .line 43
+    if-nez p0, :cond_3
+
+    .line 44
+    .line 45
+    :goto_0
+    const/4 p0, 0x0
+
+    .line 46
+    goto :goto_1
+
+    .line 47
+    :cond_3
+    const/4 p0, 0x1
+
+    .line 48
+    :goto_1
+    return p0
+.end method
+
+.method public static final toPlaceDetails(Ldomain/domainModels/search/SearchResult;)Ldomain/domainModels/search/PlaceDetailEntity;
+    .locals 23
+
+    .line 1
+    const-string v0, "<this>"
+
+    .line 2
+    .line 3
+    move-object/from16 v1, p0
+
+    .line 4
+    .line 5
+    invoke-static {v1, v0}, LTe/i;->h(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 6
+    .line 7
+    .line 8
+    new-instance v0, Ldomain/domainModels/search/PlaceDetailEntity;
+
+    .line 9
+    .line 10
+    move-object v2, v0
+
+    .line 11
+    invoke-virtual/range {p0 .. p0}, Ldomain/domainModels/search/SearchResult;->getPlaceId()Ljava/lang/String;
+
+    .line 12
+    .line 13
+    .line 14
+    move-result-object v7
+
+    .line 15
+    invoke-virtual/range {p0 .. p0}, Ldomain/domainModels/search/SearchResult;->getMainAddress()Ljava/lang/String;
+
+    .line 16
+    .line 17
+    .line 18
+    move-result-object v8
+
+    .line 19
+    invoke-virtual/range {p0 .. p0}, Ldomain/domainModels/search/SearchResult;->getSecondaryAddress()Ljava/lang/String;
+
+    .line 20
+    .line 21
+    .line 22
+    move-result-object v13
+
+    .line 23
+    invoke-virtual/range {p0 .. p0}, Ldomain/domainModels/search/SearchResult;->getDistanceInMtr()J
+
+    .line 24
+    .line 25
+    .line 26
+    move-result-wide v3
+
+    .line 27
+    invoke-static {v3, v4}, Ljava/lang/String;->valueOf(J)Ljava/lang/String;
+
+    .line 28
+    .line 29
+    .line 30
+    move-result-object v15
+
+    .line 31
+    const/16 v21, 0x7af3
+
+    .line 32
+    .line 33
+    const/16 v22, 0x0
+
+    .line 34
+    .line 35
+    const-wide/16 v3, 0x0
+
+    .line 36
+    .line 37
+    const-wide/16 v5, 0x0
+
+    .line 38
+    .line 39
+    const/4 v9, 0x0
+
+    .line 40
+    const/4 v10, 0x0
+
+    .line 41
+    const/4 v11, 0x0
+
+    .line 42
+    const/4 v12, 0x0
+
+    .line 43
+    const/4 v14, 0x0
+
+    .line 44
+    const/16 v16, 0x0
+
+    .line 45
+    .line 46
+    const-wide/16 v17, 0x0
+
+    .line 47
+    .line 48
+    const/16 v19, 0x0
+
+    .line 49
+    .line 50
+    const/16 v20, 0x0
+
+    .line 51
+    .line 52
+    invoke-direct/range {v2 .. v22}, Ldomain/domainModels/search/PlaceDetailEntity;-><init>(DDLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;JLjava/lang/String;ZILTe/f;)V
+
+    .line 53
+    .line 54
+    .line 55
+    return-object v0
+.end method

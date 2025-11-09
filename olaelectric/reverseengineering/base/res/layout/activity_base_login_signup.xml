@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/base_fragment_container" android:background="?bgcolor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="?bgcolor" android:layout_marginTop="@dimen/margin_20" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" app:subtitleTextAppearance="@style/Toolbar.SubtitleText" app:title=" " app:titleTextAppearance="@style/Toolbar.TitleText" style="@style/ToolbarStyle.NoShadow" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:layout_above="@id/bottomLayout" android:layout_below="@id/toolbar">
+        <RelativeLayout android:orientation="vertical" android:background="?bgcolor" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:id="@id/llMiddle" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/margin_16" android:layout_marginRight="@dimen/margin_16" />
+        </RelativeLayout>
+    </ScrollView>
+    <View android:id="@id/view" android:background="@color/black_36_opacity" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.olacabs.login.ui.HorizontalDottedProgress android:id="@id/center_progressbar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/bottomLayout" android:paddingTop="@dimen/margin_12" android:paddingBottom="@dimen/margin_12" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/margin_12" android:layout_marginEnd="@dimen/margin_12">
+        <RelativeLayout android:id="@id/layoutBlackButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/margin_12">
+            <androidx.appcompat.widget.AppCompatButton android:textColor="@color/btn_text_color" android:id="@id/blackButton" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/next" style="@style/buttonStyle" />
+            <com.airbnb.lottie.LottieAnimationView android:id="@id/progressbar" android:visibility="gone" android:layout_width="@dimen/margin_40" android:layout_height="@dimen/margin_40" android:layout_centerInParent="true" app:lottie_autoPlay="true" app:lottie_loop="true" app:lottie_rawRes="@raw/loader_white" />
+        </RelativeLayout>
+        <androidx.appcompat.widget.LinearLayoutCompat android:layout_gravity="center" android:orientation="horizontal" android:id="@id/ll_term_privacy" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/size_14" android:textColor="@color/black_56_opacity" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tnc_continue_new" android:fontFamily="@font/gentona" />
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/size_14" android:textColor="@color/black_70_opacity" android:id="@id/term_condition" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/t_and_c_new" android:fontFamily="@font/gentona" />
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/size_14" android:textColor="@color/black_70_opacity" android:id="@id/privacy_policy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/privacy_and_policy_new" android:fontFamily="@font/gentona" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <TextView android:textSize="@dimen/size_14" android:textColor="@color/black_70_opacity" android:gravity="center" android:id="@id/tvPrivacyPolicy" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fontFamily="@font/gentona" android:textAlignment="center" />
+    </LinearLayout>
+    <include android:id="@id/no_internet_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/view_no_internet" />
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/cv_relationship" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_12" android:layout_marginBottom="@dimen/dp_12" android:layout_marginEnd="@dimen/dp_6" android:layout_marginVertical="@dimen/dp_12" app:cardCornerRadius="@dimen/dp_34" app:cardElevation="@dimen/dp_0" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/cv_three_day_expiry" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tv_choose_expiry"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:id="@id/ll_relationship" android:background="?bgGreyRoundedBorderRadius34" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/tv_relationship" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_11" android:layout_marginBottom="@dimen/dp_11" android:text="@string/husband" android:layout_marginStart="@dimen/dp_16" android:layout_marginEnd="@dimen/dp_16" android:layout_marginVertical="@dimen/dp_11" style="@style/Text.Medium.16.Blue100White100" />
+    </LinearLayout>
+</LinearLayout>

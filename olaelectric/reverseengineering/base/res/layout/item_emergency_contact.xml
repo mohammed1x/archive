@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/item_emergency_contact_0" android:layout_width="fill_parent" android:layout_height="80.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <FrameLayout android:background="@drawable/ic_circle_ec_item" android:layout_width="32.0dip" android:layout_height="32.0dip">
+            <TextView android:textSize="@dimen/sp_13" android:textColor="@color/blues_150" android:layout_gravity="center" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAllCaps="true" android:fontFamily="@font/gentona_bold_italic" android:letterSpacing="-0.01" android:lineHeight="18.199982sp" android:textFontWeight="400" />
+        </FrameLayout>
+        <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/sp_18" android:textColor="?blues100Whites100" android:ellipsize="marquee" android:id="@id/tv_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:fontFamily="@font/gentona_medium" android:layout_marginStart="@dimen/dp_16" android:letterSpacing="-0.01" android:lineHeight="21.599976sp" android:textFontWeight="500" />
+            <TextView android:textSize="@dimen/sp_16" android:textColor="@color/blue_200" android:ellipsize="marquee" android:id="@id/tv_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_8" android:lines="1" android:fontFamily="@font/gentona" android:layout_marginStart="@dimen/dp_16" android:letterSpacing="-0.01" android:lineHeight="22.399994sp" android:textFontWeight="400" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/sp_14" android:textColor="@color/white" android:layout_gravity="center" android:id="@id/tv_primary" android:background="@drawable/shape_emergency_contact_primary" android:padding="@dimen/dp_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/primary" android:textAllCaps="true" android:fontFamily="@font/gentona" android:letterSpacing="-0.01" android:lineHeight="16.799988sp" android:textFontWeight="500" />
+            <androidx.appcompat.widget.AppCompatImageButton android:layout_gravity="end" android:id="@id/iv_delete" android:background="@null" android:padding="@dimen/dp_16" android:layout_width="@dimen/dp_48" android:layout_height="@dimen/dp_48" android:src="@drawable/ic_delete_gray" />
+        </FrameLayout>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <View android:id="@id/v_divider" android:background="@color/line_color_light" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginStart="@dimen/dp_48" app:layout_constraintBottom_toBottomOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

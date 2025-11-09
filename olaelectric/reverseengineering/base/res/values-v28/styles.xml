@@ -1,0 +1,745 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Theme.AppCompat" parent="@style/Base.V28.Theme.AppCompat" />
+    <style name="Base.Theme.AppCompat.Light" parent="@style/Base.V28.Theme.AppCompat.Light" />
+    <style name="Base.V14.ThemeOverlay.MaterialComponents.MaterialAlertDialog" parent="@style/ThemeOverlay.AppCompat.Dialog.Alert">
+        <item name="android:backgroundDimAmount">@dimen/m3_comp_scrim_container_opacity</item>
+        <item name="android:checkedTextViewStyle">@style/Widget.MaterialComponents.CheckedTextView</item>
+        <item name="android:dialogCornerRadius">@null</item>
+        <item name="alertDialogStyle">@style/MaterialAlertDialog.MaterialComponents</item>
+        <item name="buttonBarButtonStyle">@style/Widget.MaterialComponents.Button.TextButton.Dialog</item>
+        <item name="buttonBarNegativeButtonStyle">@style/Widget.MaterialComponents.Button.TextButton.Dialog</item>
+        <item name="buttonBarNeutralButtonStyle">@style/Widget.MaterialComponents.Button.TextButton.Dialog.Flush</item>
+        <item name="buttonBarPositiveButtonStyle">@style/Widget.MaterialComponents.Button.TextButton.Dialog</item>
+        <item name="materialAlertDialogBodyTextStyle">@style/MaterialAlertDialog.MaterialComponents.Body.Text</item>
+        <item name="materialAlertDialogButtonSpacerVisibility">@integer/mtrl_view_invisible</item>
+    </style>
+    <style name="CardStyle">
+        <item name="android:ambientShadowAlpha">0.0</item>
+        <item name="android:spotShadowAlpha">1.0</item>
+        <item name="android:outlineSpotShadowColor">?outline_shadow</item>
+        <item name="android:outlineAmbientShadowColor">#003f5d8a</item>
+    </style>
+    <style name="CardStyleBottomSheet">
+        <item name="android:ambientShadowAlpha">0.0</item>
+        <item name="android:spotShadowAlpha">1.0</item>
+        <item name="android:outlineSpotShadowColor">#80000000</item>
+        <item name="android:outlineAmbientShadowColor">#00000000</item>
+    </style>
+    <style name="Text.Bold.28" parent="">
+        <item name="android:textSize">@dimen/sp_28</item>
+        <item name="android:fontFamily">@font/gentona_bold_italic</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:lineHeight">23.599976sp</item>
+    </style>
+    <style name="Text.BoldItalic.28" parent="">
+        <item name="android:textSize">@dimen/sp_28</item>
+        <item name="android:fontFamily">@font/gentona_bold_italic</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:lineHeight">33.599976sp</item>
+    </style>
+    <style name="Text.Book.10" parent="">
+        <item name="android:textSize">@dimen/sp_10</item>
+        <item name="android:fontFamily">@font/gentona_book</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:lineHeight">@dimen/sp_18</item>
+    </style>
+    <style name="Text.Book.12" parent="">
+        <item name="android:textSize">@dimen/sp_12</item>
+        <item name="android:fontFamily">@font/gentona_book</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:lineHeight">15.599976sp</item>
+    </style>
+    <style name="Text.Book.14.Uppercase" parent="">
+        <item name="android:textSize">@dimen/sp_14</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">@font/gentona_book</item>
+        <item name="android:lineHeight">19.599976sp</item>
+    </style>
+    <style name="Text.Book.20" parent="">
+        <item name="android:textSize">@dimen/sp_20</item>
+        <item name="android:fontFamily">@font/gentona_book</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:lineHeight">24.0sp</item>
+    </style>
+    <style name="Text.Gentona.12" parent="">
+        <item name="android:textSize">@dimen/sp_12</item>
+        <item name="android:fontFamily">@font/gentona</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:lineHeight">14.399994sp</item>
+    </style>
+    <style name="Text.Gentona.13" parent="">
+        <item name="android:textSize">@dimen/sp_13</item>
+        <item name="android:fontFamily">@font/gentona</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:lineHeight">16.199982sp</item>
+    </style>
+    <style name="Text.Gentona.14" parent="">
+        <item name="android:textSize">@dimen/sp_14</item>
+        <item name="android:fontFamily">@font/gentona</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:lineHeight">17.0sp</item>
+    </style>
+    <style name="Text.Gentona.14.500" parent="">
+        <item name="android:textSize">@dimen/sp_14</item>
+        <item name="android:fontFamily">@font/gentona_medium</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:lineHeight">17.0sp</item>
+    </style>
+    <style name="Text.Gentona.14.Blue100White100_weight_400" parent="@style/Text.Gentona.14.Blue100White100">
+        <item name="android:textFontWeight">400</item>
+    </style>
+    <style name="Text.Gentona.14.NoLineSpacing" parent="">
+        <item name="android:textSize">@dimen/sp_14</item>
+        <item name="android:fontFamily">@font/gentona</item>
+        <item name="android:lineHeight">16.799988sp</item>
+    </style>
+    <style name="Text.Gentona.16" parent="">
+        <item name="android:textSize">@dimen/sp_16</item>
+        <item name="android:fontFamily">@font/gentona_semibold</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:lineHeight">18.199982sp</item>
+    </style>
+    <style name="Text.Gentona.16.400" parent="">
+        <item name="android:textSize">@dimen/sp_16</item>
+        <item name="android:fontFamily">@font/gentona_book</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:lineHeight">18.199982sp</item>
+    </style>
+    <style name="Text.Gentona.16.400.Blue100.White100" parent="">
+        <item name="android:textSize">@dimen/sp_16</item>
+        <item name="android:textColor">?blues100Whites100</item>
+        <item name="android:fontFamily">@font/gentona_book</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:lineHeight">22.399994sp</item>
+    </style>
+    <style name="Text.Gentona.16.400.Gray.Blacks500" parent="">
+        <item name="android:textSize">@dimen/sp_16</item>
+        <item name="android:textColor">?gray_8D9DA5_dm_blacks_500</item>
+        <item name="android:fontFamily">@font/gentona_book</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:lineHeight">22.399994sp</item>
+    </style>
+    <style name="Text.Gentona.16.400.Italic" parent="">
+        <item name="android:textSize">@dimen/sp_16</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:fontFamily">@font/gentona_regular</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:lineHeight">@dimen/sp_16</item>
+    </style>
+    <style name="Text.Gentona.16.500" parent="">
+        <item name="android:textSize">@dimen/sp_16</item>
+        <item name="android:fontFamily">@font/gentona</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:lineHeight">18.199982sp</item>
+    </style>
+    <style name="Text.Gentona.16.500.white" parent="@style/Text.Gentona.16.500">
+        <item name="android:textSize">@dimen/sp_20</item>
+        <item name="android:textColor">@color/white_FFFFFF</item>
+        <item name="android:fontFamily">@font/gentona_medium</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:lineHeight">20.0sp</item>
+        <item name="fontWeight">500</item>
+    </style>
+    <style name="Text.Gentona.16_Normal" parent="">
+        <item name="android:textSize">@dimen/sp_16</item>
+        <item name="android:fontFamily">@font/gentona</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:lineHeight">20.0sp</item>
+    </style>
+    <style name="Text.Gentona.17" parent="">
+        <item name="android:textSize">@dimen/sp_17</item>
+        <item name="android:fontFamily">@font/gentona</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:lineHeight">19.399994sp</item>
+    </style>
+    <style name="Text.Gentona.18.400.Italic" parent="">
+        <item name="android:textSize">@dimen/sp_18</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:fontFamily">@font/gentona_regular</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:lineHeight">@dimen/sp_18</item>
+    </style>
+    <style name="Text.Gentona.18.400.Italic.21" parent="">
+        <item name="android:textSize">@dimen/sp_18</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:fontFamily">@font/gentona_regular</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:lineHeight">21.599976sp</item>
+    </style>
+    <style name="Text.Gentona.24" parent="">
+        <item name="android:textSize">@dimen/sp_24</item>
+        <item name="android:fontFamily">@font/gentona</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:lineHeight">28.799988sp</item>
+    </style>
+    <style name="Text.Gentona.28.400.Italic" parent="">
+        <item name="android:textSize">@dimen/sp_28</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:fontFamily">@font/gentona_regular</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:lineHeight">@dimen/sp_28</item>
+    </style>
+    <style name="Text.Gentona.36.500" parent="">
+        <item name="android:textSize">@dimen/sp_36</item>
+        <item name="android:fontFamily">@font/gentona_medium</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:lineHeight">43.20999sp</item>
+    </style>
+    <style name="Text.Gentona.400.12" parent="">
+        <item name="android:textSize">@dimen/sp_12</item>
+        <item name="android:fontFamily">@font/gentona_regular</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:lineHeight">@dimen/sp_12</item>
+    </style>
+    <style name="Text.Gentona.Italic.14" parent="">
+        <item name="android:textSize">@dimen/sp_14</item>
+        <item name="android:fontFamily">@font/gentona_italic</item>
+        <item name="android:lineHeight">19.599976sp</item>
+    </style>
+    <style name="Text.Gentona.Italic.24" parent="">
+        <item name="android:textSize">@dimen/sp_24</item>
+        <item name="android:fontFamily">@font/gentona_italic</item>
+        <item name="android:letterSpacing">-0.09</item>
+        <item name="android:lineHeight">26.599976sp</item>
+    </style>
+    <style name="Text.Gentona.Italic.28" parent="">
+        <item name="android:textSize">@dimen/sp_28</item>
+        <item name="android:fontFamily">@font/gentona_italic</item>
+        <item name="android:letterSpacing">-0.09</item>
+        <item name="android:lineHeight">26.599976sp</item>
+    </style>
+    <style name="Text.Gentona.Italic.56" parent="">
+        <item name="android:textSize">@dimen/sp_56</item>
+        <item name="android:fontFamily">@font/gentona_italic</item>
+        <item name="android:letterSpacing">-0.09</item>
+        <item name="android:lineHeight">26.599976sp</item>
+    </style>
+    <style name="Text.Gentona.Regular.10.Italic" parent="">
+        <item name="android:textSize">@dimen/sp_10</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:fontFamily">@font/gentona_regular</item>
+        <item name="android:lineHeight">@dimen/sp_12</item>
+    </style>
+    <style name="Text.Gentona.Regular.16.400" parent="">
+        <item name="android:textSize">@dimen/sp_16</item>
+        <item name="android:fontFamily">@font/gentona_regular</item>
+        <item name="android:lineHeight">@dimen/sp_18</item>
+    </style>
+    <style name="Text.Gentona.Regular.16.500" parent="">
+        <item name="android:textSize">@dimen/sp_16</item>
+        <item name="android:fontFamily">@font/gentona_regular</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:lineHeight">18.199982sp</item>
+    </style>
+    <style name="Text.Gentona.Regular.16.Italic" parent="">
+        <item name="android:textSize">@dimen/sp_16</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:fontFamily">@font/gentona_regular</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:lineHeight">18.199982sp</item>
+    </style>
+    <style name="Text.Gentona.Regular.Italic.16.400.Blue100DmBlack500" parent="@style/Text.Gentona.Regular.16.400">
+        <item name="android:textStyle">italic</item>
+        <item name="android:textColor">?blues100DmBlack500</item>
+        <item name="android:lineHeight">22.399994sp</item>
+    </style>
+    <style name="Text.GentonaBook.12.Black100White100" parent="@style/Text.GentonaBook.12">
+        <item name="android:textColor">?black100White100</item>
+        <item name="android:textFontWeight">500</item>
+    </style>
+    <style name="Text.GentonaBook.16.400" parent="@style/Text.GentonaBook.16">
+        <item name="android:textFontWeight">400</item>
+    </style>
+    <style name="Text.GentonaBook.16.Black100White100" parent="@style/Text.GentonaBook.16">
+        <item name="android:textColor">?black100White100</item>
+        <item name="android:textFontWeight">500</item>
+    </style>
+    <style name="Text.GentonaBook.16.Blue100Whites100" parent="@style/Text.GentonaBook.16">
+        <item name="android:textColor">?blues100Whites100</item>
+        <item name="android:textFontWeight">500</item>
+    </style>
+    <style name="Text.GentonaBook.24.Black100White100" parent="@style/Text.GentonaBook.24">
+        <item name="android:textColor">?black100White100</item>
+        <item name="android:textFontWeight">500</item>
+    </style>
+    <style name="Text.GentonaMedium" parent="">
+        <item name="android:fontFamily">@font/gentona_medium</item>
+        <item name="android:letterSpacing">-0.02</item>
+        <item name="android:lineHeight">26.0sp</item>
+    </style>
+    <style name="Text.GentonaMedium.14.Blues100WhitePure" parent="@style/Text.GentonaMedium.14">
+        <item name="android:textColor">?blues100white</item>
+        <item name="android:lineHeight">16.799988sp</item>
+    </style>
+    <style name="Text.GentonaMedium.14.GreenDarkLight" parent="@style/Text.GentonaMedium.14">
+        <item name="android:textColor">?greenDarkGreenLight</item>
+        <item name="android:letterSpacing">-0.02</item>
+        <item name="android:lineHeight">21.0sp</item>
+        <item name="android:textFontWeight">500</item>
+    </style>
+    <style name="Text.GentonaMedium.16" parent="">
+        <item name="android:textSize">@dimen/sp_16</item>
+        <item name="android:fontFamily">@font/gentona_medium</item>
+        <item name="android:letterSpacing">-0.02</item>
+        <item name="android:lineHeight">26.0sp</item>
+    </style>
+    <style name="Text.GentonaMedium.16.Black100White100" parent="@style/Text.GentonaMedium.16">
+        <item name="android:textColor">?black100White100</item>
+        <item name="android:textFontWeight">500</item>
+    </style>
+    <style name="Text.GentonaMedium.16.StrokeGray" parent="@style/Text.GentonaMedium.16">
+        <item name="android:textColor">?stroke_color_plan_selected</item>
+        <item name="android:textFontWeight">500</item>
+    </style>
+    <style name="Text.GentonaMedium.18.Blues100White" parent="@style/Text.GentonaMedium.16">
+        <item name="android:textColor">?blues100white</item>
+        <item name="android:lineHeight">21.0sp</item>
+        <item name="android:textFontWeight">500</item>
+    </style>
+    <style name="Text.GentonaMedium.18.StrokeGray" parent="@style/Text.GentonaMedium.16">
+        <item name="android:textColor">?stroke_color_plan_selected</item>
+        <item name="android:lineHeight">21.0sp</item>
+        <item name="android:textFontWeight">500</item>
+    </style>
+    <style name="Text.GentonaMedium.20" parent="">
+        <item name="android:textSize">@dimen/sp_20</item>
+        <item name="android:fontFamily">@font/gentona_medium</item>
+        <item name="android:letterSpacing">-0.02</item>
+        <item name="android:lineHeight">26.0sp</item>
+    </style>
+    <style name="Text.GentonaMedium.20.Black100White100" parent="@style/Text.GentonaMedium.20">
+        <item name="android:textColor">?black100White100</item>
+        <item name="android:textFontWeight">500</item>
+    </style>
+    <style name="Text.GentonaMedium.20.Blue100White100" parent="@style/Text.GentonaMedium.20">
+        <item name="android:textColor">?blues100Whites100</item>
+        <item name="android:textFontWeight">500</item>
+    </style>
+    <style name="Text.GentonaSemibold.12.Blues200Blues200" parent="">
+        <item name="android:textSize">@dimen/sp_12</item>
+        <item name="android:textColor">@color/blues_200</item>
+        <item name="android:fontFamily">@font/gentona_semi_bold_italic</item>
+        <item name="android:lineHeight">15.599976sp</item>
+    </style>
+    <style name="Text.GentonaSemibold.16_Normal" parent="">
+        <item name="android:textSize">@dimen/sp_16</item>
+        <item name="android:fontFamily">@font/gentona_semi_bold</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:lineHeight">20.0sp</item>
+    </style>
+    <style name="Text.Italic.14" parent="">
+        <item name="android:textSize">@dimen/sp_14</item>
+        <item name="android:fontFamily">@font/gentona_italic</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:lineHeight">17.599976sp</item>
+    </style>
+    <style name="Text.Italic.14_ola_gst" parent="">
+        <item name="android:textSize">@dimen/sp_14</item>
+        <item name="android:fontFamily">@font/gentona</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:lineHeight">17.599976sp</item>
+    </style>
+    <style name="Text.Italic.18" parent="">
+        <item name="android:textSize">@dimen/sp_18</item>
+        <item name="android:fontFamily">@font/gentona_italic</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:lineHeight">21.599976sp</item>
+    </style>
+    <style name="Text.Italic.20" parent="">
+        <item name="android:textSize">@dimen/sp_20</item>
+        <item name="android:fontFamily">@font/gentona_italic</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:lineHeight">23.599976sp</item>
+    </style>
+    <style name="Text.Italic.20_weight_400_color_blues100" parent="">
+        <item name="android:textSize">@dimen/sp_20</item>
+        <item name="android:textColor">@color/blues_100</item>
+        <item name="android:fontFamily">@font/gentona_semi_bold_italic</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:lineHeight">@dimen/sp_28</item>
+        <item name="android:textFontWeight">400</item>
+    </style>
+    <style name="Text.Italic.22" parent="">
+        <item name="android:textSize">@dimen/sp_22</item>
+        <item name="android:fontFamily">@font/gentona_italic</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:lineHeight">26.399994sp</item>
+    </style>
+    <style name="Text.Italic.Roboto.24" parent="">
+        <item name="android:textSize">@dimen/sp_24</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:lineHeight">26.599976sp</item>
+    </style>
+    <style name="Text.Medium.12" parent="">
+        <item name="android:textSize">@dimen/sp_12</item>
+        <item name="android:fontFamily">@font/gentona_medium</item>
+        <item name="android:lineHeight">@dimen/sp_16</item>
+    </style>
+    <style name="Text.Medium.16" parent="">
+        <item name="android:textSize">@dimen/sp_16</item>
+        <item name="android:fontFamily">@font/gentona_medium</item>
+        <item name="android:letterSpacing">-0.02</item>
+        <item name="android:lineHeight">20.799988sp</item>
+    </style>
+    <style name="Text.Medium.16.DmBlue500DmBlack500" parent="@style/Text.Medium.16.Uppercase">
+        <item name="android:textColor">?dmBlue500DmBlack500</item>
+        <item name="android:lineHeight">22.0sp</item>
+    </style>
+    <style name="Text.Medium.16.Uppercase" parent="">
+        <item name="android:textSize">@dimen/sp_16</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">@font/gentona_medium</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:lineHeight">19.199982sp</item>
+    </style>
+    <style name="Text.Medium.18" parent="">
+        <item name="android:textSize">@dimen/sp_18</item>
+        <item name="android:fontFamily">@font/gentona_medium</item>
+        <item name="android:lineHeight">21.599976sp</item>
+    </style>
+    <style name="Text.Medium.20" parent="">
+        <item name="android:textSize">@dimen/sp_20</item>
+        <item name="android:fontFamily">@font/gentona_medium</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:lineHeight">28.0sp</item>
+    </style>
+    <style name="Text.Medium.20.Uppercase" parent="">
+        <item name="android:textSize">@dimen/sp_20</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">@font/gentona_medium</item>
+        <item name="android:lineHeight">24.0sp</item>
+    </style>
+    <style name="Text.Medium.22" parent="">
+        <item name="android:textSize">@dimen/sp_22</item>
+        <item name="android:fontFamily">@font/gentona_medium</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:lineHeight">30.799988sp</item>
+    </style>
+    <style name="Text.Medium.24" parent="">
+        <item name="android:textSize">@dimen/sp_24</item>
+        <item name="android:fontFamily">@font/gentona_medium</item>
+        <item name="android:lineHeight">@dimen/sp_31</item>
+    </style>
+    <style name="Text.SemiBold.12" parent="">
+        <item name="android:textSize">@dimen/sp_12</item>
+        <item name="android:fontFamily">@font/gentona_semibold</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:lineHeight">18.0sp</item>
+    </style>
+    <style name="Text.SemiBold.14" parent="">
+        <item name="android:textSize">@dimen/sp_14</item>
+        <item name="android:fontFamily">@font/gentona_semibold</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:lineHeight">26.399994sp</item>
+    </style>
+    <style name="Text.SemiBold.16.Uppercase" parent="">
+        <item name="android:textSize">@dimen/sp_16</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">@font/gentona_semibold</item>
+        <item name="android:lineHeight">19.199982sp</item>
+    </style>
+    <style name="Text.SemiBold.22" parent="">
+        <item name="android:textSize">@dimen/sp_22</item>
+        <item name="android:fontFamily">@font/gentona_semibold</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:lineHeight">26.399994sp</item>
+    </style>
+    <style name="Text.SemiBoldItalic.108" parent="">
+        <item name="android:textSize">@dimen/sp_108</item>
+        <item name="android:fontFamily">@font/gentona_semi_bold_italic</item>
+        <item name="android:letterSpacing">-0.09</item>
+        <item name="android:lineHeight">@dimen/dp_108</item>
+    </style>
+    <style name="Text.SemiBoldItalic.16" parent="">
+        <item name="android:textSize">@dimen/sp_16</item>
+        <item name="android:fontFamily">@font/gentona_semibold_italic</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:lineHeight">19.599976sp</item>
+    </style>
+    <style name="Text.SemiBoldItalic.18" parent="">
+        <item name="android:textSize">@dimen/sp_18</item>
+        <item name="android:fontFamily">@font/gentona_semibold_italic</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:lineHeight">21.599976sp</item>
+    </style>
+    <style name="Text.SemiBoldItalic.20" parent="">
+        <item name="android:textSize">@dimen/sp_20</item>
+        <item name="android:fontFamily">@font/gentona_semibold_italic</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:lineHeight">33.599976sp</item>
+    </style>
+    <style name="Text.SemiBoldItalic.24" parent="">
+        <item name="android:textSize">@dimen/sp_24</item>
+        <item name="android:fontFamily">@font/gentona_semibold_italic</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:lineHeight">33.599976sp</item>
+    </style>
+    <style name="Text.SemiBoldItalic.28" parent="">
+        <item name="android:textSize">@dimen/sp_28</item>
+        <item name="android:fontFamily">@font/gentona_semibold_italic</item>
+        <item name="android:lineHeight">33.599976sp</item>
+    </style>
+    <style name="Text.SemiBoldItalic.30" parent="">
+        <item name="android:textSize">@dimen/sp_30</item>
+        <item name="android:fontFamily">@font/gentona_semibold_italic</item>
+        <item name="android:lineHeight">36.0sp</item>
+    </style>
+    <style name="Text.SemiBoldItalic.32" parent="">
+        <item name="android:textSize">@dimen/sp_32</item>
+        <item name="android:fontFamily">@font/gentona_semibold_italic</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:lineHeight">35.19998sp</item>
+    </style>
+    <style name="Text.SemiBoldItalic.44" parent="">
+        <item name="android:textSize">@dimen/sp_44</item>
+        <item name="android:fontFamily">@font/gentona_semibold_italic</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:lineHeight">52.809998sp</item>
+    </style>
+    <style name="Text.SemiBoldItalic.88" parent="">
+        <item name="android:textSize">@dimen/sp_88</item>
+        <item name="android:fontFamily">@font/gentona_semibold_italic</item>
+        <item name="android:letterSpacing">-0.09</item>
+        <item name="android:lineHeight">@dimen/sp_88</item>
+    </style>
+    <style name="TextAppearance.M3.Sys.Typescale.BodyLarge" parent="@style/TextAppearance.AppCompat.Body2">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@string/m3_ref_typeface_plain_regular</item>
+        <item name="android:letterSpacing">0.03125</item>
+        <item name="android:lineHeight">24.0sp</item>
+        <item name="fontFamily">@string/m3_ref_typeface_plain_regular</item>
+        <item name="lineHeight">24.0sp</item>
+    </style>
+    <style name="TextAppearance.M3.Sys.Typescale.BodyMedium" parent="@style/TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@string/m3_ref_typeface_plain_regular</item>
+        <item name="android:letterSpacing">0.01785714</item>
+        <item name="android:lineHeight">20.0sp</item>
+        <item name="fontFamily">@string/m3_ref_typeface_plain_regular</item>
+        <item name="lineHeight">20.0sp</item>
+    </style>
+    <style name="TextAppearance.M3.Sys.Typescale.BodySmall" parent="@style/TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@string/m3_ref_typeface_plain_regular</item>
+        <item name="android:letterSpacing">0.03333333</item>
+        <item name="android:lineHeight">16.0sp</item>
+        <item name="fontFamily">@string/m3_ref_typeface_plain_regular</item>
+        <item name="lineHeight">16.0sp</item>
+    </style>
+    <style name="TextAppearance.M3.Sys.Typescale.DisplayLarge" parent="@style/TextAppearance.AppCompat.Display3">
+        <item name="android:textSize">57.0sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@string/m3_ref_typeface_brand_regular</item>
+        <item name="android:letterSpacing">-0.00438596</item>
+        <item name="android:lineHeight">64.0sp</item>
+        <item name="fontFamily">@string/m3_ref_typeface_brand_regular</item>
+        <item name="lineHeight">64.0sp</item>
+    </style>
+    <style name="TextAppearance.M3.Sys.Typescale.DisplayMedium" parent="@style/TextAppearance.AppCompat.Display2">
+        <item name="android:textSize">45.0sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@string/m3_ref_typeface_brand_regular</item>
+        <item name="android:letterSpacing">0.0</item>
+        <item name="android:lineHeight">52.0sp</item>
+        <item name="fontFamily">@string/m3_ref_typeface_brand_regular</item>
+        <item name="lineHeight">52.0sp</item>
+    </style>
+    <style name="TextAppearance.M3.Sys.Typescale.DisplaySmall" parent="@style/TextAppearance.AppCompat.Display1">
+        <item name="android:textSize">36.0sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@string/m3_ref_typeface_brand_regular</item>
+        <item name="android:letterSpacing">0.0</item>
+        <item name="android:lineHeight">44.0sp</item>
+        <item name="fontFamily">@string/m3_ref_typeface_brand_regular</item>
+        <item name="lineHeight">44.0sp</item>
+    </style>
+    <style name="TextAppearance.M3.Sys.Typescale.HeadlineLarge" parent="@style/TextAppearance.AppCompat.Display1">
+        <item name="android:textSize">32.0sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@string/m3_ref_typeface_brand_regular</item>
+        <item name="android:letterSpacing">0.0</item>
+        <item name="android:lineHeight">40.0sp</item>
+        <item name="fontFamily">@string/m3_ref_typeface_brand_regular</item>
+        <item name="lineHeight">40.0sp</item>
+    </style>
+    <style name="TextAppearance.M3.Sys.Typescale.HeadlineMedium" parent="@style/TextAppearance.AppCompat.Headline">
+        <item name="android:textSize">28.0sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@string/m3_ref_typeface_brand_regular</item>
+        <item name="android:letterSpacing">0.0</item>
+        <item name="android:lineHeight">36.0sp</item>
+        <item name="fontFamily">@string/m3_ref_typeface_brand_regular</item>
+        <item name="lineHeight">36.0sp</item>
+    </style>
+    <style name="TextAppearance.M3.Sys.Typescale.HeadlineSmall" parent="@style/TextAppearance.AppCompat.Title">
+        <item name="android:textSize">24.0sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@string/m3_ref_typeface_brand_regular</item>
+        <item name="android:letterSpacing">0.0</item>
+        <item name="android:lineHeight">32.0sp</item>
+        <item name="fontFamily">@string/m3_ref_typeface_brand_regular</item>
+        <item name="lineHeight">32.0sp</item>
+    </style>
+    <style name="TextAppearance.M3.Sys.Typescale.LabelLarge" parent="@style/TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@string/m3_ref_typeface_plain_medium</item>
+        <item name="android:letterSpacing">0.00714286</item>
+        <item name="android:lineHeight">20.0sp</item>
+        <item name="fontFamily">@string/m3_ref_typeface_plain_medium</item>
+        <item name="lineHeight">20.0sp</item>
+    </style>
+    <style name="TextAppearance.M3.Sys.Typescale.LabelMedium" parent="@style/TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@string/m3_ref_typeface_plain_medium</item>
+        <item name="android:letterSpacing">0.04166667</item>
+        <item name="android:lineHeight">16.0sp</item>
+        <item name="fontFamily">@string/m3_ref_typeface_plain_medium</item>
+        <item name="lineHeight">16.0sp</item>
+    </style>
+    <style name="TextAppearance.M3.Sys.Typescale.LabelSmall" parent="@style/TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">11.0sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@string/m3_ref_typeface_plain_medium</item>
+        <item name="android:letterSpacing">0.04545455</item>
+        <item name="android:lineHeight">16.0sp</item>
+        <item name="fontFamily">@string/m3_ref_typeface_plain_medium</item>
+        <item name="lineHeight">16.0sp</item>
+    </style>
+    <style name="TextAppearance.M3.Sys.Typescale.TitleLarge" parent="@style/TextAppearance.AppCompat.Title">
+        <item name="android:textSize">22.0sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@string/m3_ref_typeface_brand_regular</item>
+        <item name="android:letterSpacing">0.0</item>
+        <item name="android:lineHeight">28.0sp</item>
+        <item name="fontFamily">@string/m3_ref_typeface_brand_regular</item>
+        <item name="lineHeight">28.0sp</item>
+    </style>
+    <style name="TextAppearance.M3.Sys.Typescale.TitleMedium" parent="@style/TextAppearance.AppCompat.Subhead">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@string/m3_ref_typeface_plain_medium</item>
+        <item name="android:letterSpacing">0.009375</item>
+        <item name="android:lineHeight">24.0sp</item>
+        <item name="fontFamily">@string/m3_ref_typeface_plain_medium</item>
+        <item name="lineHeight">24.0sp</item>
+    </style>
+    <style name="TextAppearance.M3.Sys.Typescale.TitleSmall" parent="@style/TextAppearance.AppCompat.Subhead">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@string/m3_ref_typeface_plain_medium</item>
+        <item name="android:letterSpacing">0.00714286</item>
+        <item name="android:lineHeight">20.0sp</item>
+        <item name="fontFamily">@string/m3_ref_typeface_plain_medium</item>
+        <item name="lineHeight">20.0sp</item>
+    </style>
+    <style name="WhiteBackgroundDialogTheme" parent="@android:style/Theme.Material.Dialog.NoActionBar">
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:fadingEdge">none</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowOverscan">true</item>
+        <item name="android:windowContentTransitions">false</item>
+    </style>
+    <style name="WhiteBackgroundTheme" parent="@android:style/Theme.Material.NoActionBar.Fullscreen">
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:fadingEdge">none</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowOverscan">true</item>
+        <item name="android:windowContentTransitions">false</item>
+    </style>
+    <style name="Widget.Material3.AppBarLayout" parent="@style/Widget.MaterialComponents.AppBarLayout.Surface">
+        <item name="android:background">?colorSurface</item>
+        <item name="android:stateListAnimator">@animator/m3_appbar_state_list_animator</item>
+        <item name="android:outlineSpotShadowColor">@android:color/transparent</item>
+        <item name="android:outlineAmbientShadowColor">@android:color/transparent</item>
+        <item name="liftOnScroll">true</item>
+        <item name="liftOnScrollColor">?colorSurfaceContainer</item>
+    </style>
+    <style name="Widget.Material3.BottomNavigationView" parent="@style/Base.Widget.Material3.BottomNavigationView">
+        <item name="android:outlineSpotShadowColor">@android:color/transparent</item>
+        <item name="android:outlineAmbientShadowColor">@android:color/transparent</item>
+    </style>
+    <style name="Widget.Material3.SearchBar" parent="@android:style/Widget">
+        <item name="android:textAppearance">@style/TextAppearance.Material3.SearchBar</item>
+        <item name="android:minHeight">@dimen/m3_searchbar_height</item>
+        <item name="android:paddingStart">@dimen/m3_searchbar_padding_start</item>
+        <item name="android:outlineSpotShadowColor">@android:color/transparent</item>
+        <item name="android:outlineAmbientShadowColor">@android:color/transparent</item>
+        <item name="backgroundTint">?colorSurfaceContainerHigh</item>
+        <item name="defaultMarginsEnabled">true</item>
+        <item name="defaultScrollFlagsEnabled">true</item>
+        <item name="elevation">@dimen/m3_searchbar_elevation</item>
+        <item name="enforceMaterialTheme">true</item>
+        <item name="hideNavigationIcon">false</item>
+        <item name="materialThemeOverlay">@style/ThemeOverlay.Material3.Search</item>
+        <item name="maxButtonHeight">@dimen/m3_searchbar_height</item>
+        <item name="shapeAppearance">?shapeAppearanceMediumComponent</item>
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.Material3.SearchBar</item>
+    </style>
+    <style name="Widget.Material3.Toolbar" parent="@style/Widget.AppCompat.Toolbar">
+        <item name="android:outlineSpotShadowColor">@android:color/transparent</item>
+        <item name="android:outlineAmbientShadowColor">@android:color/transparent</item>
+        <item name="contentInsetStartWithNavigation">0.0dip</item>
+        <item name="subtitleTextAppearance">?textAppearanceTitleMedium</item>
+        <item name="titleTextAppearance">?textAppearanceTitleLarge</item>
+    </style>
+    <style name="text_16_gentona_weight_500_line_height_14" parent="@style/text_16_gentona_weight_500_text_alignment_center">
+        <item name="android:lineHeight">14.0sp</item>
+    </style>
+    <style name="text_18_gentona_medium_blue_100_refer">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">?blues100Whites100</item>
+        <item name="android:fontFamily">@font/gentona_medium</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:textFontWeight">500</item>
+    </style>
+    <style name="text_20_gentona_semibold_italic_blue_100_refer">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textColor">?blues100White</item>
+        <item name="android:fontFamily">@font/gentona_semi_bold_italic</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:textFontWeight">400</item>
+    </style>
+    <style name="text_36_gentona_semibold_italic_blue_100_refer">
+        <item name="android:textSize">36.0sp</item>
+        <item name="android:textColor">?blues100Whites100</item>
+        <item name="android:fontFamily">@font/gentona_semi_bold_italic</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:lineHeight">36.0sp</item>
+    </style>
+    <style name="txt_16_gentona_white">
+        <item name="android:textSize">@dimen/sp_16</item>
+        <item name="android:textColor">@color/white_99</item>
+        <item name="android:fontFamily">@font/gentona_book</item>
+        <item name="android:lineHeight">@dimen/dp_22</item>
+    </style>
+    <style name="txt_18_gentona_medium_blues_100">
+        <item name="android:textSize">@dimen/sp_18</item>
+        <item name="android:textColor">@color/blue_100</item>
+        <item name="android:fontFamily">@font/gentona_medium</item>
+        <item name="android:textFontWeight">500</item>
+        <item name="lineHeight">@dimen/dp_21</item>
+    </style>
+    <style name="txt_24_gentona_medium_white">
+        <item name="android:textSize">@dimen/sp_24</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/gentona_semi_bold_italic</item>
+        <item name="android:lineHeight">@dimen/dp_29</item>
+    </style>
+    <style name="Base.V28.Theme.AppCompat" parent="@style/Base.V26.Theme.AppCompat">
+        <item name="dialogCornerRadius">?android:dialogCornerRadius</item>
+    </style>
+    <style name="Base.V28.Theme.AppCompat.Light" parent="@style/Base.V26.Theme.AppCompat.Light">
+        <item name="dialogCornerRadius">?android:dialogCornerRadius</item>
+    </style>
+</resources>

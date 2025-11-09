@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider android:description="@string/home_widget_description" android:minWidth="@dimen/dp_329" android:minHeight="@dimen/dp_130" android:updatePeriodMillis="1800000" android:initialLayout="@layout/widget_home" android:previewImage="@drawable/home_widget_preview" android:resizeMode="none" android:minResizeWidth="@dimen/dp_329" android:minResizeHeight="@dimen/dp_130" android:initialKeyguardLayout="@layout/widget_home" android:widgetCategory="home_screen" android:targetCellWidth="5" android:targetCellHeight="2"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

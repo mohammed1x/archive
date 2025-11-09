@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:padding="@dimen/dp_20" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/shimmer_1" android:background="@drawable/bg_shimmer_rectangle" android:paddingTop="@dimen/dp_20" android:layout_width="210.0dip" android:layout_height="24.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <View android:id="@id/shimmer_2" android:background="@drawable/bg_shimmer_rectangle" android:layout_width="96.0dip" android:layout_height="12.0dip" android:layout_marginTop="8.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/shimmer_1" />
+    <View android:id="@id/shimmer_3" android:background="@drawable/bg_shimmer_rectangle" android:layout_width="314.0dip" android:layout_height="124.0dip" android:layout_marginTop="20.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/shimmer_2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

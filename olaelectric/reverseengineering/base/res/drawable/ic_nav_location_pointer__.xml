@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="93.0dip" android:width="61.0dip" android:viewportWidth="75.0" android:viewportHeight="114.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$ic_nav_location_pointer____0" android:pathData="M12.33,88.22L37.02,13.55L62.54,88.04L65.13,90.03V95.59L38,74.67L9.89,95.59V90.03L12.33,88.22Z" />
+    <path android:fillColor="@drawable/$ic_nav_location_pointer____1" android:pathData="M37.02,8L9.89,90.03L38,69.11L65.13,90.03L37.02,8Z" />
+    <path android:fillColor="@drawable/$ic_nav_location_pointer____2" android:pathData="M37.02,8L65.13,90.03V113.89H37.51H9.89L9.89,90.03L37.02,8Z" />
+</vector>

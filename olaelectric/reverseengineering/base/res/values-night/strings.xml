@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_map_view_style_url">/styles/default-dark-standard/style.json</string>
+    <string name="map_view_lightweight_style_url">/maps/v1/styles/mediatek-dark-standard/style.json</string>
+    <string name="map_view_style_url">/maps/v1/styles/default-dark-standard/style.json</string>
+</resources>

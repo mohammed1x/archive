@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/item_explore_more_accessory_horizontal_0" android:layout_width="@dimen/dp_230" android:layout_height="@dimen/dp_255" android:paddingEnd="@dimen/dp_12"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.card.MaterialCardView android:id="@id/cv_accessory" android:layout_width="fill_parent" android:layout_height="fill_parent" app:cardBackgroundColor="#fff5f5f5" app:cardCornerRadius="12.0dip" app:cardElevation="0.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:id="@id/iv_explore_item_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" />
+    </com.google.android.material.card.MaterialCardView>
+    <TextView android:id="@id/tv_explore_item_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dp_8" android:layout_marginStart="@dimen/dp_12" app:layout_constraintBottom_toTopOf="@id/tv_explore_item_desc" style="@style/Text.GentonaBook.24.Black100White100" />
+    <TextView android:id="@id/tv_explore_item_desc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dp_12" android:layout_marginStart="@dimen/dp_12" app:layout_constraintBottom_toBottomOf="parent" style="@style/Text.GentonaBook.12.Black100White100" />
+</androidx.constraintlayout.widget.ConstraintLayout>

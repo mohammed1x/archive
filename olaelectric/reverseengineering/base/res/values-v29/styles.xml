@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppCompatTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColorPrimary">@color/primary_text_color</item>
+        <item name="android:forceDarkAllowed">false</item>
+        <item name="colorAccent">@color/accent_color</item>
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorPrimaryDark">@color/primary_dark_color</item>
+    </style>
+    <style name="OlaAppTheme" parent="@style/Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:textColorPrimary">@color/primary_text_color</item>
+        <item name="android:windowAnimationStyle">@style/AppTheme.WindowTransition</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowEnterTransition">@transition/scooter_entry_transition</item>
+        <item name="android:windowExitTransition">@transition/scooter_entry_transition</item>
+        <item name="android:windowSharedElementEnterTransition">@transition/scooter_entry_transition</item>
+        <item name="android:windowSharedElementExitTransition">@transition/scooter_entry_transition</item>
+        <item name="android:forceDarkAllowed">false</item>
+        <item name="colorAccent">@color/green_range</item>
+        <item name="colorPrimary">@color/blues_100</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="snackbarStyle">@style/CustomSnackBarStyle</item>
+    </style>
+</resources>

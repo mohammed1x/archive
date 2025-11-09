@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/iv_image" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginTop="@dimen/dp_18" android:src="@drawable/ic_free_labour_std" android:adjustViewBounds="true" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/tv_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dp_10" app:layout_constraintBottom_toBottomOf="@id/iv_image" app:layout_constraintStart_toEndOf="@id/iv_image" app:layout_constraintTop_toTopOf="@id/iv_image" style="@style/Text.Gentona.16.Blue100White100_OlaCare" />
+</androidx.constraintlayout.widget.ConstraintLayout>

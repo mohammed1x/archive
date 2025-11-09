@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/bg_layer_shadow_white" android:padding="@dimen/dp_8" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/tv_riding_insights_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/battery" android:textAllCaps="true" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/txt_12_gentona_energy_insight_marker_title" />
+    <TextView android:gravity="center" android:id="@id/tv_riding_insights_sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/battery" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tv_riding_insights_title" style="@style/txt_14_gentona_italic_blue_400" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider android:description="@string/maps_widget_description" android:minWidth="@dimen/dp_155" android:minHeight="@dimen/dp_155" android:updatePeriodMillis="1800000" android:initialLayout="@layout/widget_map" android:previewImage="@drawable/map_widget_preview" android:resizeMode="none" android:minResizeWidth="@dimen/dp_155" android:minResizeHeight="@dimen/dp_155" android:initialKeyguardLayout="@layout/widget_map" android:widgetCategory="home_screen" android:maxResizeWidth="@dimen/dp_155" android:maxResizeHeight="@dimen/dp_155" android:targetCellWidth="2" android:targetCellHeight="2"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

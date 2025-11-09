@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Theme.AppCompat" parent="@style/Base.V26.Theme.AppCompat" />
+    <style name="Base.Theme.AppCompat.Light" parent="@style/Base.V26.Theme.AppCompat.Light" />
+    <style name="Base.Widget.AppCompat.Toolbar" parent="@style/Base.V26.Widget.AppCompat.Toolbar" />
+    <style name="Text.Book.16" parent="">
+        <item name="android:textSize">@dimen/sp_16</item>
+        <item name="android:fontFamily">@font/gentona_book</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:fontWeight">400</item>
+        <item name="android:lineHeight">22.399994sp</item>
+    </style>
+    <style name="Text.Gentona.10.Whites100" parent="">
+        <item name="android:textSize">@dimen/sp_10</item>
+        <item name="android:textColor">@color/light_gray</item>
+        <item name="android:fontFamily">@font/gentona_italic</item>
+        <item name="android:fontWeight">@dimen/dp_400</item>
+        <item name="android:lineHeight">@dimen/dp_18</item>
+    </style>
+    <style name="Text.Gentona.18.500.black100" parent="">
+        <item name="android:textSize">@dimen/sp_18</item>
+        <item name="android:textColor">?black100DmBlack500</item>
+        <item name="android:background">?black100White</item>
+        <item name="android:fontFamily">@font/gentona_regular</item>
+        <item name="android:fontWeight">500</item>
+        <item name="android:lineHeight">@dimen/sp_18</item>
+    </style>
+    <style name="Text.Gentona.18.500.blues100white100" parent="">
+        <item name="android:textSize">@dimen/sp_18</item>
+        <item name="android:textColor">?blues100Whites100</item>
+        <item name="android:fontFamily">@font/gentona_regular</item>
+        <item name="android:fontWeight">500</item>
+        <item name="android:lineHeight">@dimen/sp_18</item>
+    </style>
+    <style name="Text.GentonaSemibold.16.Blue100White100" parent="@style/Text.GentonaSemibold.16_Normal">
+        <item name="android:textColor">?blues100Whites100</item>
+        <item name="android:fontWeight">600</item>
+    </style>
+    <style name="Text.GentonaSemibold.italic.13.color.A0A8AD.9DA6AB" parent="@style/Text.GentonaSemibold.italic.13">
+        <item name="android:textColor">?color_A0A8AD_9DA6AB</item>
+        <item name="android:fontWeight">400</item>
+        <item name="android:lineHeight">15.599976sp</item>
+    </style>
+    <style name="Text.Medium.14" parent="">
+        <item name="android:textSize">@dimen/sp_14</item>
+        <item name="android:fontFamily">@font/gentona_medium</item>
+        <item name="android:fontWeight">500</item>
+        <item name="android:lineHeight">@dimen/sp_17</item>
+    </style>
+    <style name="Text.Medium.14.Blues150DmBlack500_weight_600" parent="@style/Text.Medium.14">
+        <item name="android:textColor">?blues150DmBlack500</item>
+        <item name="android:fontWeight">@dimen/dp_600</item>
+        <item name="fontFamily">@font/gentona_medium</item>
+    </style>
+    <style name="Text.Medium.16.blues100blues500_weight_500" parent="@style/Text.Medium.16">
+        <item name="android:textColor">?blues100blues500</item>
+        <item name="android:fontWeight">500</item>
+        <item name="fontFamily">@font/gentona_medium</item>
+    </style>
+    <style name="Text.Medium.20.Blue100White100_weight_500" parent="@style/Text.Medium.20">
+        <item name="android:textColor">?blues100Whites100</item>
+        <item name="android:fontFamily">@font/gentona_medium</item>
+        <item name="android:fontWeight">500</item>
+    </style>
+    <style name="Text.Medium.20.blues100blues500_weight_500" parent="@style/Text.Medium.20">
+        <item name="android:textColor">?blues100blues500</item>
+        <item name="android:fontWeight">500</item>
+        <item name="fontFamily">@font/gentona_medium</item>
+    </style>
+    <style name="Text.Medium.24.blue100White100Weight600" parent="@style/Text.Medium.24">
+        <item name="android:textColor">?blues100Whites100</item>
+        <item name="android:fontWeight">600</item>
+    </style>
+    <style name="Text.Roboto.12" parent="">
+        <item name="android:textSize">@dimen/sp_16</item>
+        <item name="android:textColor">?blues100Whites100</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:fontWeight">700</item>
+    </style>
+    <style name="Text.Roboto.16" parent="">
+        <item name="android:textSize">@dimen/sp_16</item>
+        <item name="android:textColor">?blues100Whites100</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:fontWeight">700</item>
+    </style>
+    <style name="Text.SemiBoldItalic.22" parent="">
+        <item name="android:textSize">@dimen/sp_22</item>
+        <item name="android:fontFamily">@font/gentona_semibold_italic</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:fontWeight">400</item>
+        <item name="android:lineHeight">33.599976sp</item>
+    </style>
+    <style name="Text.modify.Gentona.18.500.black100" parent="">
+        <item name="android:textSize">@dimen/sp_18</item>
+        <item name="android:textColor">?black100White</item>
+        <item name="android:background">?whites100DmBlack400</item>
+        <item name="android:fontFamily">@font/gentona_regular</item>
+        <item name="android:fontWeight">500</item>
+        <item name="android:lineHeight">@dimen/sp_18</item>
+    </style>
+    <style name="Text.modify.Gentona.Medium.18.500.black100" parent="">
+        <item name="android:textSize">@dimen/sp_18</item>
+        <item name="android:textColor">?black100White</item>
+        <item name="android:fontFamily">@font/gentona_regular</item>
+        <item name="android:fontWeight">500</item>
+        <item name="android:lineHeight">@dimen/sp_18</item>
+    </style>
+    <style name="Widget.Design.AppBarLayout" parent="@android:style/Widget">
+        <item name="android:background">?colorPrimary</item>
+        <item name="android:stateListAnimator">@animator/design_appbar_state_list_animator</item>
+        <item name="android:touchscreenBlocksFocus">true</item>
+        <item name="android:keyboardNavigationCluster">true</item>
+    </style>
+    <style name="text_20_gentona_blue_100_weight_500" parent="@style/text_20_gentona_blue_100">
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:fontWeight">500</item>
+        <item name="android:lineHeight">@dimen/dp_28</item>
+    </style>
+    <style name="txt_14_gentona_red_400_line_height_18">
+        <item name="android:textSize">@dimen/dp_14</item>
+        <item name="android:textColor">@color/red_edittext_border</item>
+        <item name="android:fontFamily">@font/gentona</item>
+        <item name="android:fontWeight">400</item>
+        <item name="android:lineHeight">@dimen/dp_18</item>
+    </style>
+    <style name="txt_14_gentona_red_600_line_height_21">
+        <item name="android:textSize">@dimen/dp_14</item>
+        <item name="android:textColor">@color/red_edittext_border</item>
+        <item name="android:fontFamily">@font/gentona_semi_bold</item>
+        <item name="android:fontWeight">600</item>
+        <item name="android:lineHeight">@dimen/dp_22</item>
+    </style>
+    <style name="txt_16_gentona_dm_black_weight_400" parent="@style/txt_16_gentona_dm_black">
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:fontWeight">400</item>
+    </style>
+    <style name="Base.V26.Theme.AppCompat" parent="@style/Base.V23.Theme.AppCompat">
+        <item name="colorError">?android:colorError</item>
+    </style>
+    <style name="Base.V26.Theme.AppCompat.Light" parent="@style/Base.V23.Theme.AppCompat.Light">
+        <item name="colorError">?android:colorError</item>
+    </style>
+    <style name="Base.V26.Widget.AppCompat.Toolbar" parent="@style/Base.V7.Widget.AppCompat.Toolbar">
+        <item name="android:touchscreenBlocksFocus">true</item>
+        <item name="android:keyboardNavigationCluster">true</item>
+    </style>
+</resources>

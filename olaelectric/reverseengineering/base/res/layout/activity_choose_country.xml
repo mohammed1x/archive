@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?bgcolor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:id="@id/layout" android:background="@drawable/number_rounded_unselected_color" android:padding="@dimen/size_14" android:layout_width="fill_parent" android:layout_height="@dimen/size_48" android:layout_marginLeft="@dimen/margin_16" android:layout_marginRight="@dimen/margin_16" android:paddingStart="@dimen/margin_16" android:paddingEnd="@dimen/margin_16">
+        <androidx.appcompat.widget.AppCompatEditText android:textSize="@dimen/size_16" android:textStyle="normal" android:textColor="?titleColor" android:textColorHint="?dividerColor" android:id="@id/et_search_country" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="@dimen/mobile_no_width" android:hint="@string/search_country" android:lineSpacingExtra="@dimen/size_2" android:inputType="text" android:imeOptions="actionDone" app:fontFamily="@font/gentona" />
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/countryList" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/margin_28" android:layout_marginBottom="@dimen/margin_10" />
+</LinearLayout>

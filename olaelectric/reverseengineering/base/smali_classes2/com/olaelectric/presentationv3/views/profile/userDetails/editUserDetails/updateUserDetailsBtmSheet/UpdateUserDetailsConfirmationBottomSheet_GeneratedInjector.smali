@@ -1,0 +1,8 @@
+.class public interface abstract Lcom/olaelectric/presentationv3/views/profile/userDetails/editUserDetails/updateUserDetailsBtmSheet/UpdateUserDetailsConfirmationBottomSheet_GeneratedInjector;
+.super Ljava/lang/Object;
+.source "UpdateUserDetailsConfirmationBottomSheet_GeneratedInjector.java"
+
+
+# virtual methods
+.method public abstract injectUpdateUserDetailsConfirmationBottomSheet(Lcom/olaelectric/presentationv3/views/profile/userDetails/editUserDetails/updateUserDetailsBtmSheet/UpdateUserDetailsConfirmationBottomSheet;)V
+.end method

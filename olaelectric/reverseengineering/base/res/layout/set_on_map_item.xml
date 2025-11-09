@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/cl_place_detail" android:tag="layout/set_on_map_item_0" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/iv_icon" android:layout_width="@dimen/dp_34" android:layout_height="@dimen/dp_34" android:layout_marginTop="@dimen/dp_18" android:layout_marginBottom="@dimen/dp_18" android:src="?set_location" android:layout_marginStart="@dimen/dp_20" android:layout_marginVertical="@dimen/dp_18" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:id="@id/tv_location_name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/set_location_on_map" android:lines="1" android:layout_marginStart="@dimen/dp_16" android:layout_marginEnd="@dimen/dp_8" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@id/iv_icon" app:layout_constraintTop_toTopOf="parent" style="@style/Text.Medium.18.Blue100Whites100" />
+</androidx.constraintlayout.widget.ConstraintLayout>

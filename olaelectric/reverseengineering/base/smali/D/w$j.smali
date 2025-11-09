@@ -1,0 +1,36 @@
+.class public final LD/w$j;
+.super LD/w;
+.source "SplineSet.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = LD/w;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "j"
+.end annotation
+
+
+# virtual methods
+.method public final c(Landroid/view/View;F)V
+    .locals 0
+
+    .line 1
+    invoke-virtual {p0, p2}, LD/w;->a(F)F
+
+    .line 2
+    .line 3
+    .line 4
+    move-result p2
+
+    .line 5
+    invoke-virtual {p1, p2}, Landroid/view/View;->setRotationY(F)V
+
+    .line 6
+    .line 7
+    .line 8
+    return-void
+.end method

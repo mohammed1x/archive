@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="40" android:drawable="@drawable/anim_party_mode_1" />
+    <item android:duration="40" android:drawable="@drawable/anim_party_mode_2" />
+    <item android:duration="40" android:drawable="@drawable/anim_party_mode_3" />
+    <item android:duration="40" android:drawable="@drawable/anim_party_mode_4" />
+    <item android:duration="40" android:drawable="@drawable/anim_party_mode_5" />
+    <item android:duration="40" android:drawable="@drawable/anim_party_mode_6" />
+    <item android:duration="40" android:drawable="@drawable/anim_party_mode_7" />
+    <item android:duration="40" android:drawable="@drawable/anim_party_mode_8" />
+    <item android:duration="40" android:drawable="@drawable/anim_party_mode_9" />
+    <item android:duration="40" android:drawable="@drawable/anim_party_mode_10" />
+    <item android:duration="40" android:drawable="@drawable/anim_party_mode_11" />
+    <item android:duration="40" android:drawable="@drawable/anim_party_mode_12" />
+    <item android:duration="40" android:drawable="@drawable/anim_party_mode_13" />
+    <item android:duration="40" android:drawable="@drawable/anim_party_mode_14" />
+    <item android:duration="40" android:drawable="@drawable/anim_party_mode_15" />
+    <item android:duration="40" android:drawable="@drawable/anim_party_mode_16" />
+    <item android:duration="40" android:drawable="@drawable/anim_party_mode_17" />
+    <item android:duration="40" android:drawable="@drawable/anim_party_mode_18" />
+    <item android:duration="40" android:drawable="@drawable/anim_party_mode_19" />
+    <item android:duration="40" android:drawable="@drawable/anim_party_mode_20" />
+    <item android:duration="40" android:drawable="@drawable/anim_party_mode_21" />
+    <item android:duration="400" android:drawable="@drawable/anim_party_mode_22" />
+    <item android:duration="40" android:drawable="@drawable/anim_party_mode_23" />
+    <item android:duration="40" android:drawable="@drawable/anim_party_mode_24" />
+    <item android:duration="40" android:drawable="@drawable/anim_party_mode_1" />
+</animation-list>

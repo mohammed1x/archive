@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="108.0dip" android:width="108.0dip" android:viewportWidth="108.0" android:viewportHeight="108.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <group android:scaleX="0.1675862" android:scaleY="0.1675862" android:translateX="24.84" android:translateY="42.939312">
+        <path android:fillColor="@drawable/$ic_app_logo_foreground__0" android:pathData="M282.307,65.488L315.304,127.024H347.729L282.307,5.058L216.885,127.024L249.336,126.944L282.307,65.488Z" />
+        <path android:fillColor="@drawable/$ic_app_logo_foreground__1" android:pathData="M301.155,40.4L284.935,68.639L302.1,100.133L324.757,83.679L301.155,40.4Z" android:strokeAlpha="0.25" android:fillAlpha="0.25" />
+        <path android:fillColor="@drawable/$ic_app_logo_foreground__2" android:pathData="M174.916,98.457L175.023,4.962H146.352V127.021H201.564L216.885,98.457H174.916Z" />
+        <path android:fillColor="@drawable/$ic_app_logo_foreground__3" android:pathData="M65.992,0.577C29.867,0.538 0.53,29.781 0.49,65.92C0.45,102.058 29.694,131.382 65.819,131.422C101.945,131.462 131.281,102.218 131.335,66.079C131.375,29.954 102.118,0.631 65.992,0.577ZM65.859,101.22C46.412,101.193 30.652,85.407 30.666,65.96C30.706,46.499 46.492,30.753 65.939,30.779C85.413,30.806 101.146,46.593 101.119,66.053C101.106,85.5 85.306,101.246 65.859,101.22Z" />
+    </group>
+</vector>

@@ -1,0 +1,71 @@
+.class public final Ltc/a$f;
+.super Ltc/a;
+.source "Failure.kt"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Ltc/a;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "f"
+.end annotation
+
+
+# instance fields
+.field public final c:Ljava/lang/String;
+
+
+# direct methods
+.method public constructor <init>(Ltc/c;)V
+    .locals 2
+
+    .line 1
+    iget-object v0, p1, Ltc/c;->a:Ljava/lang/String;
+
+    .line 2
+    .line 3
+    const-string v1, "error"
+
+    .line 4
+    .line 5
+    invoke-static {p1, v1}, LTe/i;->h(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 6
+    .line 7
+    .line 8
+    const-string v1, "errorMessage"
+
+    .line 9
+    .line 10
+    invoke-static {v0, v1}, LTe/i;->h(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 11
+    .line 12
+    .line 13
+    invoke-direct {p0, p1}, Ltc/f;-><init>(Ltc/c;)V
+
+    .line 14
+    .line 15
+    .line 16
+    iput-object v0, p0, Ltc/a$f;->c:Ljava/lang/String;
+
+    .line 17
+    .line 18
+    return-void
+.end method
+
+
+# virtual methods
+.method public final getErrorMessage()Ljava/lang/String;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Ltc/a$f;->c:Ljava/lang/String;
+
+    .line 2
+    .line 3
+    return-object v0
+.end method

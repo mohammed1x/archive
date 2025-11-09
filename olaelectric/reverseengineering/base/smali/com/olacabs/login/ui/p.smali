@@ -1,0 +1,50 @@
+.class public final synthetic Lcom/olacabs/login/ui/p;
+.super Ljava/lang/Object;
+.source "R8$$SyntheticClass"
+
+# interfaces
+.implements Lte/b;
+
+
+# instance fields
+.field public final synthetic a:Lcom/olacabs/login/ui/q;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lcom/olacabs/login/ui/q;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object p1, p0, Lcom/olacabs/login/ui/p;->a:Lcom/olacabs/login/ui/q;
+
+    .line 5
+    .line 6
+    return-void
+.end method
+
+
+# virtual methods
+.method public final deBounceOnClick(Landroid/view/View;)V
+    .locals 0
+
+    .line 1
+    iget-object p1, p0, Lcom/olacabs/login/ui/p;->a:Lcom/olacabs/login/ui/q;
+
+    .line 2
+    .line 3
+    iget-object p1, p1, Lcom/olacabs/login/ui/q;->d:Lcom/olacabs/login/ui/q$a;
+
+    .line 4
+    .line 5
+    invoke-interface {p1}, Lcom/olacabs/login/ui/q$a;->c()V
+
+    .line 6
+    .line 7
+    .line 8
+    return-void
+.end method

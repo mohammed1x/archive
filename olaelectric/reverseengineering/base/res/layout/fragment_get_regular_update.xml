@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/fragment_get_regular_update_0" android:background="?whiteDmBlack100" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:paddingBottom="@dimen/dp_20" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_40" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/txtGetRegularUpdate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_20" android:layout_marginRight="@dimen/dp_20" android:text="@string/get_regular_update" android:layout_marginHorizontal="@dimen/dp_20" style="@style/Text.Gentona.14.Blues100White" />
+            <ImageView android:id="@id/placeHolderImage" android:tag="binding_1" android:background="@drawable/ic_rectangle_light_grey" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/dp_200" android:layout_marginTop="@dimen/dp_32" android:layout_marginBottom="@dimen/dp_24" android:layout_marginStart="@dimen/dp_20" android:layout_marginEnd="@dimen/dp_20" />
+            <TextView android:id="@id/txtMessage" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_20" android:layout_marginTop="@dimen/dp_16" android:layout_marginRight="@dimen/dp_20" android:text="@string/get_update_messgae" android:lineSpacingExtra="@dimen/dp_5" android:layout_marginHorizontal="@dimen/dp_20" style="@style/txt_16_gentona_black_56_opacity" />
+            <TextView android:id="@id/tvCommOptIn" android:tag="binding_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_20" android:layout_marginTop="@dimen/dp_24" android:layout_marginRight="@dimen/dp_20" android:text="@string/i_dont_want_update" android:layout_marginHorizontal="@dimen/dp_20" style="@style/txt_16_gentona_black_56_opacity" />
+        </LinearLayout>
+    </ScrollView>
+    <androidx.appcompat.widget.AppCompatButton android:id="@id/keepMeButton" android:tag="binding_3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/dp_20" android:layout_alignParentBottom="true" app:layout_constraintBottom_toBottomOf="parent" style="@style/Button.Medium.18.BlackWhite" />
+</androidx.constraintlayout.widget.ConstraintLayout>

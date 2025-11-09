@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/size_20" android:textColor="@color/ola_text_pitch_black_86" android:id="@id/already_on_ola" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_8" android:text="@string/already_on_ola" app:fontFamily="@font/roboto_medium" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/size_14" android:textStyle="normal" android:textColor="@color/ola_grey_title" android:id="@id/cotinue_to_login" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_normal" android:text="@string/cotinue_to_login" android:layout_below="@id/already_on_ola" android:lineSpacingExtra="@dimen/size_6" app:fontFamily="@font/roboto_regular" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/size_16" android:textColor="@color/bright_blue" android:id="@id/login_with_password" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_34" android:text="@string/login_with_password_caps" android:layout_below="@id/cotinue_to_login" android:textAllCaps="true" app:fontFamily="@font/roboto_medium" />
+</RelativeLayout>

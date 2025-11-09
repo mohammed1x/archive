@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="?whiteDmBlack200" android:paddingLeft="@dimen/dp_20" android:paddingTop="@dimen/dp_20" android:paddingRight="@dimen/dp_20" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/dp_20"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_12" android:layout_marginBottom="@dimen/dp_12">
+        <EditText android:id="@id/et_notes" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dp_12" android:hint="Notes" android:minLines="2" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TestCases" />
+        <androidx.appcompat.widget.AppCompatSpinner android:id="@id/testcase_spinner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dp_16" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Phone Placement" />
+        <androidx.appcompat.widget.AppCompatSpinner android:id="@id/placement_spinner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dp_16" />
+        <Button android:textSize="20.0sp" android:id="@id/bt_start_rec" android:paddingLeft="@dimen/dp_16" android:paddingTop="@dimen/dp_20" android:paddingRight="@dimen/dp_16" android:paddingBottom="@dimen/dp_20" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dp_16" android:text="Start Recording" android:paddingHorizontal="@dimen/dp_16" android:paddingVertical="@dimen/dp_20" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Direction" />
+        <androidx.appcompat.widget.AppCompatSpinner android:id="@id/direction_spinner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dp_16" />
+        <RadioGroup android:id="@id/walk_type_rg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dp_12">
+            <RadioButton android:id="@id/walk_straight" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Walk Straight" />
+            <RadioButton android:id="@id/walk_zigzag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Walk Zigzag" />
+        </RadioGroup>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Distance" />
+        <androidx.appcompat.widget.AppCompatSpinner android:id="@id/distance_spinner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dp_16" />
+        <RadioGroup android:id="@id/action_rg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dp_12">
+            <RadioButton android:id="@id/standing" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Standing" />
+            <RadioButton android:id="@id/walking_circle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Walk Circle" />
+            <RadioButton android:id="@id/walking_square" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Walk Square" />
+            <RadioButton android:id="@id/walking_away" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Walk Away" />
+        </RadioGroup>
+        <Button android:enabled="false" android:textSize="20.0sp" android:id="@id/bt_stop_rec" android:paddingLeft="@dimen/dp_16" android:paddingTop="@dimen/dp_20" android:paddingRight="@dimen/dp_16" android:paddingBottom="@dimen/dp_20" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Stop Recording" android:paddingHorizontal="@dimen/dp_16" android:paddingVertical="@dimen/dp_20" />
+    </LinearLayout>
+</ScrollView>
