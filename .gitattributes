@@ -28,3 +28,5 @@ split_config.xhdpi-patched.apk filter=lfs diff=lfs merge=lfs -text
 trash filter=lfs diff=lfs merge=lfs -text
 original filter=lfs diff=lfs merge=lfs -text
 split_config.xhdpi.unpinned.apk filter=lfs diff=lfs merge=lfs -text
+olacabs filter=lfs diff=lfs merge=lfs -text
+olaelectric filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,26 @@
+source:
+	/tmp/apk-mitm-ce0ad2b049767bff680093c03100464f
+zipalign location: BUILT_IN 
+	/tmp/uapksigner-3250967027139709388/linux-zipalign-33_0_217888075489359587183.tmp
+keystore:
+	[0] 161a0018 /tmp/temp_12582898633009642808_debug.keystore (DEBUG_EMBEDDED)
+
+01. tmp.apk
+
+	SIGN
+	file: /tmp/apk-mitm-ce0ad2b049767bff680093c03100464f/tmp.apk (1.29 MiB)
+	checksum: 9478e5fb4ef956c7584ffdbed13de9e7bcc1ab7ed1b5054c6b82c86e849b445c (sha256)
+	- zipalign success
+	- sign success
+
+	VERIFY
+	file: /tmp/apk-mitm-ce0ad2b049767bff680093c03100464f/tmp.apk (1.33 MiB)
+	checksum: c2bb95e9cc6a350f917ba4d057a770e547102d4c1d877d6edd6dd09516d26cbe (sha256)
+	- zipalign verified
+	- signature verified [v1, v2, v3]
+		Subject: CN=Android Debug, OU=Android, O=US, L=US, ST=US, C=US
+		SHA256: 1e08a903aef9c3a721510b64ec764d01d3d094eb954161b62544ea8f187b5953 / SHA256withRSA
+		Expires: Thu Mar 10 20:10:05 UTC 2044
+
+[Sat Nov 08 13:48:33 UTC 2025][v1.3.0]
+Successfully processed 1 APKs and 0 errors in 1.05 seconds.
