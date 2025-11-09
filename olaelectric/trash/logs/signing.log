@@ -1,0 +1,79 @@
+source:
+	/tmp/apk-mitm-170bfe385988aa7419b2fe3c3be913df/bundle
+keystore:
+	[0] 161a0018 /tmp/temp_15900937694865428473_debug.keystore (DEBUG_EMBEDDED)
+
+01. base.apk
+	WARNING: already signed - will be resigned. Old certificate info: [v2, v3]
+		Subject: Subject: CN=Android Debug, OU=Android, O=US, L=US, ST=US, C=US
+		SHA256: 1e08a903aef9c3a721510b64ec764d01d3d094eb954161b62544ea8f187b5953
+
+	SIGN
+	file: /tmp/apk-mitm-170bfe385988aa7419b2fe3c3be913df/bundle/base.apk (65.23 MiB)
+	checksum: 477691ed2f1d9b1068770115508d125af0993ecba5d3dc183f105ed5886516da (sha256)
+	- sign success
+
+	VERIFY
+	file: /tmp/apk-mitm-170bfe385988aa7419b2fe3c3be913df/bundle/base.apk (65.23 MiB)
+	checksum: e07cfbcd18c886c74328b1c1a29c0bc1c11325e01f5f2de934d564bf27caa6bf (sha256)
+	- signature verified [v2, v3]
+		Subject: CN=Android Debug, OU=Android, O=US, L=US, ST=US, C=US
+		SHA256: 1e08a903aef9c3a721510b64ec764d01d3d094eb954161b62544ea8f187b5953 / SHA256withRSA
+		Expires: Thu Mar 10 20:10:05 UTC 2044
+
+02. split_config.arm64_v8a.apk
+	WARNING: already signed - will be resigned. Old certificate info: [v1, v2, v3]
+		Subject: Subject: CN=Android, OU=Android, O=Google Inc., L=Mountain View, ST=California, C=US
+		SHA256: a23ae51f8f3e9ea8238be8b760a30193bacc5df68faa59274c4a565e22706afa
+
+	SIGN
+	file: /tmp/apk-mitm-170bfe385988aa7419b2fe3c3be913df/bundle/split_config.arm64_v8a.apk (5.71 MiB)
+	checksum: 74263544defcd1585084b5323559abe9537207632cbc992cc7cdd161244e3385 (sha256)
+	- sign success
+
+	VERIFY
+	file: /tmp/apk-mitm-170bfe385988aa7419b2fe3c3be913df/bundle/split_config.arm64_v8a.apk (5.7 MiB)
+	checksum: 29437b8b1fc4177549c07fb8e2bc8935e387d9af698f90713b492ad85403796e (sha256)
+	- signature verified [v1, v2, v3]
+		Subject: CN=Android Debug, OU=Android, O=US, L=US, ST=US, C=US
+		SHA256: 1e08a903aef9c3a721510b64ec764d01d3d094eb954161b62544ea8f187b5953 / SHA256withRSA
+		Expires: Thu Mar 10 20:10:05 UTC 2044
+
+03. split_config.en.apk
+	WARNING: already signed - will be resigned. Old certificate info: [v1, v2, v3]
+		Subject: Subject: CN=Android, OU=Android, O=Google Inc., L=Mountain View, ST=California, C=US
+		SHA256: a23ae51f8f3e9ea8238be8b760a30193bacc5df68faa59274c4a565e22706afa
+
+	SIGN
+	file: /tmp/apk-mitm-170bfe385988aa7419b2fe3c3be913df/bundle/split_config.en.apk (0.13 MiB)
+	checksum: 8ab069062f50ad67ebc0ad6883fe07ea3d435465d6969c51cfc9ec79b19acafe (sha256)
+	- sign success
+
+	VERIFY
+	file: /tmp/apk-mitm-170bfe385988aa7419b2fe3c3be913df/bundle/split_config.en.apk (0.12 MiB)
+	checksum: 3260301996a6de4f354fb43516f7ba17b12a2ebfdd8687ecf43f6fc18b9488f3 (sha256)
+	- signature verified [v1, v2, v3]
+		Subject: CN=Android Debug, OU=Android, O=US, L=US, ST=US, C=US
+		SHA256: 1e08a903aef9c3a721510b64ec764d01d3d094eb954161b62544ea8f187b5953 / SHA256withRSA
+		Expires: Thu Mar 10 20:10:05 UTC 2044
+
+04. split_config.xhdpi.apk
+	WARNING: already signed - will be resigned. Old certificate info: [v1, v2, v3]
+		Subject: Subject: CN=Android, OU=Android, O=Google Inc., L=Mountain View, ST=California, C=US
+		SHA256: a23ae51f8f3e9ea8238be8b760a30193bacc5df68faa59274c4a565e22706afa
+
+	SIGN
+	file: /tmp/apk-mitm-170bfe385988aa7419b2fe3c3be913df/bundle/split_config.xhdpi.apk (11.65 MiB)
+	checksum: 85a89bf836b09c2d9936a702febc1def154c2c9f6469b7f6891c6fd22594f107 (sha256)
+	- sign success
+
+	VERIFY
+	file: /tmp/apk-mitm-170bfe385988aa7419b2fe3c3be913df/bundle/split_config.xhdpi.apk (11.64 MiB)
+	checksum: a4fd6dc998ea795898ef4505993e0d91d982738f71ee450e50c065dbd76690f6 (sha256)
+	- signature verified [v1, v2, v3]
+		Subject: CN=Android Debug, OU=Android, O=US, L=US, ST=US, C=US
+		SHA256: 1e08a903aef9c3a721510b64ec764d01d3d094eb954161b62544ea8f187b5953 / SHA256withRSA
+		Expires: Thu Mar 10 20:10:05 UTC 2044
+
+[Sun Nov 09 04:04:33 UTC 2025][v1.3.0]
+Successfully processed 4 APKs and 0 errors in 6.82 seconds.
