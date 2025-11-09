@@ -1,26 +1,79 @@
 source:
-	/tmp/apk-mitm-49b2923f7d9e5e3c026595ae6869ff22
-zipalign location: BUILT_IN 
-	/tmp/uapksigner-8729225945125873422/linux-zipalign-33_0_214184137124393895227.tmp
+	/tmp/apk-mitm-4c1dbf3e4a96493a83f7a8e238bf7cba/bundle
 keystore:
-	[0] 161a0018 /tmp/temp_2350793548160334020_debug.keystore (DEBUG_EMBEDDED)
+	[0] 161a0018 /tmp/temp_12990262153814185004_debug.keystore (DEBUG_EMBEDDED)
 
-01. tmp.apk
+01. base.apk
+	WARNING: already signed - will be resigned. Old certificate info: [v2, v3]
+		Subject: Subject: CN=Android Debug, OU=Android, O=US, L=US, ST=US, C=US
+		SHA256: 1e08a903aef9c3a721510b64ec764d01d3d094eb954161b62544ea8f187b5953
 
 	SIGN
-	file: /tmp/apk-mitm-49b2923f7d9e5e3c026595ae6869ff22/tmp.apk (1.29 MiB)
-	checksum: 52334036bbd0a0940670915544878b6a11feeec98747bfed429d8b4ef5c82992 (sha256)
-	- zipalign success
+	file: /tmp/apk-mitm-4c1dbf3e4a96493a83f7a8e238bf7cba/bundle/base.apk (42.69 MiB)
+	checksum: 244cdf5de19bd1f8ea411c24a067a327d1813d1e16cabdd7445f4ff2cea1f118 (sha256)
 	- sign success
 
 	VERIFY
-	file: /tmp/apk-mitm-49b2923f7d9e5e3c026595ae6869ff22/tmp.apk (1.33 MiB)
-	checksum: 22ed54113960bc45adc07e26ce38c41bedd886d3aa123c7f05eadee135dfcf8 (sha256)
-	- zipalign verified
+	file: /tmp/apk-mitm-4c1dbf3e4a96493a83f7a8e238bf7cba/bundle/base.apk (42.69 MiB)
+	checksum: 2f822b13ee0c2c00a68e572a94da553e3b13c1de5feb3e528d60c9bb35c815aa (sha256)
+	- signature verified [v2, v3]
+		Subject: CN=Android Debug, OU=Android, O=US, L=US, ST=US, C=US
+		SHA256: 1e08a903aef9c3a721510b64ec764d01d3d094eb954161b62544ea8f187b5953 / SHA256withRSA
+		Expires: Thu Mar 10 20:10:05 UTC 2044
+
+02. split_config.arm64_v8a.apk
+	WARNING: already signed - will be resigned. Old certificate info: [v1, v2, v3]
+		Subject: Subject: CN=Ajinkya Potdar
+		SHA256: 79e10f4db6f24a7771e1fde5ff51200e669987d96b9893cd245f11a74af93729
+
+	SIGN
+	file: /tmp/apk-mitm-4c1dbf3e4a96493a83f7a8e238bf7cba/bundle/split_config.arm64_v8a.apk (8.52 MiB)
+	checksum: 4a8063f410d272e45b7a615f44198c8994d577d3e16fb034e016f5d6a78f7840 (sha256)
+	- sign success
+
+	VERIFY
+	file: /tmp/apk-mitm-4c1dbf3e4a96493a83f7a8e238bf7cba/bundle/split_config.arm64_v8a.apk (8.52 MiB)
+	checksum: 303004d761f2f2cb43d0fdcb8200fafc73f6480892b538c39509a641a1eb1a47 (sha256)
 	- signature verified [v1, v2, v3]
 		Subject: CN=Android Debug, OU=Android, O=US, L=US, ST=US, C=US
 		SHA256: 1e08a903aef9c3a721510b64ec764d01d3d094eb954161b62544ea8f187b5953 / SHA256withRSA
 		Expires: Thu Mar 10 20:10:05 UTC 2044
 
-[Sun Nov 09 11:16:24 UTC 2025][v1.3.0]
-Successfully processed 1 APKs and 0 errors in 1.14 seconds.
+03. split_config.en.apk
+	WARNING: already signed - will be resigned. Old certificate info: [v1, v2, v3]
+		Subject: Subject: CN=Ajinkya Potdar
+		SHA256: 79e10f4db6f24a7771e1fde5ff51200e669987d96b9893cd245f11a74af93729
+
+	SIGN
+	file: /tmp/apk-mitm-4c1dbf3e4a96493a83f7a8e238bf7cba/bundle/split_config.en.apk (0.12 MiB)
+	checksum: 53631736edaac4d4a83305d5b07261258e31b8e9db372e9056caf8f7d6bc9b32 (sha256)
+	- sign success
+
+	VERIFY
+	file: /tmp/apk-mitm-4c1dbf3e4a96493a83f7a8e238bf7cba/bundle/split_config.en.apk (0.12 MiB)
+	checksum: 842fd278a734081a9348d1cc1c2cd56c56860e9f4f9124db30be4dfb3afebf08 (sha256)
+	- signature verified [v1, v2, v3]
+		Subject: CN=Android Debug, OU=Android, O=US, L=US, ST=US, C=US
+		SHA256: 1e08a903aef9c3a721510b64ec764d01d3d094eb954161b62544ea8f187b5953 / SHA256withRSA
+		Expires: Thu Mar 10 20:10:05 UTC 2044
+
+04. split_config.xhdpi.apk
+	WARNING: already signed - will be resigned. Old certificate info: [v1, v2, v3]
+		Subject: Subject: CN=Ajinkya Potdar
+		SHA256: 79e10f4db6f24a7771e1fde5ff51200e669987d96b9893cd245f11a74af93729
+
+	SIGN
+	file: /tmp/apk-mitm-4c1dbf3e4a96493a83f7a8e238bf7cba/bundle/split_config.xhdpi.apk (1.33 MiB)
+	checksum: 296ddbc9345144e2545161970f7ea1555231f817cde4cdb5058de86d5f1815b7 (sha256)
+	- sign success
+
+	VERIFY
+	file: /tmp/apk-mitm-4c1dbf3e4a96493a83f7a8e238bf7cba/bundle/split_config.xhdpi.apk (1.33 MiB)
+	checksum: 99f4bd2182b7c1748463847e10edb9380f6cd9499aff5a99e9e5530e774b4a1c (sha256)
+	- signature verified [v1, v2, v3]
+		Subject: CN=Android Debug, OU=Android, O=US, L=US, ST=US, C=US
+		SHA256: 1e08a903aef9c3a721510b64ec764d01d3d094eb954161b62544ea8f187b5953 / SHA256withRSA
+		Expires: Thu Mar 10 20:10:05 UTC 2044
+
+[Sun Nov 09 13:40:20 UTC 2025][v1.3.0]
+Successfully processed 4 APKs and 0 errors in 6.41 seconds.
