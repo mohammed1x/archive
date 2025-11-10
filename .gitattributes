@@ -40,3 +40,4 @@ olacabs-aligned-debugSigned.apk filter=lfs diff=lfs merge=lfs -text
 olacabs-aligned-debugSigned.apk.idsig filter=lfs diff=lfs merge=lfs -text
 olacabs1.apk filter=lfs diff=lfs merge=lfs -text
 olacabs1.unpinned.apk filter=lfs diff=lfs merge=lfs -text
+olacabs1-patched.apk filter=lfs diff=lfs merge=lfs -text
