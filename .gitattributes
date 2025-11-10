@@ -38,3 +38,5 @@ temp filter=lfs diff=lfs merge=lfs -text
 olacabs.apk filter=lfs diff=lfs merge=lfs -text
 olacabs-aligned-debugSigned.apk filter=lfs diff=lfs merge=lfs -text
 olacabs-aligned-debugSigned.apk.idsig filter=lfs diff=lfs merge=lfs -text
+olacabs1.apk filter=lfs diff=lfs merge=lfs -text
+olacabs1.unpinned.apk filter=lfs diff=lfs merge=lfs -text
